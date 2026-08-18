@@ -1,6 +1,12 @@
 name: Update APTV playlist
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'update-playlist.ps1'
+      - 'clean-playlist.ps1'
+      - '.github/workflows/update-playlist.yml'
   schedule:
     # Every 15 minutes. GitHub schedules use UTC and may start late.
     - cron: '*/15 * * * *'

@@ -68,6 +68,44 @@ if ($selected) {
     Write-Host "Using fallback upstreams: $($parts.Name -join ', ')"
 }
 
+# Add a curated set of commonly requested Taiwan channels on every run.
+# The health/deduplication stage decides which of them are currently usable.
+$taiwanIds = [Collections.Generic.HashSet[string]]::new([StringComparer]::OrdinalIgnoreCase)
+@(
+    'CTiVariety.tw@SD', 'CTS.tw@SD', 'CTSNews.tw@SD',
+    'DaAi1.tw@SD', 'DaAi2.tw@SD',
+    'EBCFinancialNews.tw@SD', 'EBCNews.tw@SD',
+    'FTV.tw@SD', 'FTVOne.tw@SD', 'FTVTaiwan.tw@SD',
+    'IndigenousTV.tw@SD', 'TaiwanPlusTV.tw@SD',
+    'TVBSNews.tw@SD', 'TTV.tw@SD'
+) | ForEach-Object { [void]$taiwanIds.Add($_) }
+
+$taiwan = Get-ValidPlaylist 'iptv-org Taiwan supplement' @(
+    'https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u',
+    'https://cdn.jsdelivr.net/gh/iptv-org/iptv@master/streams/tw.m3u'
+) 30
+
+if ($taiwan) {
+    $expanded = [Collections.Generic.List[string]]::new()
+    foreach ($line in $lines) { $expanded.Add($line) }
+    $info = $null; $addedTaiwan = 0
+    foreach ($raw in $taiwan.Lines) {
+        $line = $raw.Trim()
+        if ($line -like '#EXTINF:*') { $info = $line; continue }
+        if ($info -and $line -match '^(?:https?|rtsp|rtmp|udp)://') {
+            if ($info -match 'tvg-id="([^"]+)"' -and $taiwanIds.Contains($matches[1])) {
+                $expanded.Add($info); $expanded.Add($line); $addedTaiwan++
+            }
+            $info = $null
+        }
+    }
+    $lines = $expanded.ToArray()
+    $entryCount += $addedTaiwan; $urlCount += $addedTaiwan
+    Write-Host "Added $addedTaiwan curated Taiwan candidates."
+} else {
+    Write-Warning 'Taiwan supplement was unavailable; continuing with the primary playlist.'
+}
+
 $directory = Split-Path -Parent ([IO.Path]::GetFullPath($Playlist))
 $temp = Join-Path $directory 'APTV_ALL.m3u.download'
 $backup = "$Playlist.$(Get-Date -Format 'yyyyMMdd-HHmmss').bak"
