@@ -363,10 +363,47 @@ def attr(value: str) -> str:
     return value.replace("&", "&amp;").replace('"', "&quot;")
 
 
+def playlist_sort_key(item: Candidate):
+    """Stable order: CCTV, satellite, HK/Macao/Taiwan, local, other."""
+    name = item.name.strip()
+    group = item.group
+    upper = name.upper()
+    cctv = re.match(r"^CCTV[- ]?(\d{1,2})(\+)?(?:\b|$)", upper)
+    if cctv:
+        number = int(cctv.group(1))
+        plus_rank = 1 if cctv.group(2) else 0
+        suffix_rank = 0 if re.fullmatch(r"CCTV[- ]?\d{1,2}\+?", upper) else 1
+        return (0, number, plus_rank, suffix_rank, folded(name))
+    if "央视" in group or "央视频道" in group:
+        return (0, 100, 0, 0, folded(name))
+
+    hk_tw_words = (
+        "港·澳·台", "港澳台", "香港", "澳门", "澳門", "台湾", "台灣",
+        "TVBS", "三立", "东森", "東森", "纬来", "緯來", "台视", "台視",
+        "华视", "華視", "民视", "民視", "公视", "公視", "凤凰", "鳳凰",
+        "翡翠", "明珠", "VIUTV", "TAIWANPLUS"
+    )
+    if item.tvg_id.lower().endswith(".tw@sd") or any(word.upper() in (group + name).upper() for word in hk_tw_words):
+        return (2, 0, 0, 0, folded(name))
+
+    if "卫视频道" in group or "衛視頻道" in group or name.endswith(("卫视", "衛視")):
+        return (1, 0, 0, 0, folded(name))
+
+    local_markers = (
+        "浙江", "江苏", "四川", "河北", "湖北", "福建", "广东", "黑龙江",
+        "上海", "安徽", "湖南", "山东", "广西", "河南", "吉林", "甘肃",
+        "海南", "辽宁", "云南", "山西", "新疆", "青海", "贵州", "北京",
+        "天津", "重庆", "陕西", "宁夏", "内蒙古", "西藏", "地方频道"
+    )
+    if group.startswith("☘") or any(word in group for word in local_markers):
+        return (3, 0, 0, 0, folded(name))
+    return (4, 0, 0, 0, folded(name))
+
+
 def write_playlist(items: list[Candidate], disabled: list[Candidate]) -> None:
     lines = ['#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml.gz,https://assets.livednow.com/epg.xml"']
     used_urls = set()
-    for item in items:
+    for item in sorted(items, key=playlist_sort_key):
         if item.url in used_urls:
             continue
         used_urls.add(item.url)
@@ -377,7 +414,7 @@ def write_playlist(items: list[Candidate], disabled: list[Candidate]) -> None:
         lines.extend([info, item.url])
     if disabled:
         lines.extend(["", "# Disabled channels are retried automatically every run."])
-    for item in disabled:
+    for item in sorted(disabled, key=playlist_sort_key):
         info = f'#DISABLED-EXTINF:-1 tvg-id="{attr(item.tvg_id or item.name)}" tvg-name="{attr(item.name)}"'
         if item.logo:
             info += f' tvg-logo="{attr(item.logo)}"'
