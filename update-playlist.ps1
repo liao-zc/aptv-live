@@ -9,19 +9,33 @@ $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 if (-not $Playlist) { $Playlist = Join-Path $PSScriptRoot 'APTV_ALL.m3u' }
 
-Write-Host "Downloading speed-tested playlist from $Source ..."
-$response = Invoke-WebRequest -UseBasicParsing -Uri $Source -TimeoutSec 60
-$text = [string]$response.Content
-$lines = @($text -split "`r?`n")
-$entryCount = @($lines | Where-Object { $_ -like '#EXTINF:*' }).Count
-$urlCount = @($lines | Where-Object { $_ -match '^(?:https?|rtsp|rtmp|udp)://' }).Count
+$sources = @(
+    $Source,
+    'https://cdn.jsdelivr.net/gh/Guovin/TV@gd/output/result.m3u'
+) | Select-Object -Unique
 
-if (-not $text.TrimStart().StartsWith('#EXTM3U')) {
-    throw 'Downloaded content is not an M3U playlist; the existing file was not changed.'
+$text = $null
+foreach ($candidate in $sources) {
+    for ($attempt = 1; $attempt -le 3; $attempt++) {
+        try {
+            Write-Host "Downloading $candidate (attempt $attempt/3)..."
+            $response = Invoke-WebRequest -UseBasicParsing -Uri $candidate -TimeoutSec 60
+            $downloaded = [string]$response.Content
+            $candidateLines = @($downloaded -split "`r?`n")
+            $candidateEntries = @($candidateLines | Where-Object { $_ -like '#EXTINF:*' }).Count
+            $candidateUrls = @($candidateLines | Where-Object { $_ -match '^(?:https?|rtsp|rtmp|udp)://' }).Count
+            if ($downloaded.TrimStart().StartsWith('#EXTM3U') -and $candidateEntries -ge $MinimumEntries -and $candidateUrls -ge $MinimumEntries) {
+                $text = $downloaded; $lines = $candidateLines
+                $entryCount = $candidateEntries; $urlCount = $candidateUrls
+                break
+            }
+            Write-Warning "Rejected incomplete playlist: entries=$candidateEntries, URLs=$candidateUrls"
+        } catch { Write-Warning $_.Exception.Message }
+        if ($attempt -lt 3) { Start-Sleep -Seconds 5 }
+    }
+    if ($text) { break }
 }
-if ($entryCount -lt $MinimumEntries -or $urlCount -lt $MinimumEntries) {
-    throw "Downloaded playlist is unexpectedly small (entries=$entryCount, URLs=$urlCount); the existing file was not changed."
-}
+if (-not $text) { throw 'All playlist mirrors failed validation; the existing file was not changed.' }
 
 $directory = Split-Path -Parent ([IO.Path]::GetFullPath($Playlist))
 $temp = Join-Path $directory 'APTV_ALL.m3u.download'
@@ -34,4 +48,3 @@ Remove-Item -LiteralPath $temp -Force
 
 Write-Host "Updated: entries=$entryCount, URLs=$urlCount"
 if (Test-Path -LiteralPath $backup) { Write-Host "Backup: $backup" }
-

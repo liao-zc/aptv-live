@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/liao-zc/aptv-live/main/APTV_ALL.m3u
 
 ## 自动更新方式
 
-GitHub Actions 每天北京时间 04:30 执行：
+GitHub Actions 每天北京时间 04:30 执行，并在 10:30 再运行一次作为失败补偿：
 
 1. `update-playlist.ps1` 下载 Guovin/TV 聚合、测速后的最新版；
 2. `clean-playlist.ps1` 并发检测地址；
@@ -19,6 +19,8 @@ GitHub Actions 每天北京时间 04:30 执行：
 5. 将更新后的 `APTV_ALL.m3u` 提交回 `main` 分支。
 
 清理脚本设有安全下限：如果网络异常导致不足 150 个频道通过检测，任务会失败并保留仓库中的上一版列表。
+
+下载阶段会对主地址重试三次，并在主地址不可用时改用 jsDelivr 镜像；完整更新流程也会自动重试三次。所有尝试均失败时不会提交文件，手机继续使用上一次成功版本。
 
 ## 第一次启用
 
