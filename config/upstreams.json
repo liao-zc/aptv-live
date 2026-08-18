@@ -1,0 +1,43 @@
+{
+  "feeds": [
+    {
+      "name": "Guovin/TV",
+      "urls": [
+        "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u",
+        "https://cdn.jsdelivr.net/gh/Guovin/TV@gd/output/result.m3u"
+      ]
+    },
+    {
+      "name": "iptv-org China",
+      "urls": [
+        "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+        "https://cdn.jsdelivr.net/gh/iptv-org/iptv@master/streams/cn.m3u"
+      ]
+    },
+    {
+      "name": "iptv-org Taiwan",
+      "urls": [
+        "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u",
+        "https://cdn.jsdelivr.net/gh/iptv-org/iptv@master/streams/tw.m3u"
+      ]
+    },
+    {
+      "name": "YanG-1989/m3u",
+      "urls": [
+        "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
+        "https://cdn.jsdelivr.net/gh/YanG-1989/m3u@main/Gather.m3u"
+      ]
+    },
+    {
+      "name": "fanmingming/live",
+      "urls": [
+        "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+        "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
+      ]
+    }
+  ],
+  "request_timeout_seconds": 6,
+  "max_candidates_per_channel": 8,
+  "minimum_output_channels": 150,
+  "history_retention_days": 30
+}

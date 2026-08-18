@@ -1,0 +1,34 @@
+name: 报告失效或错误频道
+description: 报告无法播放、频道错配或长期卡顿的地址
+title: "[Broken] 频道名称"
+labels: ["broken-stream"]
+body:
+  - type: input
+    id: channel
+    attributes:
+      label: 频道名称
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 直播地址
+      description: 从当前 M3U 中复制对应地址
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: 问题类型
+      options:
+        - 无法播放
+        - 播放卡顿
+        - 频道名称与画面不符
+        - 广告或无信号循环画面
+    validations:
+      required: true
+  - type: textarea
+    id: network
+    attributes:
+      label: 网络和地区
+      description: 例如：中国移动 IPv4，上海

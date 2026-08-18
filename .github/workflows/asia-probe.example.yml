@@ -1,0 +1,29 @@
+# Optional example for a self-hosted probe located in Asia.
+# Rename to asia-probe.yml only after registering a runner with labels:
+# self-hosted, asia, aptv-probe. Do not enable this without such a runner.
+name: Asia APTV probe
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  probe:
+    runs-on: [self-hosted, asia, aptv-probe]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe from Asia
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/build_playlist.py --node asia-self-hosted --probe-only reports/probes/asia.json
+      - name: Publish regional report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/probes/asia.json
+          git commit -m "chore: update Asia probe report" || exit 0
+          git pull --rebase origin main
+          git push

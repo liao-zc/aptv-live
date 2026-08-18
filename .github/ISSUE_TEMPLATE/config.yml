@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: APTV 在线订阅
+    url: https://raw.githubusercontent.com/liao-zc/aptv-live/main/APTV_ALL.m3u
+    about: 在浏览器中检查当前发布的订阅文件

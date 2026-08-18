@@ -1,0 +1,4 @@
+#EXTM3U
+# Add user-owned or independently discovered public stream candidates here.
+# Keep one #EXTINF line followed by one http(s) URL. Community submissions
+# are also read from GitHub Issues and do not need to be copied here first.

@@ -4,16 +4,19 @@ on:
   push:
     branches: [main]
     paths:
-      - 'update-playlist.ps1'
-      - 'clean-playlist.ps1'
+      - 'scripts/**'
+      - 'config/**'
+      - 'sources/**'
       - '.github/workflows/update-playlist.yml'
+  issues:
+    types: [opened, edited, reopened]
   schedule:
-    # Every 15 minutes. GitHub schedules use UTC and may start late.
     - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+  issues: read
 
 concurrency:
   group: update-aptv-playlist
@@ -21,38 +24,51 @@ concurrency:
 
 jobs:
   update:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Check and replace dead streams
-        shell: powershell
+      - name: Install FFmpeg
         run: |
-          $completed = $false
-          for ($attempt = 1; $attempt -le 3; $attempt++) {
-            try {
-              Write-Host "Update attempt $attempt/3"
-              .\update-playlist.ps1
-              .\clean-playlist.ps1 -TimeoutSeconds 5 -Concurrency 64 -MinimumChannels 150
-              $completed = $true
-              break
-            } catch {
-              Write-Warning $_.Exception.Message
-              if ($attempt -lt 3) { Start-Sleep -Seconds 30 }
-            }
-          }
-          if (-not $completed) { throw "All update attempts failed; keeping the previous playlist." }
+          if ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
 
-      - name: Commit refreshed playlist
-        shell: powershell
+      - name: Validate aggregator source
+        run: python3 -m py_compile scripts/build_playlist.py
+
+      - name: Discover, probe and rank streams
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          APTV_PROBE_NODE: github-ubuntu
+        run: |
+          success=false
+          for attempt in 1 2 3; do
+            echo "Aggregation attempt $attempt/3"
+            if python3 scripts/build_playlist.py; then
+              success=true
+              break
+            fi
+            if [ "$attempt" -lt 3 ]; then sleep 30; fi
+          done
+          if [ "$success" != true ]; then
+            echo "All attempts failed; preserving the previous playlist."
+            exit 1
+          fi
+
+      - name: Commit validated results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- APTV_ALL.m3u
-          if (git diff --cached --quiet) {
-            Write-Host "No playlist changes."
-          } else {
-            git commit -m "chore: refresh APTV streams"
+          git add -- APTV_ALL.m3u data/history.json reports/latest.json
+          if git diff --cached --quiet; then
+            echo "No result changes."
+          else
+            git commit -m "chore: aggregate and validate APTV streams"
+            git pull --rebase origin main
             git push
-          }
+          fi

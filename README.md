@@ -1,4 +1,4 @@
-# APTV 自动更新直播源
+# APTV 独立聚合与自动更新
 
 手机 APTV 订阅地址：
 
@@ -6,54 +6,85 @@
 https://raw.githubusercontent.com/liao-zc/aptv-live/main/APTV_ALL.m3u
 ```
 
-在 APTV 中选择“远程订阅”或“通过 URL 添加”，不要下载后作为本地文件导入。需要立即获取 GitHub 上的新版时，在 APTV 中手动刷新订阅。
+在 APTV 中选择“远程订阅”或“通过 URL 添加”，并开启启动时刷新。不要下载后作为本地文件导入。
 
-## 自动更新方式
+## 系统现在如何工作
 
-GitHub Actions 每15分钟执行一次；GitHub 定时任务可能延迟，实际开始时间并不保证精确到分钟：
+仓库不再只是复制某一个上游结果。每15分钟运行一次自己的聚合流水线：
 
-1. `update-playlist.ps1` 下载 Guovin/TV 聚合、测速后的最新版；
-2. `clean-playlist.ps1` 并发检测地址；
-3. 每个频道和每个 URL 只保留一条；
-4. 删除没有任何可用候选地址的频道；
-5. 将更新后的 `APTV_ALL.m3u` 提交回 `main` 分支。
+1. 读取 `config/upstreams.json` 中登记的多个公开订阅；
+2. 读取 `sources/manual.m3u` 自有候选库；
+3. 将上一版成功结果作为历史候选，避免上游短暂消失；
+4. 读取带有 `aptv-source-submission` 标记的 GitHub Issue 社区提交；
+5. 拒绝内网、回环、链路本地地址及跳转到内网的 URL，降低 SSRF 风险；
+6. 实际读取 HLS 清单和媒体分片，测量响应延迟及传输速度；
+7. 使用 FFprobe 确认存在视频流并获取分辨率；
+8. 使用历史成功率、速度、延迟和分辨率综合评分；
+9. 使用 `config/aliases.json` 合并同一频道的不同名称；
+10. 每个频道及每个 URL 只发布一个优先结果；
+11. 少于150个频道时拒绝覆盖，继续保留上一版。
 
-清理脚本设有安全下限：如果网络异常导致不足 150 个频道通过检测，任务会失败并保留仓库中的上一版列表。
+结果和诊断数据：
 
-下载阶段会对主地址重试三次，并在主地址不可用时改用 jsDelivr 镜像；完整更新流程也会自动重试三次。所有尝试均失败时不会提交文件，手机继续使用上一次成功版本。
+- `APTV_ALL.m3u`：手机订阅的最终列表；
+- `data/history.json`：每条地址的历史成功、失败、速度及延迟；
+- `reports/latest.json`：最近一次候选数、频道数和选中结果；
+- `sources/manual.m3u`：仓库自己维护的候选地址；
+- `config/aliases.json`：频道别名到统一名称的映射；
+- `config/upstreams.json`：外部候选入口和安全阈值。
 
-### 多上游灾备
+## 添加自己的频道
 
-- 主上游：`Guovin/TV`，使用其聚合、测速后的完整列表；
-- 灾备上游：`iptv-org/iptv`、`YanG-1989/m3u`、`fanmingming/live`；
-- 每个上游都配置了独立镜像或备用域名。
+推荐使用仓库的 **Issues → New issue → 提交新的直播源**。提交不会直接进入订阅，必须通过公网地址检查、HLS分片读取和 FFmpeg 视频验证。
 
-正常情况下仅使用主上游，避免不同项目的频道命名造成重复。当主上游及其镜像都停止维护、地址失效或格式不合格时，脚本会自动聚合三个独立灾备上游，再交给清理脚本检测和去重。
+仓库维护者也可以编辑 `sources/manual.m3u`：
 
-### 台湾频道补充
-
-每次更新都会从 `iptv-org/iptv` 的台湾列表补充常用无线台、新闻台、民视系列、大爱、原住民族电视台和 TaiwanPlus。补充地址同样需要通过可用性检测，因此受地区限制或已经失效的频道不会进入最终订阅。
-
-## 第一次启用
-
-进入仓库的 **Settings → Actions → General → Workflow permissions**，选择 **Read and write permissions** 并保存。
-
-然后进入 **Actions → Update APTV playlist → Run workflow**，选择 `main` 后运行。任务显示绿色对号即表示配置成功。
-
-## 手动在 Windows 更新
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\update-playlist.ps1
-powershell -NoProfile -ExecutionPolicy Bypass -File .\clean-playlist.ps1
+```m3u
+#EXTINF:-1 tvg-name="频道名称" group-title="自有频道",频道名称
+https://example.com/live/index.m3u8
 ```
 
-脚本修改播放列表前会生成 `.bak` 备份；备份文件已由 `.gitignore` 排除，不会上传 GitHub。
+提交后会自动触发更新。
 
-## 常见问题
+## 报告失效或错配
 
-- Raw 地址显示 `404`：确认仓库为 Public、默认分支为 `main`，且根目录存在 `APTV_ALL.m3u`。
-- Actions 出现 `403` 或无法 `git push`：重新检查 Workflow permissions 是否为 Read and write。
-- 手机没有看到新版：在 APTV 中手动刷新；GitHub 定时任务可能有几分钟延迟。
-- 手机无法打开 Raw 地址：先用手机浏览器测试订阅地址。部分网络访问 GitHub 较慢，可切换网络后刷新。
+使用 **Issues → New issue → 报告失效或错误频道**，填写频道、当前 URL、问题类型及所在地区。自动检测仍以实际网络探测为准，避免单个匿名报告直接删除频道。
 
-直播源可用性与运营商、地区和 IPv6 支持有关，无法保证所有频道在所有网络中表现一致。
+## 多节点探测
+
+默认节点是 GitHub Ubuntu 云端。`scripts/build_playlist.py` 支持区域探测报告：
+
+```bash
+python3 scripts/build_playlist.py --node asia-self-hosted --probe-only reports/probes/asia.json
+```
+
+`.github/workflows/asia-probe.example.yml` 是亚洲自托管节点模板。只有注册了带 `self-hosted, asia, aptv-probe` 标签的服务器后才能改名启用。主任务会合并24小时内的区域报告，并按评分选择更合适的地址。
+
+GitHub官方运行器不能指定中国或亚洲区域，因此仓库不会伪装地域测速。若要让测速更接近中国手机网络，需要在中国香港、日本、新加坡或中国大陆合规服务器上注册自托管 GitHub Runner。
+
+## 自动任务
+
+工作流位于 `.github/workflows/update-playlist.yml`，支持：
+
+- 每15分钟定时执行；
+- 修改脚本、配置或自有候选库后立即执行；
+- 新建或编辑 Issue 后立即审核；
+- 手动 `Run workflow`；
+- 失败自动重试三次；
+- 更新异常时不覆盖上一版。
+
+在仓库 **Settings → Actions → General → Workflow permissions** 中必须选择 **Read and write permissions**。
+
+## 本地运行
+
+需要 Python 3.11+ 和 FFmpeg：
+
+```bash
+python3 scripts/build_playlist.py
+```
+
+项目只使用 Python 标准库，不需要安装 pip 依赖。
+
+## 边界说明
+
+任何聚合器都需要公开网站、电视台接口、社区提交或已有地址作为候选入口。“独立”指本仓库拥有自己的候选库、审核、安全校验、视频检测、评分、历史和发布体系，而不是声称能在没有任何公开入口的情况下凭空生成直播地址。

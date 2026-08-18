@@ -1,0 +1,48 @@
+name: 提交新的直播源
+description: 提交公开、合法且无需账号登录的直播地址
+title: "[Source] 频道名称"
+labels: ["source-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <!-- aptv-source-submission -->
+        提交内容会先经过公网地址安全检查、HLS分片检测和 FFmpeg 视频验证，不会直接写入订阅。
+  - type: input
+    id: channel
+    attributes:
+      label: Channel name
+      description: 频道的准确名称
+      placeholder: 例如：公视新闻
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Stream URL
+      description: 仅接受公开的 HTTP/HTTPS 直播地址
+      placeholder: https://example.com/live/index.m3u8
+    validations:
+      required: true
+  - type: input
+    id: group
+    attributes:
+      label: Group
+      placeholder: 台湾频道
+  - type: dropdown
+    id: authorization
+    attributes:
+      label: Availability
+      options:
+        - 官方公开直播
+        - 公开网络直播
+        - 不确定，请审核
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: 该地址不需要盗用账号、Cookie、Token 或绕过付费访问
+          required: true
