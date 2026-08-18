@@ -20,7 +20,7 @@ permissions:
 
 concurrency:
   group: update-aptv-playlist
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -32,10 +32,11 @@ jobs:
           fetch-depth: 0
 
       - name: Install FFmpeg
+        timeout-minutes: 7
         run: |
           if ! command -v ffprobe >/dev/null 2>&1; then
-            sudo apt-get update
-            sudo apt-get install -y ffmpeg
+            sudo apt-get update -qq -o Acquire::Retries=3 -o Acquire::http::Timeout=20
+            sudo apt-get install -y -qq ffmpeg
           fi
 
       - name: Validate aggregator source
