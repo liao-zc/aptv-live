@@ -110,10 +110,26 @@ def parse_m3u(text: str, source: str) -> list[Candidate]:
     pending = None
     for raw in text.replace("\r", "").split("\n"):
         line = raw.strip()
-        if line.upper().startswith("#EXTINF:"):
+        if line.upper().startswith("#DISABLED-EXTINF:"):
+            line = "#EXTINF:" + line.split(":", 1)[1]
             attrs = dict(ATTR_RE.findall(line))
             display = line.rsplit(",", 1)[-1].strip() if "," in line else ""
             pending = (attrs, display)
+        elif line.upper().startswith("#EXTINF:"):
+            attrs = dict(ATTR_RE.findall(line))
+            display = line.rsplit(",", 1)[-1].strip() if "," in line else ""
+            pending = (attrs, display)
+        elif pending and line.upper().startswith("#DISABLED-URL:"):
+            attrs, display = pending
+            disabled_url = line.split(":", 1)[1].strip()
+            if re.match(r"^https?://", disabled_url, re.I):
+                name = attrs.get("tvg-name") or display or attrs.get("tvg-id") or "Unknown"
+                result.append(Candidate(
+                    name=name.strip(), url=disabled_url, source=source,
+                    group=attrs.get("group-title") or "其他频道",
+                    tvg_id=attrs.get("tvg-id", ""), logo=attrs.get("tvg-logo", "")
+                ))
+            pending = None
         elif pending and re.match(r"^https?://", line, re.I):
             attrs, display = pending
             name = attrs.get("tvg-name") or display or attrs.get("tvg-id") or "Unknown"
@@ -305,7 +321,8 @@ def select_streams(items: list[Candidate], config: dict, history: dict) -> tuple
     def validate_group(values):
         for candidate in values[:3]:
             ffprobe(candidate, timeout)
-            if candidate.video_ok:
+            # Re-read HLS and a media segment immediately before publishing.
+            if candidate.video_ok and basic_probe(candidate, timeout).basic_ok:
                 candidate.score = history_score(candidate, history)
                 return candidate
         return None
@@ -346,7 +363,7 @@ def attr(value: str) -> str:
     return value.replace("&", "&amp;").replace('"', "&quot;")
 
 
-def write_playlist(items: list[Candidate]) -> None:
+def write_playlist(items: list[Candidate], disabled: list[Candidate]) -> None:
     lines = ['#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml.gz,https://assets.livednow.com/epg.xml"']
     used_urls = set()
     for item in items:
@@ -358,19 +375,33 @@ def write_playlist(items: list[Candidate]) -> None:
             info += f' tvg-logo="{attr(item.logo)}"'
         info += f' group-title="{attr(item.group)}",{item.name}'
         lines.extend([info, item.url])
+    if disabled:
+        lines.extend(["", "# Disabled channels are retried automatically every run."])
+    for item in disabled:
+        info = f'#DISABLED-EXTINF:-1 tvg-id="{attr(item.tvg_id or item.name)}" tvg-name="{attr(item.name)}"'
+        if item.logo:
+            info += f' tvg-logo="{attr(item.logo)}"'
+        info += f' group-title="{attr(item.group)}",{item.name}'
+        lines.extend([
+            f'# APTV-DISABLED channel="{attr(item.name)}" reason="no currently playable candidate"',
+            info,
+            f'#DISABLED-URL:{item.url}'
+        ])
     target = ROOT / "APTV_ALL.m3u"
     temp = target.with_suffix(".m3u.tmp")
     temp.write_text("\n".join(lines) + "\n", encoding="utf-8")
     temp.replace(target)
 
 
-def report_for(items: list[Candidate], candidates: int, node: str) -> dict:
+def report_for(items: list[Candidate], candidates: int, node: str, disabled: list[Candidate] | None = None) -> dict:
     return {
         "version": 1,
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "node": node,
         "candidate_count": candidates,
         "channel_count": len(items),
+        "disabled_channel_count": len(disabled or []),
+        "disabled_channels": [x.name for x in (disabled or [])],
         "channels": [dataclasses.asdict(item) for item in items]
     }
 
@@ -406,21 +437,29 @@ def main() -> int:
     history_doc = load_json(ROOT / "data" / "history.json", {"version": 1, "streams": {}})
     candidates = collect_candidates(config)
     selected, probed = select_streams(candidates, config, history_doc.get("streams", {}))
-    report = report_for(selected, len(candidates), args.node)
+    selected_keys = {x.key for x in selected}
+    disabled_by_key: dict[str, Candidate] = {}
+    for item in candidates:
+        if item.key and item.key not in selected_keys and item.key not in disabled_by_key:
+            disabled_by_key[item.key] = item
+    disabled = sorted(disabled_by_key.values(), key=lambda x: (x.group, x.name))
+    report = report_for(selected, len(candidates), args.node, disabled)
     if args.probe_only:
         atomic_json(ROOT / args.probe_only, report)
         print(f"probe-only channels={len(selected)}")
         return 0
     selected = merge_fresh_probe_reports(selected)
+    selected_keys = {x.key for x in selected}
+    disabled = [x for x in disabled if x.key not in selected_keys]
     minimum = int(config["minimum_output_channels"])
     if len(selected) < minimum:
         print(f"error: only {len(selected)} channels passed; minimum is {minimum}", file=sys.stderr)
         return 2
     update_history(history_doc, probed, int(config["history_retention_days"]))
     atomic_json(ROOT / "data" / "history.json", history_doc)
-    atomic_json(ROOT / "reports" / "latest.json", report_for(selected, len(candidates), args.node))
-    write_playlist(selected)
-    print(f"published_channels={len(selected)}")
+    atomic_json(ROOT / "reports" / "latest.json", report_for(selected, len(candidates), args.node, disabled))
+    write_playlist(selected, disabled)
+    print(f"published_channels={len(selected)} disabled_channels={len(disabled)}")
     return 0
 
 
