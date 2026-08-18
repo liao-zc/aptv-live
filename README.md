@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/liao-zc/aptv-live/main/APTV_ALL.m3u
 
 ## 自动更新方式
 
-GitHub Actions 每天北京时间 04:30 执行，并在 10:30 再运行一次作为失败补偿：
+GitHub Actions 每6小时执行一次；GitHub 定时任务可能延迟几分钟：
 
 1. `update-playlist.ps1` 下载 Guovin/TV 聚合、测速后的最新版；
 2. `clean-playlist.ps1` 并发检测地址；

@@ -2,10 +2,8 @@ name: Update APTV playlist
 
 on:
   schedule:
-    # 04:30 Asia/Shanghai (20:30 UTC on the previous day)
-    - cron: '30 20 * * *'
-    # Retry window at 10:30 Asia/Shanghai if the early run failed
-    - cron: '30 2 * * *'
+    # Every 6 hours. GitHub schedules use UTC and may start a few minutes late.
+    - cron: '17 */6 * * *'
   workflow_dispatch:
 
 permissions:
