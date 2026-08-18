@@ -2,8 +2,8 @@ name: Update APTV playlist
 
 on:
   schedule:
-    # Every 6 hours. GitHub schedules use UTC and may start a few minutes late.
-    - cron: '17 */6 * * *'
+    # Every 15 minutes. GitHub schedules use UTC and may start late.
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 permissions:
