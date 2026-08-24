@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-08-24T01:04:20.921653+00:00",
+  "generated_at": "2026-08-24T02:28:24.815866+00:00",
   "node": "github-ubuntu",
   "candidate_count": 2321,
-  "channel_count": 321,
-  "disabled_channel_count": 667,
+  "channel_count": 323,
+  "disabled_channel_count": 665,
   "disabled_channels": [
     "咪咕体育",
     "睛彩少年",
@@ -113,20 +113,18 @@
     "吉林乡村",
     "珲春新闻综合",
     "乐山新闻综合",
-    "剑阁综合",
     "叙州新闻综合",
     "四川科教",
     "广元综合",
     "康巴卫视",
     "德阳新闻综合",
-    "旺苍新闻综合",
     "汉源综合",
     "绵阳科技",
+    "雅安新闻综合",
     "武清综合",
     "宁夏经济",
     "六安公共",
     "六安新闻综合",
-    "固镇新闻",
     "安徽国际",
     "安徽导视",
     "安徽经济生活",
@@ -137,7 +135,7 @@
     "滁州市广播电视台 新闻综合",
     "滁州新闻综合",
     "滁州科教",
-    "黄山公共生活",
+    "黄山新闻综合",
     "山东体育",
     "山东少儿",
     "山东生活",
@@ -147,7 +145,6 @@
     "潍坊新闻综合",
     "定襄综合",
     "武乡新闻综合",
-    "汾西综合",
     "运城科技教育",
     "黎城综合",
     "佛山综合",
@@ -160,8 +157,6 @@
     "南宁公共",
     "南宁新闻综合",
     "宾阳综合",
-    "伊犁哈萨克",
-    "伊犁维吾尔",
     "哈密三套",
     "哈密二套",
     "东海新闻",
@@ -197,7 +192,6 @@
     "睢宁资讯",
     "连云港公共",
     "连云港新闻综合",
-    "镇江二套社会民生",
     "镇江新闻综合",
     "靖江新闻综合",
     "任丘文娱",
@@ -273,6 +267,9 @@
     "杭州综合",
     "浙江民生休闲",
     "浙江生活",
+    "湖州公共民生",
+    "湖州文化娱乐",
+    "湖州新闻综合",
     "绍兴文化影院",
     "海南公共",
     "海南少儿",
@@ -312,13 +309,9 @@
     "福建电视剧",
     "福建经济",
     "福建综合",
-    "朝阳新闻综合",
     "辽宁北方",
-    "辽宁影视剧",
-    "辽宁教育青少",
-    "辽宁生活",
-    "辽宁经济",
     "万源新闻综合",
+    "重庆新闻",
     "陕西体育休闲",
     "陕西公共",
     "陕西新闻资讯",
@@ -342,6 +335,7 @@
     "CCTV-9 (576i)",
     "CETV1 (576p)",
     "CETV2 (576p)",
+    "CGNTV Chinese (1080p)",
     "CGTN Spanish (720p)",
     "CND Film Middle School Channel",
     "CTS News (華視新聞資訊) [Geo-blocked]",
@@ -388,15 +382,18 @@
     "Indigenous TV (720p)",
     "Jiangxi Children's Channel",
     "Jiangxi City Channel",
-    "Jiangxi Economy &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Life Channel",
+    "Jiangxi Economy &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Life Channel",
     "Jiangxi Movie Channel",
-    "Jiangxi Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Agriculture Channel",
+    "Jiangxi Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Agriculture Channel",
     "Jilin City Channel",
     "Jilin Lifestyle Channel",
     "Jilin Movie Channel",
     "Jilin Rural Channel",
+    "Kangba TV",
+    "Lanzhou Comprehensive News Channel",
+    "Lanzhou Culture &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Tourism Channel",
     "Liangshan TV [Not 24/7]",
-    "Nanchang News &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Generalist Channel",
+    "Nanchang News &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Generalist Channel",
     "QTV-1",
     "QTV-2",
     "QTV-3",
@@ -532,7 +529,6 @@
     "江苏教育 (576p) [Not 24/7]",
     "江苏综艺 (576p) [Not 24/7]",
     "江西卫视 (1080p)",
-    "浙江 Ⅰ 绍兴影视 (720p)",
     "浙江公共 (1080p) [Not 24/7]",
     "海西州综合 (576p)",
     "涡阳新闻综合 (360p)",
@@ -567,6 +563,7 @@
     "置业 (576p)",
     "耀才财经 (288p)",
     "肃州电视台 (1080p)",
+    "荣昌综合 (404p) [Not 24/7]",
     "莒縣圖文頻道 (720p)",
     "莒縣電視一套 (576p)",
     "莒縣電視二套 (576p) [Not 24/7]",
@@ -663,6 +660,7 @@
     "魅力足球",
     "鹿鼎记",
     "电视指南",
+    "香港卫视",
     "CETV-2",
     "CETV-3",
     "CETV-4",
@@ -683,13 +681,13 @@
       "tvg_id": "免费订阅",
       "logo": "https://material.1989.click/logo/温馨提示.png",
       "key": "免费订阅",
-      "latency_ms": 79,
-      "speed_kbps": 60415,
+      "latency_ms": 66,
+      "speed_kbps": 69388,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1671.868002407087
+      "score": 1678.4200270782728
     },
     {
       "name": "新闻综合",
@@ -699,13 +697,13 @@
       "tvg_id": "新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/新闻综合.png",
       "key": "新闻综合",
-      "latency_ms": 1780,
-      "speed_kbps": 6122,
+      "latency_ms": 1920,
+      "speed_kbps": 5588,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1491.527188167748
+      "score": 1482.0736646008806
     },
     {
       "name": "易门综合",
@@ -715,13 +713,13 @@
       "tvg_id": "易门综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/易门综合.png",
       "key": "易门综合",
-      "latency_ms": 1916,
-      "speed_kbps": 5463,
+      "latency_ms": 1621,
+      "speed_kbps": 4252,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1489.9684722001027
+      "score": 1490.9798817090912
     },
     {
       "name": "通海电视台",
@@ -731,13 +729,13 @@
       "tvg_id": "通海电视台",
       "logo": "https://www.xn--rgv465a.top/tvlogo/通海电视台.png",
       "key": "通海",
-      "latency_ms": 1984,
-      "speed_kbps": 5284,
+      "latency_ms": 1768,
+      "speed_kbps": 6598,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1490.2118698501802
+      "score": 1508.5024620523866
     },
     {
       "name": "延边卫视",
@@ -747,13 +745,13 @@
       "tvg_id": "延边卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/延边卫视.png",
       "key": "延边卫视",
-      "latency_ms": 728,
-      "speed_kbps": 13619,
+      "latency_ms": 1519,
+      "speed_kbps": 25385,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1585.834708284327
+      "score": 1581.1646942762288
     },
     {
       "name": "长白朝语",
@@ -763,13 +761,13 @@
       "tvg_id": "长白朝语",
       "logo": "https://www.xn--rgv465a.top/tvlogo/长白朝语.png",
       "key": "长白朝语",
-      "latency_ms": 1439,
-      "speed_kbps": 4116,
+      "latency_ms": 3942,
+      "speed_kbps": 3714,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1335.3122453195945
+      "score": 1230.7828131735012
     },
     {
       "name": "乐至综合",
@@ -779,13 +777,13 @@
       "tvg_id": "乐至综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/乐至综合.png",
       "key": "乐至综合",
-      "latency_ms": 875,
-      "speed_kbps": 3207,
+      "latency_ms": 962,
+      "speed_kbps": 2902,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1517.364972809637
+      "score": 1509.5789892097214
     },
     {
       "name": "井研综合",
@@ -795,13 +793,29 @@
       "tvg_id": "井研综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/井研综合.png",
       "key": "井研综合",
-      "latency_ms": 2507,
-      "speed_kbps": 3718,
+      "latency_ms": 2431,
+      "speed_kbps": 3425,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1449.6734726167476
+      "score": 1449.2187534452153
+    },
+    {
+      "name": "剑阁综合",
+      "url": "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8",
+      "source": "previous output",
+      "group": "☘️四川频道",
+      "tvg_id": "剑阁综合",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/剑阁综合.png",
+      "key": "剑阁综合",
+      "latency_ms": 2555,
+      "speed_kbps": 3360,
+      "width": 960,
+      "height": 528,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 940.2662427229661
     },
     {
       "name": "名山综合",
@@ -811,13 +825,13 @@
       "tvg_id": "名山综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/名山综合.png",
       "key": "名山综合",
-      "latency_ms": 2330,
-      "speed_kbps": 6011,
+      "latency_ms": 1877,
+      "speed_kbps": 5625,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1481.9511064544238
+      "score": 1497.2371916051916
     },
     {
       "name": "广元公共",
@@ -827,61 +841,77 @@
       "tvg_id": "广元公共",
       "logo": "https://www.xn--rgv465a.top/tvlogo/广元公共.png",
       "key": "广元公共",
-      "latency_ms": 2963,
-      "speed_kbps": 2224,
+      "latency_ms": 2528,
+      "speed_kbps": 3353,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 941.5694656618814
+      "score": 978.3420153145152
     },
     {
       "name": "广安公共",
-      "url": "http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8?zsicd",
-      "source": "previous output",
+      "url": "http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8",
+      "source": "Guovin/TV",
       "group": "☘️四川频道",
       "tvg_id": "广安公共",
       "logo": "https://www.xn--rgv465a.top/tvlogo/广安公共.png",
       "key": "广安公共",
-      "latency_ms": 949,
-      "speed_kbps": 3075,
+      "latency_ms": 1011,
+      "speed_kbps": 2828,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1293.8343983864586
+      "score": 1274.8235535477907
+    },
+    {
+      "name": "旺苍新闻综合",
+      "url": "http://live.spccmc.com:90/live/spxwzh.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]",
+      "source": "Guovin/TV",
+      "group": "☘️四川频道",
+      "tvg_id": "旺苍新闻综合",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/旺苍新闻综合.png",
+      "key": "旺苍新闻综合",
+      "latency_ms": 1036,
+      "speed_kbps": 2743,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1359.4433601879045
     },
     {
       "name": "松潘新闻综合",
-      "url": "http://live.spccmc.com:90/live/spxwzh.m3u8?zsicd",
+      "url": "http://live.spccmc.com:90/live/spxwzh.m3u8",
       "source": "Guovin/TV",
       "group": "☘️四川频道",
       "tvg_id": "松潘新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/松潘新闻综合.png",
       "key": "松潘新闻综合",
-      "latency_ms": 1665,
-      "speed_kbps": 2945,
+      "latency_ms": 1039,
+      "speed_kbps": 2839,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1363.1335399403897
+      "score": 1387.127996467872
     },
     {
       "name": "汶川新闻综合",
-      "url": "http://live.iwcmt.cn:90/live/zhxw.m3u8?zsicd",
+      "url": "http://live.iwcmt.cn:90/live/zhxw.m3u8",
       "source": "Guovin/TV",
       "group": "☘️四川频道",
       "tvg_id": "汶川新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/汶川新闻综合.png",
       "key": "汶川新闻综合",
-      "latency_ms": 800,
-      "speed_kbps": 2510,
+      "latency_ms": 910,
+      "speed_kbps": 2248,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1394.5588631215317
+      "score": 1385.406824694347
     },
     {
       "name": "沐川综合",
@@ -891,13 +921,13 @@
       "tvg_id": "沐川综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/沐川综合.png",
       "key": "沐川综合",
-      "latency_ms": 976,
-      "speed_kbps": 3102,
+      "latency_ms": 1056,
+      "speed_kbps": 2176,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1321.7943349460609
+      "score": 1303.5965168164576
     },
     {
       "name": "泸县新闻综合",
@@ -907,13 +937,13 @@
       "tvg_id": "泸县新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/泸县新闻综合.png",
       "key": "泸县新闻综合",
-      "latency_ms": 1780,
-      "speed_kbps": 4749,
+      "latency_ms": 2221,
+      "speed_kbps": 5109,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1378.5516685385255
+      "score": 1364.1128267874296
     },
     {
       "name": "荥经综合",
@@ -923,13 +953,13 @@
       "tvg_id": "荥经综合",
       "logo": "https://live.fanmingming.cn/tv/荥经综合.png",
       "key": "荥经综合",
-      "latency_ms": 1774,
-      "speed_kbps": 6054,
+      "latency_ms": 1967,
+      "speed_kbps": 5528,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1504.499616107601
+      "score": 1492.8843271870862
     },
     {
       "name": "营山电视台",
@@ -939,13 +969,13 @@
       "tvg_id": "营山电视台",
       "logo": "https://www.xn--rgv465a.top/tvlogo/营山电视台.png",
       "key": "营山",
-      "latency_ms": 981,
-      "speed_kbps": 2989,
+      "latency_ms": 1064,
+      "speed_kbps": 2827,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1315.5829749217087
+      "score": 1310.2183517016022
     },
     {
       "name": "金川新闻综合",
@@ -955,29 +985,13 @@
       "tvg_id": "金川新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/金川新闻综合.png",
       "key": "金川新闻综合",
-      "latency_ms": 959,
-      "speed_kbps": 2972,
+      "latency_ms": 1016,
+      "speed_kbps": 2908,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1510.7112656725456
-    },
-    {
-      "name": "雅安新闻综合",
-      "url": "https://play.yunxya.com/channellive/xinwen.m3u8",
-      "source": "previous output",
-      "group": "☘️四川频道",
-      "tvg_id": "雅安新闻综合",
-      "logo": "https://www.xn--rgv465a.top/tvlogo/雅安新闻综合.png",
-      "key": "雅安新闻综合",
-      "latency_ms": 2211,
-      "speed_kbps": 5264,
-      "width": 1920,
-      "height": 1080,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1476.5624541812203
+      "score": 1507.508381705307
     },
     {
       "name": "青川综合",
@@ -987,29 +1001,45 @@
       "tvg_id": "青川综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/青川综合.png",
       "key": "青川综合",
-      "latency_ms": 1021,
-      "speed_kbps": 3972,
+      "latency_ms": 969,
+      "speed_kbps": 3517,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1520.784210882239
+      "score": 1517.6179236764785
     },
     {
       "name": "亳州农村",
-      "url": "http://zbbf2.ahbztv.com/live/418.m3u8",
-      "source": "previous output",
+      "url": "http://zbbf2.ahbztv.com/live/418.m3u8?zanhd",
+      "source": "Guovin/TV",
       "group": "☘️安徽频道",
       "tvg_id": "亳州农村",
       "logo": "https://www.xn--rgv465a.top/tvlogo/亳州农村.png",
       "key": "亳州农村",
-      "latency_ms": 3146,
-      "speed_kbps": 30990,
+      "latency_ms": 168,
+      "speed_kbps": 30354,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1524.700167690595
+      "score": 1642.9420058235721
+    },
+    {
+      "name": "固镇新闻",
+      "url": "http://www.guzhenm.com:7001/hls/hd-live.m3u8",
+      "source": "previous output",
+      "group": "☘️安徽频道",
+      "tvg_id": "固镇新闻",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/固镇新闻.png",
+      "key": "固镇新闻",
+      "latency_ms": 1152,
+      "speed_kbps": 2768,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1074.494285425593
     },
     {
       "name": "安徽影视",
@@ -1019,13 +1049,13 @@
       "tvg_id": "安徽影视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/安徽影视.png",
       "key": "安徽影视",
-      "latency_ms": 378,
+      "latency_ms": 356,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1505.7516706875722
+      "score": 1506.6509921189036
     },
     {
       "name": "广德生活",
@@ -1035,13 +1065,13 @@
       "tvg_id": "广德生活",
       "logo": "https://www.xn--rgv465a.top/tvlogo/广德生活.png",
       "key": "广德生活",
-      "latency_ms": 3403,
-      "speed_kbps": 5844,
+      "latency_ms": 2292,
+      "speed_kbps": 4924,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1442.2169275404926
+      "score": 1479.262486482253
     },
     {
       "name": "祁门综合",
@@ -1051,13 +1081,13 @@
       "tvg_id": "祁门综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/祁门综合.png",
       "key": "祁门综合",
-      "latency_ms": 165,
-      "speed_kbps": 27353,
+      "latency_ms": 2173,
+      "speed_kbps": 33116,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1638.5370572156012
+      "score": 1566.5112591876996
     },
     {
       "name": "铜陵新闻综合",
@@ -1067,29 +1097,29 @@
       "tvg_id": "铜陵新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/铜陵新闻综合.png",
       "key": "铜陵新闻综合",
-      "latency_ms": 1145,
-      "speed_kbps": 6384,
+      "latency_ms": 1491,
+      "speed_kbps": 7319,
       "width": 0,
       "height": 0,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1276.13862561971
+      "score": 1268.4653810469906
     },
     {
-      "name": "黄山新闻综合",
-      "url": "http://hslive.hsnewsnet.com/lsdream/hve9Wjs/1000/live.m3u8",
+      "name": "黄山公共生活",
+      "url": "http://hslive.hsnewsnet.com/lsdream/iY92ady/1000/live.m3u8?zanhd",
       "source": "previous output",
       "group": "☘️安徽频道",
-      "tvg_id": "黄山新闻综合",
-      "logo": "https://www.xn--rgv465a.top/tvlogo/黄山新闻综合.png",
-      "key": "黄山新闻综合",
-      "latency_ms": 907,
-      "speed_kbps": 2976,
+      "tvg_id": "黄山公共生活",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/黄山公共生活.png",
+      "key": "黄山公共生活",
+      "latency_ms": 977,
+      "speed_kbps": 2960,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1455.5807555226681
+      "score": 1444.0460052189983
     },
     {
       "name": "山东教育",
@@ -1099,13 +1129,13 @@
       "tvg_id": "山东教育",
       "logo": "https://www.xn--rgv465a.top/tvlogo/山东教育.png",
       "key": "山东教育",
-      "latency_ms": 1886,
-      "speed_kbps": 5314,
+      "latency_ms": 2142,
+      "speed_kbps": 4105,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1379.1769026874906
+      "score": 1357.8030653753935
     },
     {
       "name": "太谷新闻综合",
@@ -1115,13 +1145,29 @@
       "tvg_id": "太谷新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/太谷新闻综合.png",
       "key": "太谷新闻综合",
-      "latency_ms": 462,
-      "speed_kbps": 124246,
+      "latency_ms": 1030,
+      "speed_kbps": 24075,
       "width": 1024,
       "height": 768,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1559.0378237297548
+      "score": 1465.328715503984
+    },
+    {
+      "name": "汾西综合",
+      "url": "https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c9260100c/be3fdf07606145739ab2c4b80fe0136a.m3u8?zshanxd",
+      "source": "previous output",
+      "group": "☘️山西频道",
+      "tvg_id": "汾西综合",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/汾西综合.png",
+      "key": "汾西综合",
+      "latency_ms": 2710,
+      "speed_kbps": 4378,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 860.9644941929723
     },
     {
       "name": "大湾区卫视",
@@ -1131,29 +1177,29 @@
       "tvg_id": "大湾区卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/大湾区卫视.png",
       "key": "大湾区卫视",
-      "latency_ms": 1126,
-      "speed_kbps": 13436,
+      "latency_ms": 163,
+      "speed_kbps": 26082,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1454.1291960634228
+      "score": 1521.3770415176966
     },
     {
       "name": "广东体育",
-      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=gdty",
+      "url": "http://php.jdshipin.com/PLTV/iptv.php?id=gdty",
       "source": "Guovin/TV",
       "group": "☘️广东频道",
       "tvg_id": "广东体育",
       "logo": "https://www.xn--rgv465a.top/tvlogo/广东体育.png",
       "key": "广东体育",
-      "latency_ms": 314,
-      "speed_kbps": 104116,
+      "latency_ms": 295,
+      "speed_kbps": 51259,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1686.02439528999
+      "score": 1656.153601572906
     },
     {
       "name": "广东民生",
@@ -1163,13 +1209,13 @@
       "tvg_id": "广东民生",
       "logo": "https://www.xn--rgv465a.top/tvlogo/广东民生.png",
       "key": "广东民生",
-      "latency_ms": 1058,
-      "speed_kbps": 9356,
+      "latency_ms": 186,
+      "speed_kbps": 26210,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1441.1849980469606
+      "score": 1520.6689270841928
     },
     {
       "name": "广东珠江",
@@ -1179,13 +1225,13 @@
       "tvg_id": "广东珠江",
       "logo": "https://www.xn--rgv465a.top/tvlogo/广东珠江.png",
       "key": "广东珠江",
-      "latency_ms": 417,
-      "speed_kbps": 107627,
+      "latency_ms": 209,
+      "speed_kbps": 76932,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1687.7451293006009
+      "score": 1681.5529209107833
     },
     {
       "name": "广州综合",
@@ -1195,13 +1241,13 @@
       "tvg_id": "广州综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/广州综合.png",
       "key": "广州综合",
-      "latency_ms": 1341,
-      "speed_kbps": 6566,
+      "latency_ms": 1472,
+      "speed_kbps": 4362,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1410.1333983499649
+      "score": 1387.231291814661
     },
     {
       "name": "南宁影视娱乐",
@@ -1211,13 +1257,13 @@
       "tvg_id": "南宁影视娱乐",
       "logo": "https://www.xn--rgv465a.top/tvlogo/南宁影视娱乐.png",
       "key": "南宁影视娱乐",
-      "latency_ms": 1215,
-      "speed_kbps": 5752,
+      "latency_ms": 3036,
+      "speed_kbps": 3161,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1413.8501524695666
+      "score": 1315.1189946848542
     },
     {
       "name": "南宁都市生活",
@@ -1227,45 +1273,45 @@
       "tvg_id": "南宁都市生活",
       "logo": "https://www.xn--rgv465a.top/tvlogo/南宁都市生活.png",
       "key": "南宁都市生活",
-      "latency_ms": 455,
+      "latency_ms": 313,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1502.671670687572
+      "score": 1508.3709921189036
     },
     {
       "name": "广西国际",
-      "url": "http://107.150.60.122/live/gxgj.m3u8",
+      "url": "http://198.204.228.26/live/gxgj.m3u8",
       "source": "Guovin/TV",
       "group": "☘️广西频道",
       "tvg_id": "广西国际",
       "logo": "https://www.xn--rgv465a.top/tvlogo/广西国际.png",
       "key": "广西国际",
-      "latency_ms": 319,
-      "speed_kbps": 13751,
+      "latency_ms": 167,
+      "speed_kbps": 26537,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1602.612181185805
+      "score": 1637.1655649845668
     },
     {
       "name": "广西新闻",
       "url": "http://107.150.60.122/live/gxxw.m3u8",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "☘️广西频道",
       "tvg_id": "广西新闻",
       "logo": "https://www.xn--rgv465a.top/tvlogo/广西新闻.png",
       "key": "广西新闻",
-      "latency_ms": 317,
-      "speed_kbps": 13395,
+      "latency_ms": 1056,
+      "speed_kbps": 26566,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1601.5569224782796
+      "score": 1601.6528370712792
     },
     {
       "name": "灌阳新闻综合",
@@ -1275,13 +1321,29 @@
       "tvg_id": "灌阳新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/灌阳新闻综合.png",
       "key": "灌阳新闻综合",
-      "latency_ms": 1262,
-      "speed_kbps": 7746,
+      "latency_ms": 1396,
+      "speed_kbps": 6320,
       "width": 0,
       "height": 0,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1301.8547828319515
+      "score": 1287.8435459936884
+    },
+    {
+      "name": "伊犁哈萨克",
+      "url": "http://110.153.180.106:55555/out_3/index.m3u8?zxinjd",
+      "source": "previous output",
+      "group": "☘️新疆频道",
+      "tvg_id": "伊犁哈萨克",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/伊犁哈萨克.png",
+      "key": "伊犁哈萨克",
+      "latency_ms": 1766,
+      "speed_kbps": 2319,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1265.9582622621872
     },
     {
       "name": "伊犁经济法制",
@@ -1291,13 +1353,29 @@
       "tvg_id": "伊犁经济法制",
       "logo": "https://www.xn--rgv465a.top/tvlogo/伊犁经济法制.png",
       "key": "伊犁经济法制",
-      "latency_ms": 1600,
-      "speed_kbps": 2738,
+      "latency_ms": 1733,
+      "speed_kbps": 2349,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1292.0946028187946
+      "score": 1280.9924738000152
+    },
+    {
+      "name": "伊犁维吾尔",
+      "url": "http://110.153.180.106:55555/out_2/index.m3u8",
+      "source": "previous output",
+      "group": "☘️新疆频道",
+      "tvg_id": "伊犁维吾尔",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/伊犁维吾尔.png",
+      "key": "伊犁维吾尔",
+      "latency_ms": 1778,
+      "speed_kbps": 2320,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1252.339027086413
     },
     {
       "name": "南京教科",
@@ -1307,13 +1385,13 @@
       "tvg_id": "南京教科",
       "logo": "https://www.xn--rgv465a.top/tvlogo/南京教科.png",
       "key": "南京教科",
-      "latency_ms": 571,
-      "speed_kbps": 11303,
+      "latency_ms": 497,
+      "speed_kbps": 20271,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1451.2261118140955
+      "score": 1479.5640646536867
     },
     {
       "name": "南京新闻综合",
@@ -1323,13 +1401,13 @@
       "tvg_id": "南京新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/南京新闻综合.png",
       "key": "南京新闻综合",
-      "latency_ms": 1083,
-      "speed_kbps": 4583,
+      "latency_ms": 743,
+      "speed_kbps": 4849,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1391.675865393168
+      "score": 1407.8143215904865
     },
     {
       "name": "宜兴新闻",
@@ -1339,13 +1417,13 @@
       "tvg_id": "宜兴新闻",
       "logo": "https://www.xn--rgv465a.top/tvlogo/宜兴新闻.png",
       "key": "宜兴新闻",
-      "latency_ms": 391,
+      "latency_ms": 338,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1505.231670687572
+      "score": 1507.3709921189036
     },
     {
       "name": "新沂新闻",
@@ -1355,13 +1433,13 @@
       "tvg_id": "新沂新闻",
       "logo": "https://www.xn--rgv465a.top/tvlogo/新沂新闻.png",
       "key": "新沂新闻",
-      "latency_ms": 868,
+      "latency_ms": 3080,
       "speed_kbps": 3024,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1399.90198638302
+      "score": 1311.4413078143514
     },
     {
       "name": "新沂生活",
@@ -1371,13 +1449,13 @@
       "tvg_id": "新沂生活",
       "logo": "https://www.xn--rgv465a.top/tvlogo/新沂生活.png",
       "key": "新沂生活",
-      "latency_ms": 908,
+      "latency_ms": 929,
       "speed_kbps": 3024,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1398.30198638302
+      "score": 1397.4813078143513
     },
     {
       "name": "苏州文化生活",
@@ -1387,13 +1465,13 @@
       "tvg_id": "苏州文化生活",
       "logo": "https://www.xn--rgv465a.top/tvlogo/苏州文化生活.png",
       "key": "苏州文化生活",
-      "latency_ms": 515,
-      "speed_kbps": 38684,
+      "latency_ms": 1180,
+      "speed_kbps": 19201,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1519.932908098354
+      "score": 1463.054885042615
     },
     {
       "name": "苏州新闻综合",
@@ -1403,13 +1481,13 @@
       "tvg_id": "苏州新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/苏州新闻综合.png",
       "key": "苏州新闻综合",
-      "latency_ms": 625,
-      "speed_kbps": 27289,
+      "latency_ms": 1412,
+      "speed_kbps": 30364,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1615.6303845484586
+      "score": 1588.8102972608476
     },
     {
       "name": "苏州生活资讯",
@@ -1419,13 +1497,13 @@
       "tvg_id": "苏州生活资讯",
       "logo": "https://www.xn--rgv465a.top/tvlogo/苏州生活资讯.png",
       "key": "苏州生活资讯",
-      "latency_ms": 1416,
-      "speed_kbps": 42298,
+      "latency_ms": 918,
+      "speed_kbps": 26433,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1487.7584821752919
+      "score": 1487.3696467284535
     },
     {
       "name": "苏州社会经济",
@@ -1435,13 +1513,29 @@
       "tvg_id": "苏州社会经济",
       "logo": "https://www.xn--rgv465a.top/tvlogo/苏州社会经济.png",
       "key": "苏州社会经济",
-      "latency_ms": 604,
-      "speed_kbps": 46539,
+      "latency_ms": 567,
+      "speed_kbps": 20928,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1639.5740050405464
+      "score": 1606.5024749403813
+    },
+    {
+      "name": "镇江二套社会民生",
+      "url": "http://zjtv-wshls.homecdn.com/live/2aa16.m3u8",
+      "source": "previous output",
+      "group": "☘️江苏频道",
+      "tvg_id": "镇江二套社会民生",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/镇江二套社会民生.png",
+      "key": "镇江二套社会民生",
+      "latency_ms": 1196,
+      "speed_kbps": 4039,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1312.7731220438998
     },
     {
       "name": "兴隆综合",
@@ -1451,13 +1545,13 @@
       "tvg_id": "兴隆综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/兴隆综合.png",
       "key": "兴隆综合",
-      "latency_ms": 1278,
-      "speed_kbps": 4819,
+      "latency_ms": 1440,
+      "speed_kbps": 4667,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1514.4649698849753
+      "score": 1506.6364627343632
     },
     {
       "name": "平泉综合",
@@ -1467,13 +1561,13 @@
       "tvg_id": "平泉综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/平泉综合.png",
       "key": "平泉综合",
-      "latency_ms": 1321,
-      "speed_kbps": 4920,
+      "latency_ms": 1459,
+      "speed_kbps": 4144,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1398.4427053195736
+      "score": 1385.5323188060354
     },
     {
       "name": "昌黎综合",
@@ -1483,29 +1577,29 @@
       "tvg_id": "昌黎综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/昌黎综合.png",
       "key": "昌黎综合",
-      "latency_ms": 1291,
-      "speed_kbps": 5029,
+      "latency_ms": 1559,
+      "speed_kbps": 4216,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1400.5911024551388
+      "score": 1382.277844724555
     },
     {
       "name": "河北农民",
-      "url": "https://t.freetv.fun/live/he-bei-nong-min-1.m3u8",
+      "url": "https://t.freetv.fun/live/he-bei-nong-min.m3u8",
       "source": "Guovin/TV",
       "group": "☘️河北频道",
       "tvg_id": "河北农民",
       "logo": "https://www.xn--rgv465a.top/tvlogo/河北农民.png",
       "key": "河北农民",
-      "latency_ms": 359,
+      "latency_ms": 361,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1506.5116706875722
+      "score": 1506.4509921189035
     },
     {
       "name": "清河经济综艺",
@@ -1515,13 +1609,13 @@
       "tvg_id": "清河经济综艺",
       "logo": "https://www.xn--rgv465a.top/tvlogo/清河经济综艺.png",
       "key": "清河经济综艺",
-      "latency_ms": 1244,
-      "speed_kbps": 5111,
+      "latency_ms": 1442,
+      "speed_kbps": 4423,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1518.371123592782
+      "score": 1504.2323559823983
     },
     {
       "name": "滦平新闻",
@@ -1531,13 +1625,13 @@
       "tvg_id": "滦平新闻",
       "logo": "https://www.xn--rgv465a.top/tvlogo/滦平新闻.png",
       "key": "滦平新闻",
-      "latency_ms": 1146,
-      "speed_kbps": 4256,
+      "latency_ms": 1064,
+      "speed_kbps": 4272,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1514.3679003778113
+      "score": 1517.8489481260654
     },
     {
       "name": "邢台综合",
@@ -1547,13 +1641,13 @@
       "tvg_id": "邢台综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/邢台综合.png",
       "key": "邢台综合",
-      "latency_ms": 990,
-      "speed_kbps": 4304,
+      "latency_ms": 1284,
+      "speed_kbps": 4320,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1401.4880118458618
+      "score": 1389.946573174683
     },
     {
       "name": "邯郸公共",
@@ -1563,13 +1657,13 @@
       "tvg_id": "邯郸公共",
       "logo": "https://www.xn--rgv465a.top/tvlogo/邯郸公共.png",
       "key": "邯郸公共",
-      "latency_ms": 1320,
-      "speed_kbps": 4727,
+      "latency_ms": 1478,
+      "speed_kbps": 4574,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1507.5454154499228
+      "score": 1499.859324775508
     },
     {
       "name": "邯郸新闻",
@@ -1579,13 +1673,13 @@
       "tvg_id": "邯郸新闻",
       "logo": "https://www.xn--rgv465a.top/tvlogo/邯郸新闻.png",
       "key": "邯郸新闻",
-      "latency_ms": 1281,
-      "speed_kbps": 4928,
+      "latency_ms": 1418,
+      "speed_kbps": 4576,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1515.3130235336223
+      "score": 1506.6642102787903
     },
     {
       "name": "邯郸科技教育",
@@ -1595,13 +1689,13 @@
       "tvg_id": "邯郸科技教育",
       "logo": "https://www.xn--rgv465a.top/tvlogo/邯郸科技教育.png",
       "key": "邯郸科技教育",
-      "latency_ms": 1280,
-      "speed_kbps": 4804,
+      "latency_ms": 1855,
+      "speed_kbps": 4524,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1514.2500403839442
+      "score": 1488.689566595133
     },
     {
       "name": "梨园",
@@ -1611,13 +1705,13 @@
       "tvg_id": "梨园",
       "logo": "https://www.xn--rgv465a.top/tvlogo/梨园.png",
       "key": "梨园",
-      "latency_ms": 1541,
-      "speed_kbps": 5123,
+      "latency_ms": 1969,
+      "speed_kbps": 4564,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1462.5397591702888
+      "score": 1440.6509133412922
     },
     {
       "name": "郸城新闻综合",
@@ -1627,13 +1721,13 @@
       "tvg_id": "郸城新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/郸城新闻综合.png",
       "key": "郸城新闻综合",
-      "latency_ms": 357,
+      "latency_ms": 345,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1506.591670687572
+      "score": 1507.0909921189036
     },
     {
       "name": "上虞文化影院",
@@ -1643,13 +1737,13 @@
       "tvg_id": "上虞文化影院",
       "logo": "https://www.xn--rgv465a.top/tvlogo/上虞文化影院.png",
       "key": "上虞文化影院",
-      "latency_ms": 377,
+      "latency_ms": 332,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1505.7916706875722
+      "score": 1507.6109921189036
     },
     {
       "name": "上虞新闻综合",
@@ -1659,13 +1753,13 @@
       "tvg_id": "上虞新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/上虞新闻综合.png",
       "key": "上虞新闻综合",
-      "latency_ms": 900,
-      "speed_kbps": 4182,
+      "latency_ms": 941,
+      "speed_kbps": 3992,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1347.2372939659695
+      "score": 1344.3963538443284
     },
     {
       "name": "东阳影视生活",
@@ -1675,29 +1769,29 @@
       "tvg_id": "东阳影视生活",
       "logo": "https://www.xn--rgv465a.top/tvlogo/东阳影视生活.png",
       "key": "东阳影视生活",
-      "latency_ms": 910,
-      "speed_kbps": 4084,
+      "latency_ms": 981,
+      "speed_kbps": 3812,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1208.5845563765542
+      "score": 1203.6696212401052
     },
     {
       "name": "之江纪录",
       "url": "https://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "☘️浙江频道",
       "tvg_id": "之江纪录",
       "logo": "https://www.xn--rgv465a.top/tvlogo/之江纪录.png",
       "key": "之江纪录",
-      "latency_ms": 1061,
-      "speed_kbps": 5743,
+      "latency_ms": 1220,
+      "speed_kbps": 5083,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1415.5370927043564
+      "score": 1403.932005638892
     },
     {
       "name": "云和新闻综合",
@@ -1707,61 +1801,61 @@
       "tvg_id": "云和新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/云和新闻综合.png",
       "key": "云和新闻综合",
-      "latency_ms": 1462,
-      "speed_kbps": 4197,
+      "latency_ms": 982,
+      "speed_kbps": 3680,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1227.3334013793087
+      "score": 1241.5780348616647
     },
     {
       "name": "余姚姚江文化",
-      "url": "https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8?zzhed",
       "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "余姚姚江文化",
       "logo": "https://www.xn--rgv465a.top/tvlogo/余姚姚江文化.png",
       "key": "余姚姚江文化",
-      "latency_ms": 1328,
-      "speed_kbps": 4565,
+      "latency_ms": 949,
+      "speed_kbps": 3455,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1093.1320800730198
+      "score": 1163.1636437179177
     },
     {
       "name": "余姚新闻综合",
-      "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?cWlkPSZzPTg3OWMwYmMyZDMzYTFhZGY3NDQxMjgyYTg1MmUzNTY0JmVzPTE3MDY2Nzc4NzMmdXVpZD0yMjdiY2MzNGNiNGY0MThlYjRiY2IxYzcwNmZjODNkMS02NzQ3NDY2NyZ2PTImYXM9MCZjZG5leF9pZD10eF9waG9uZV9saXZl",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8",
       "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "余姚新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/余姚新闻综合.png",
       "key": "余姚新闻综合",
-      "latency_ms": 887,
-      "speed_kbps": 4397,
+      "latency_ms": 2102,
+      "speed_kbps": 3004,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1354.3323744282739
+      "score": 1298.807441346481
     },
     {
       "name": "余姚综合",
-      "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?zzhed",
-      "source": "previous output",
+      "url": "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8",
+      "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "余姚综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/余姚综合.png",
       "key": "余姚综合",
-      "latency_ms": 2738,
-      "speed_kbps": 3427,
+      "latency_ms": 1513,
+      "speed_kbps": 3411,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1199.0205927096722
+      "score": 1244.5334062761212
     },
     {
       "name": "余杭未来E",
@@ -1771,45 +1865,45 @@
       "tvg_id": "余杭未来E",
       "logo": "https://www.xn--rgv465a.top/tvlogo/余杭未来E.png",
       "key": "余杭未来E",
-      "latency_ms": 853,
-      "speed_kbps": 4373,
+      "latency_ms": 932,
+      "speed_kbps": 3738,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1364.2660615915552
+      "score": 1355.0688940334073
     },
     {
       "name": "余杭综合",
       "url": "http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "☘️浙江频道",
       "tvg_id": "余杭综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/余杭综合.png",
       "key": "余杭综合",
-      "latency_ms": 1553,
-      "speed_kbps": 4193,
+      "latency_ms": 958,
+      "speed_kbps": 3807,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1312.4204143264492
+      "score": 1332.8907094965173
     },
     {
       "name": "兰溪新闻综合",
-      "url": "https://t.freetv.fun/live/lan-xi-xin-wen-zong-he.m3u8",
+      "url": "https://t.freetv.fun/live/lan-xi-xin-wen-zong-he-1.m3u8",
       "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "兰溪新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/兰溪新闻综合.png",
       "key": "兰溪新闻综合",
-      "latency_ms": 366,
+      "latency_ms": 328,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1506.231670687572
+      "score": 1507.7709921189037
     },
     {
       "name": "嘉兴新闻综合",
@@ -1819,13 +1913,13 @@
       "tvg_id": "嘉兴新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/嘉兴新闻综合.png",
       "key": "嘉兴新闻综合",
-      "latency_ms": 907,
+      "latency_ms": 1084,
       "speed_kbps": 4080,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1526.5053167621534
+      "score": 1519.4446381934852
     },
     {
       "name": "嵊州新闻综合",
@@ -1835,13 +1929,13 @@
       "tvg_id": "嵊州新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/嵊州新闻综合.png",
       "key": "嵊州新闻综合",
-      "latency_ms": 831,
-      "speed_kbps": 4412,
+      "latency_ms": 974,
+      "speed_kbps": 3579,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1232.7091994924112
+      "score": 1218.7637336244213
     },
     {
       "name": "嵊泗综合",
@@ -1851,13 +1945,13 @@
       "tvg_id": "嵊泗综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/嵊泗综合.png",
       "key": "嵊泗综合",
-      "latency_ms": 1522,
-      "speed_kbps": 3317,
+      "latency_ms": 998,
+      "speed_kbps": 3090,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1201.533158815535
+      "score": 1220.2171722802434
     },
     {
       "name": "平湖新闻综合",
@@ -1867,29 +1961,29 @@
       "tvg_id": "平湖新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/平湖新闻综合.png",
       "key": "平湖新闻综合",
-      "latency_ms": 410,
+      "latency_ms": 330,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1504.471670687572
+      "score": 1507.6909921189035
     },
     {
       "name": "平湖民生休闲",
-      "url": "http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8?zzhed",
-      "source": "previous output",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8",
+      "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "平湖民生休闲",
       "logo": "https://www.xn--rgv465a.top/tvlogo/平湖民生休闲.png",
       "key": "平湖民生休闲",
-      "latency_ms": 898,
-      "speed_kbps": 2568,
+      "latency_ms": 1072,
+      "speed_kbps": 2462,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1206.6055718383386
+      "score": 1189.880030341902
     },
     {
       "name": "庆元新闻综合",
@@ -1899,13 +1993,13 @@
       "tvg_id": "庆元新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/庆元新闻综合.png",
       "key": "庆元新闻综合",
-      "latency_ms": 888,
-      "speed_kbps": 3381,
+      "latency_ms": 1027,
+      "speed_kbps": 3888,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1334.1097162514711
+      "score": 1335.4278838801033
     },
     {
       "name": "庆元综合",
@@ -1915,13 +2009,13 @@
       "tvg_id": "庆元综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/庆元综合.png",
       "key": "庆元综合",
-      "latency_ms": 910,
-      "speed_kbps": 3987,
+      "latency_ms": 952,
+      "speed_kbps": 4047,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1344.7706102682018
+      "score": 1344.5485876942935
     },
     {
       "name": "开化国家公园",
@@ -1931,13 +2025,13 @@
       "tvg_id": "开化国家公园",
       "logo": "https://www.xn--rgv465a.top/tvlogo/开化国家公园.png",
       "key": "开化国家公园",
-      "latency_ms": 916,
-      "speed_kbps": 3378,
+      "latency_ms": 979,
+      "speed_kbps": 3963,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1226.561868295936
+      "score": 1231.7467561555306
     },
     {
       "name": "开化新闻综合",
@@ -1947,13 +2041,13 @@
       "tvg_id": "开化新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/开化新闻综合.png",
       "key": "开化新闻综合",
-      "latency_ms": 906,
-      "speed_kbps": 4125,
+      "latency_ms": 971,
+      "speed_kbps": 3591,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1240.013898376123
+      "score": 1232.186501638712
     },
     {
       "name": "数码时代",
@@ -1963,13 +2057,13 @@
       "tvg_id": "数码时代",
       "logo": "https://www.xn--rgv465a.top/tvlogo/数码时代.png",
       "key": "数码时代",
-      "latency_ms": 1056,
-      "speed_kbps": 4647,
+      "latency_ms": 823,
+      "speed_kbps": 4808,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1406.5719451980972
+      "score": 1417.4047055967742
     },
     {
       "name": "文成新闻综合",
@@ -1979,29 +2073,29 @@
       "tvg_id": "文成新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/文成新闻综合.png",
       "key": "文成新闻综合",
-      "latency_ms": 1467,
-      "speed_kbps": 3327,
+      "latency_ms": 947,
+      "speed_kbps": 3629,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1208.2687307819926
+      "score": 1233.6020937531518
     },
     {
       "name": "文成综合",
-      "url": "http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8?zzhed",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8?zzhed?",
       "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "文成综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/文成综合.png",
       "key": "文成综合",
-      "latency_ms": 1562,
-      "speed_kbps": 4208,
+      "latency_ms": 982,
+      "speed_kbps": 3607,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1183.7991115289894
+      "score": 1214.3950550932764
     },
     {
       "name": "新昌新闻综合",
@@ -2011,13 +2105,13 @@
       "tvg_id": "新昌新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/新昌新闻综合.png",
       "key": "新昌新闻综合",
-      "latency_ms": 374,
+      "latency_ms": 347,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1505.911670687572
+      "score": 1507.0109921189035
     },
     {
       "name": "新昌生活",
@@ -2027,13 +2121,13 @@
       "tvg_id": "新昌生活",
       "logo": "https://www.xn--rgv465a.top/tvlogo/新昌生活.png",
       "key": "新昌生活",
-      "latency_ms": 5198,
-      "speed_kbps": 3914,
+      "latency_ms": 942,
+      "speed_kbps": 3679,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1159.2349557562488
+      "score": 1327.664517776558
     },
     {
       "name": "普陀新闻综合",
@@ -2043,13 +2137,13 @@
       "tvg_id": "普陀新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/普陀新闻综合.png",
       "key": "普陀新闻综合",
-      "latency_ms": 1606,
-      "speed_kbps": 3770,
+      "latency_ms": 987,
+      "speed_kbps": 4095,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1159.6608607204519
+      "score": 1188.9852215695353
     },
     {
       "name": "普陀电视台",
@@ -2059,13 +2153,13 @@
       "tvg_id": "普陀电视台",
       "logo": "https://www.xn--rgv465a.top/tvlogo/普陀电视台.png",
       "key": "普陀",
-      "latency_ms": 1963,
-      "speed_kbps": 4668,
+      "latency_ms": 1375,
+      "speed_kbps": 4432,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1159.0333481906039
+      "score": 1181.2740193674406
     },
     {
       "name": "松阳综合",
@@ -2075,13 +2169,13 @@
       "tvg_id": "松阳综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/松阳综合.png",
       "key": "松阳综合",
-      "latency_ms": 812,
-      "speed_kbps": 3863,
+      "latency_ms": 1859,
+      "speed_kbps": 3078,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1325.2967207171782
+      "score": 1274.4929746126534
     },
     {
       "name": "武义新闻综合",
@@ -2091,29 +2185,29 @@
       "tvg_id": "武义新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/武义新闻综合.png",
       "key": "武义新闻综合",
-      "latency_ms": 3712,
-      "speed_kbps": 3602,
+      "latency_ms": 943,
+      "speed_kbps": 4105,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1080.0285929199197
+      "score": 1197.1803285332883
     },
     {
       "name": "永嘉新闻综合",
-      "url": "https://t.freetv.fun/live/yong-jia-xin-wen-zong-he.m3u8",
-      "source": "previous output",
+      "url": "https://t.freetv.fun/live/yong-jia-xin-wen-zong-he-1.m3u8",
+      "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "永嘉新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/永嘉新闻综合.png",
       "key": "永嘉新闻综合",
-      "latency_ms": 390,
+      "latency_ms": 330,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1505.2716706875722
+      "score": 1507.6909921189035
     },
     {
       "name": "洞头综合",
@@ -2123,13 +2217,13 @@
       "tvg_id": "洞头综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/洞头综合.png",
       "key": "洞头综合",
-      "latency_ms": 3686,
-      "speed_kbps": 4361,
+      "latency_ms": 970,
+      "speed_kbps": 3606,
       "width": 720,
       "height": 540,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1064.7259854771178
+      "score": 1165.9690192149003
     },
     {
       "name": "浙江休闲台",
@@ -2139,13 +2233,13 @@
       "tvg_id": "浙江休闲台",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江休闲台.png",
       "key": "浙江休闲台",
-      "latency_ms": 697,
-      "speed_kbps": 5359,
+      "latency_ms": 822,
+      "speed_kbps": 4261,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1427.1018703341142
+      "score": 1412.2173602607852
     },
     {
       "name": "浙江公共新闻",
@@ -2155,13 +2249,13 @@
       "tvg_id": "浙江公共新闻",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江公共新闻.png",
       "key": "浙江公共新闻",
-      "latency_ms": 700,
-      "speed_kbps": 5252,
+      "latency_ms": 782,
+      "speed_kbps": 4781,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1541.308963339562
+      "score": 1534.0009708858695
     },
     {
       "name": "浙江国际",
@@ -2171,13 +2265,13 @@
       "tvg_id": "浙江国际",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江国际.png",
       "key": "浙江国际",
-      "latency_ms": 763,
-      "speed_kbps": 5397,
+      "latency_ms": 1007,
+      "speed_kbps": 4260,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1539.9676864719545
+      "score": 1520.0072016288348
     },
     {
       "name": "浙江教科",
@@ -2187,13 +2281,13 @@
       "tvg_id": "浙江教科",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江教科.png",
       "key": "浙江教科",
-      "latency_ms": 1093,
-      "speed_kbps": 5728,
+      "latency_ms": 1449,
+      "speed_kbps": 4995,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1529.3439006307033
+      "score": 1509.2161390558322
     },
     {
       "name": "浙江教科影视",
@@ -2203,13 +2297,13 @@
       "tvg_id": "浙江教科影视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江教科影视.png",
       "key": "浙江教科影视",
-      "latency_ms": 689,
-      "speed_kbps": 6588,
+      "latency_ms": 1570,
+      "speed_kbps": 5243,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1551.5581725045663
+      "score": 1506.4733750909293
     },
     {
       "name": "浙江教育",
@@ -2219,13 +2313,13 @@
       "tvg_id": "浙江教育",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江教育.png",
       "key": "浙江教育",
-      "latency_ms": 698,
-      "speed_kbps": 5354,
+      "latency_ms": 967,
+      "speed_kbps": 4784,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1427.0214700219988
+      "score": 1411.4281204013819
     },
     {
       "name": "浙江数码时代",
@@ -2235,13 +2329,13 @@
       "tvg_id": "浙江数码时代",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江数码时代.png",
       "key": "浙江数码时代",
-      "latency_ms": 751,
-      "speed_kbps": 4768,
+      "latency_ms": 772,
+      "speed_kbps": 4832,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1419.8844829266402
+      "score": 1419.6602123551909
     },
     {
       "name": "浙江新闻",
@@ -2251,29 +2345,29 @@
       "tvg_id": "浙江新闻",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江新闻.png",
       "key": "浙江新闻",
-      "latency_ms": 690,
-      "speed_kbps": 5448,
+      "latency_ms": 836,
+      "speed_kbps": 4223,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1428.0947569531377
+      "score": 1411.2696461294777
     },
     {
       "name": "浙江民生",
-      "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8",
+      "url": "http://ali-m-l.cztv.com/channels/lantian/channel06/720p.m3u8",
       "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "浙江民生",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江民生.png",
       "key": "浙江民生",
-      "latency_ms": 1067,
-      "speed_kbps": 5762,
-      "width": 1920,
-      "height": 1080,
+      "latency_ms": 1012,
+      "speed_kbps": 4239,
+      "width": 1280,
+      "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1530.6400456675713
+      "score": 1404.3933177070915
     },
     {
       "name": "浙江经济",
@@ -2283,13 +2377,13 @@
       "tvg_id": "浙江经济",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江经济.png",
       "key": "浙江经济",
-      "latency_ms": 713,
-      "speed_kbps": 5438,
+      "latency_ms": 839,
+      "speed_kbps": 4689,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1422.689954049906
+      "score": 1411.2940421747826
     },
     {
       "name": "浙江经济生活",
@@ -2299,13 +2393,13 @@
       "tvg_id": "浙江经济生活",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江经济生活.png",
       "key": "浙江经济生活",
-      "latency_ms": 1052,
-      "speed_kbps": 5787,
+      "latency_ms": 1440,
+      "speed_kbps": 5008,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1531.4274251758834
+      "score": 1509.6886355834172
     },
     {
       "name": "浙江经视",
@@ -2315,13 +2409,13 @@
       "tvg_id": "浙江经视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江经视.png",
       "key": "浙江经视",
-      "latency_ms": 737,
-      "speed_kbps": 5431,
+      "latency_ms": 774,
+      "speed_kbps": 4018,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1426.0794917505016
+      "score": 1411.5959256374374
     },
     {
       "name": "浙江遂昌",
@@ -2331,29 +2425,29 @@
       "tvg_id": "浙江遂昌",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江遂昌.png",
       "key": "浙江遂昌",
-      "latency_ms": 912,
-      "speed_kbps": 3860,
+      "latency_ms": 919,
+      "speed_kbps": 4078,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1316.8578094712711
+      "score": 1319.883066011024
     },
     {
       "name": "浙江钱江都市",
-      "url": "https://t.freetv.fun/live/zhe-jiang-qian-jiang-du-shi-1.m3u8",
+      "url": "https://t.freetv.fun/live/zhe-jiang-qian-jiang-du-shi-3.m3u8",
       "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "浙江钱江都市",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江钱江都市.png",
       "key": "浙江钱江都市",
-      "latency_ms": 385,
+      "latency_ms": 320,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1505.471670687572
+      "score": 1508.0909921189036
     },
     {
       "name": "海宁新闻综合",
@@ -2363,77 +2457,29 @@
       "tvg_id": "海宁新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/海宁新闻综合.png",
       "key": "海宁新闻综合",
-      "latency_ms": 1550,
-      "speed_kbps": 131070,
+      "latency_ms": 1461,
+      "speed_kbps": 48590,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1531.3487668943576
+      "score": 1491.9992245355782
     },
     {
       "name": "湖州公共",
-      "url": "https://t.freetv.fun/live/hu-zhou-gong-gong-1.m3u8",
+      "url": "https://t.freetv.fun/live/hu-zhou-gong-gong-2.m3u8",
       "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "湖州公共",
       "logo": "https://www.xn--rgv465a.top/tvlogo/湖州公共.png",
       "key": "湖州公共",
-      "latency_ms": 376,
+      "latency_ms": 320,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1505.8316706875721
-    },
-    {
-      "name": "湖州公共民生",
-      "url": "http://hzcm-live.media.hugd.com/1e6b554b9ab74513958c0e1ffe664d22/9acaa7634309494cb29a85eb12136607.m3u8?auth_key=2272900830-9a2389b8bf4e49d580d4ad807423d326-0-ea78a5c7a678c436263582d368f5009e",
-      "source": "previous output",
-      "group": "☘️浙江频道",
-      "tvg_id": "湖州公共民生",
-      "logo": "https://www.xn--rgv465a.top/tvlogo/湖州公共民生.png",
-      "key": "湖州公共民生",
-      "latency_ms": 1022,
-      "speed_kbps": 9167,
-      "width": 1280,
-      "height": 720,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1195.0456971585854
-    },
-    {
-      "name": "湖州文化娱乐",
-      "url": "http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887",
-      "source": "previous output",
-      "group": "☘️浙江频道",
-      "tvg_id": "湖州文化娱乐",
-      "logo": "https://www.xn--rgv465a.top/tvlogo/湖州文化娱乐.png",
-      "key": "湖州文化娱乐",
-      "latency_ms": 1007,
-      "speed_kbps": 9167,
-      "width": 1280,
-      "height": 720,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1195.6456971585856
-    },
-    {
-      "name": "湖州新闻综合",
-      "url": "http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865",
-      "source": "previous output",
-      "group": "☘️浙江频道",
-      "tvg_id": "湖州新闻综合",
-      "logo": "https://www.xn--rgv465a.top/tvlogo/湖州新闻综合.png",
-      "key": "湖州新闻综合",
-      "latency_ms": 961,
-      "speed_kbps": 9167,
-      "width": 1280,
-      "height": 720,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1201.8909835021977
+      "score": 1508.0909921189036
     },
     {
       "name": "绍兴文化影视",
@@ -2443,29 +2489,29 @@
       "tvg_id": "绍兴文化影视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/绍兴文化影视.png",
       "key": "绍兴文化影视",
-      "latency_ms": 1277,
+      "latency_ms": 2037,
       "speed_kbps": 5583,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1172.193996324731
+      "score": 1142.8566750479706
     },
     {
       "name": "绍兴新闻综合",
-      "url": "https://t.freetv.fun/live/shao-xing-xin-wen-zong-he-3-1.m3u8",
-      "source": "previous output",
+      "url": "https://t.freetv.fun/live/shao-xing-xin-wen-zong-he-2.m3u8",
+      "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "绍兴新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/绍兴新闻综合.png",
       "key": "绍兴新闻综合",
-      "latency_ms": 369,
+      "latency_ms": 346,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1506.111670687572
+      "score": 1507.0509921189037
     },
     {
       "name": "绍兴电视台公共",
@@ -2475,13 +2521,13 @@
       "tvg_id": "绍兴电视台公共",
       "logo": "https://www.xn--rgv465a.top/tvlogo/绍兴电视台公共.png",
       "key": "绍兴公共",
-      "latency_ms": 1026,
+      "latency_ms": 1012,
       "speed_kbps": 5583,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1287.960868571427
+      "score": 1289.1198329427077
     },
     {
       "name": "缙云新闻综合",
@@ -2491,29 +2537,29 @@
       "tvg_id": "缙云新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/缙云新闻综合.png",
       "key": "缙云新闻综合",
-      "latency_ms": 858,
-      "speed_kbps": 3997,
+      "latency_ms": 977,
+      "speed_kbps": 3647,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1249.3801746653448
+      "score": 1241.3881678634168
     },
     {
       "name": "缙云综合",
-      "url": "http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed",
-      "source": "previous output",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed?",
+      "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "缙云综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/缙云综合.png",
       "key": "缙云综合",
-      "latency_ms": 925,
-      "speed_kbps": 4361,
+      "latency_ms": 1025,
+      "speed_kbps": 3661,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1215.2301264462808
+      "score": 1204.5462757842242
     },
     {
       "name": "苍南新闻综合",
@@ -2523,29 +2569,29 @@
       "tvg_id": "苍南新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/苍南新闻综合.png",
       "key": "苍南新闻综合",
-      "latency_ms": 344,
+      "latency_ms": 318,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1507.111670687572
+      "score": 1508.1709921189035
     },
     {
       "name": "萧山生活",
-      "url": "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8?zzhed?",
+      "url": "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8",
       "source": "Guovin/TV",
       "group": "☘️浙江频道",
       "tvg_id": "萧山生活",
       "logo": "https://www.xn--rgv465a.top/tvlogo/萧山生活.png",
       "key": "萧山生活",
-      "latency_ms": 1567,
-      "speed_kbps": 4050,
+      "latency_ms": 1027,
+      "speed_kbps": 3766,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1186.348013973613
+      "score": 1227.6199571349182
     },
     {
       "name": "衢江新闻综合",
@@ -2555,13 +2601,13 @@
       "tvg_id": "衢江新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/衢江新闻综合.png",
       "key": "衢江新闻综合",
-      "latency_ms": 383,
+      "latency_ms": 318,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1505.5516706875721
+      "score": 1508.1709921189035
     },
     {
       "name": "诸暨新闻综合",
@@ -2571,13 +2617,13 @@
       "tvg_id": "诸暨新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/诸暨新闻综合.png",
       "key": "诸暨新闻综合",
-      "latency_ms": 908,
-      "speed_kbps": 4050,
+      "latency_ms": 975,
+      "speed_kbps": 3144,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1327.9080139736132
+      "score": 1315.157179102846
     },
     {
       "name": "象山新闻综合",
@@ -2587,13 +2633,13 @@
       "tvg_id": "象山新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/象山新闻综合.png",
       "key": "象山新闻综合",
-      "latency_ms": 888,
-      "speed_kbps": 3918,
+      "latency_ms": 1067,
+      "speed_kbps": 3755,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1198.8580196310234
+      "score": 1190.8056350702946
     },
     {
       "name": "象山综合",
@@ -2603,13 +2649,13 @@
       "tvg_id": "象山综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/象山综合.png",
       "key": "象山综合",
-      "latency_ms": 1066,
+      "latency_ms": 1240,
       "speed_kbps": 8264,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1550.6934498223393
+      "score": 1543.7527712536712
     },
     {
       "name": "遂昌综合",
@@ -2619,13 +2665,13 @@
       "tvg_id": "遂昌综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/遂昌综合.png",
       "key": "遂昌综合",
-      "latency_ms": 925,
-      "speed_kbps": 4190,
+      "latency_ms": 952,
+      "speed_kbps": 3667,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1306.6724323333724
+      "score": 1300.8073259950343
     },
     {
       "name": "青田电视台",
@@ -2635,13 +2681,13 @@
       "tvg_id": "青田电视台",
       "logo": "https://www.xn--rgv465a.top/tvlogo/青田电视台.png",
       "key": "青田",
-      "latency_ms": 1933,
-      "speed_kbps": 3371,
+      "latency_ms": 948,
+      "speed_kbps": 3135,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1261.3445101789096
+      "score": 1298.5692462166471
     },
     {
       "name": "龙泉新闻综合",
@@ -2651,13 +2697,13 @@
       "tvg_id": "龙泉新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/龙泉新闻综合.png",
       "key": "龙泉新闻综合",
-      "latency_ms": 910,
-      "speed_kbps": 3609,
+      "latency_ms": 959,
+      "speed_kbps": 3194,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1318.4330446871372
+      "score": 1312.0941070451443
     },
     {
       "name": "龙游新闻综合",
@@ -2667,13 +2713,13 @@
       "tvg_id": "龙游新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/龙游新闻综合.png",
       "key": "龙游新闻综合",
-      "latency_ms": 950,
-      "speed_kbps": 3898,
+      "latency_ms": 916,
+      "speed_kbps": 3858,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1209.3723794515693
+      "score": 1211.174736876561
     },
     {
       "name": "龙游生活娱乐",
@@ -2683,13 +2729,13 @@
       "tvg_id": "龙游生活娱乐",
       "logo": "https://www.xn--rgv465a.top/tvlogo/龙游生活娱乐.png",
       "key": "龙游生活娱乐",
-      "latency_ms": 874,
-      "speed_kbps": 3555,
+      "latency_ms": 999,
+      "speed_kbps": 3653,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1199.6152708418115
+      "score": 1196.719665361387
     },
     {
       "name": "武汉一台新闻综合",
@@ -2699,13 +2745,13 @@
       "tvg_id": "武汉一台新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/武汉一台新闻综合.png",
       "key": "武汉一台新闻综合",
-      "latency_ms": 1322,
+      "latency_ms": 1357,
       "speed_kbps": 6320,
       "width": 0,
       "height": 0,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1299.45954723026
+      "score": 1298.1754758182499
     },
     {
       "name": "湖北垄上",
@@ -2715,13 +2761,13 @@
       "tvg_id": "湖北垄上",
       "logo": "https://www.xn--rgv465a.top/tvlogo/湖北垄上.png",
       "key": "湖北垄上",
-      "latency_ms": 350,
+      "latency_ms": 320,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1506.871670687572
+      "score": 1508.0909921189036
     },
     {
       "name": "湖北教育",
@@ -2731,13 +2777,13 @@
       "tvg_id": "湖北教育",
       "logo": "https://www.xn--rgv465a.top/tvlogo/湖北教育.png",
       "key": "湖北教育",
-      "latency_ms": 372,
+      "latency_ms": 341,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1505.991670687572
+      "score": 1507.2509921189035
     },
     {
       "name": "湖北生活",
@@ -2747,13 +2793,13 @@
       "tvg_id": "湖北生活",
       "logo": "https://www.xn--rgv465a.top/tvlogo/湖北生活.png",
       "key": "湖北生活",
-      "latency_ms": 349,
+      "latency_ms": 364,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1502.5063843439598
+      "score": 1501.945027206623
     },
     {
       "name": "湖北经视",
@@ -2763,13 +2809,13 @@
       "tvg_id": "湖北经视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/湖北经视.png",
       "key": "湖北经视",
-      "latency_ms": 383,
+      "latency_ms": 339,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1505.5516706875721
+      "score": 1507.3309921189036
     },
     {
       "name": "荆门新闻综合",
@@ -2779,13 +2825,13 @@
       "tvg_id": "荆门新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/荆门新闻综合.png",
       "key": "荆门新闻综合",
-      "latency_ms": 918,
-      "speed_kbps": 3061,
+      "latency_ms": 937,
+      "speed_kbps": 3063,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1513.6283335421974
+      "score": 1512.915924635688
     },
     {
       "name": "湖南电影",
@@ -2795,13 +2841,13 @@
       "tvg_id": "湖南电影",
       "logo": "https://www.xn--rgv465a.top/tvlogo/湖南电影.png",
       "key": "湖南电影",
-      "latency_ms": 282,
-      "speed_kbps": 63863,
+      "latency_ms": 320,
+      "speed_kbps": 71845,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1555.355494819963
+      "score": 1558.9520391804404
     },
     {
       "name": "永昌综合",
@@ -2811,13 +2857,13 @@
       "tvg_id": "永昌综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/永昌综合.png",
       "key": "永昌综合",
-      "latency_ms": 3781,
-      "speed_kbps": 6936,
+      "latency_ms": 3610,
+      "speed_kbps": 6506,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1434.5113591530428
+      "score": 1438.6006882989532
     },
     {
       "name": "渭源新闻",
@@ -2827,13 +2873,13 @@
       "tvg_id": "渭源新闻",
       "logo": "https://www.xn--rgv465a.top/tvlogo/渭源新闻.png",
       "key": "渭源新闻",
-      "latency_ms": 2063,
-      "speed_kbps": 6456,
+      "latency_ms": 2081,
+      "speed_kbps": 4839,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1147.7045520657343
+      "score": 1136.0716388215671
     },
     {
       "name": "三明新闻综合",
@@ -2843,45 +2889,45 @@
       "tvg_id": "三明新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/三明新闻综合.png",
       "key": "三明新闻综合",
-      "latency_ms": 1200,
-      "speed_kbps": 9077,
+      "latency_ms": 1013,
+      "speed_kbps": 10053,
       "width": 0,
       "height": 0,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1315.6029908565192
+      "score": 1327.638399771804
     },
     {
       "name": "云霄综合",
-      "url": "http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian,",
-      "source": "previous output",
+      "url": "http://live.zzyxxw.com:85/live/xwzh.m3u8",
+      "source": "Guovin/TV",
       "group": "☘️福建频道",
       "tvg_id": "云霄综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/云霄综合.png",
       "key": "云霄综合",
-      "latency_ms": 908,
-      "speed_kbps": 2483,
+      "latency_ms": 957,
+      "speed_kbps": 2535,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1504.9707700416927
+      "score": 1503.9271360444402
     },
     {
       "name": "厦门卫视",
       "url": "http://198.204.228.26/live/xmws.m3u8",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "☘️福建频道",
       "tvg_id": "厦门卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/厦门卫视.png",
       "key": "厦门卫视",
-      "latency_ms": 321,
-      "speed_kbps": 13255,
+      "latency_ms": 164,
+      "speed_kbps": 26488,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1435.0541851490264
+      "score": 1471.3175739496294
     },
     {
       "name": "福州少儿",
@@ -2891,13 +2937,13 @@
       "tvg_id": "福州少儿",
       "logo": "https://www.xn--rgv465a.top/tvlogo/福州少儿.png",
       "key": "福州少儿",
-      "latency_ms": 1951,
-      "speed_kbps": 4735,
+      "latency_ms": 2303,
+      "speed_kbps": 4427,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1486.7838886234476
+      "score": 1469.8314799183745
     },
     {
       "name": "福州生活",
@@ -2907,13 +2953,13 @@
       "tvg_id": "FZTV3",
       "logo": "https://www.xn--rgv465a.top/tvlogo/福州生活.png",
       "key": "FZTV3",
-      "latency_ms": 2017,
-      "speed_kbps": 4735,
+      "latency_ms": 3172,
+      "speed_kbps": 4311,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1484.1438886234475
+      "score": 1433.922275590793
     },
     {
       "name": "福建公共",
@@ -2923,13 +2969,13 @@
       "tvg_id": "福建公共",
       "logo": "https://www.xn--rgv465a.top/tvlogo/福建公共.png",
       "key": "福建公共",
-      "latency_ms": 189,
-      "speed_kbps": 112061,
+      "latency_ms": 242,
+      "speed_kbps": 85871,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1698.612456047454
+      "score": 1684.9905362521015
     },
     {
       "name": "福建旅游",
@@ -2939,13 +2985,13 @@
       "tvg_id": "福建旅游",
       "logo": "https://www.xn--rgv465a.top/tvlogo/福建旅游.png",
       "key": "福建旅游",
-      "latency_ms": 174,
-      "speed_kbps": 109997,
+      "latency_ms": 168,
+      "speed_kbps": 170853,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1698.4078531990422
+      "score": 1717.7259167269951
     },
     {
       "name": "安顺新闻",
@@ -2955,13 +3001,93 @@
       "tvg_id": "安顺新闻",
       "logo": "https://www.xn--rgv465a.top/tvlogo/安顺新闻.png",
       "key": "安顺新闻",
-      "latency_ms": 2016,
+      "latency_ms": 1188,
       "speed_kbps": 6503,
       "width": 0,
       "height": 0,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1250.9085414734718
+      "score": 1284.24107721812
+    },
+    {
+      "name": "朝阳新闻综合",
+      "url": "http://120.76.248.139/live/bfgd/4200000282.m3u8",
+      "source": "previous output",
+      "group": "☘️辽宁频道",
+      "tvg_id": "朝阳新闻综合",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/朝阳新闻综合.png",
+      "key": "朝阳新闻综合",
+      "latency_ms": 883,
+      "speed_kbps": 7064,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1042.4701940926118
+    },
+    {
+      "name": "辽宁影视剧",
+      "url": "http://120.76.248.139/live/bfgd/4200000070.m3u8",
+      "source": "previous output",
+      "group": "☘️辽宁频道",
+      "tvg_id": "辽宁影视剧",
+      "logo": "https://live.fanmingming.cn/tv/辽宁影视剧.png",
+      "key": "辽宁影视剧",
+      "latency_ms": 1207,
+      "speed_kbps": 7056,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1029.4611506298836
+    },
+    {
+      "name": "辽宁教育青少",
+      "url": "http://120.76.248.139/live/bfgd/4200000075.m3u8",
+      "source": "previous output",
+      "group": "☘️辽宁频道",
+      "tvg_id": "辽宁教育青少",
+      "logo": "https://live.fanmingming.cn/tv/辽宁教育青少.png",
+      "key": "辽宁教育青少",
+      "latency_ms": 911,
+      "speed_kbps": 7056,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1041.3011506298835
+    },
+    {
+      "name": "辽宁生活",
+      "url": "http://120.76.248.139/live/bfgd/4200000073.m3u8",
+      "source": "previous output",
+      "group": "☘️辽宁频道",
+      "tvg_id": "辽宁生活",
+      "logo": "https://live.fanmingming.cn/tv/辽宁生活.png",
+      "key": "辽宁生活",
+      "latency_ms": 1131,
+      "speed_kbps": 7064,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1032.5501940926117
+    },
+    {
+      "name": "辽宁经济",
+      "url": "http://120.76.248.139/live/bfgd/4200000076.m3u8",
+      "source": "Guovin/TV",
+      "group": "☘️辽宁频道",
+      "tvg_id": "辽宁经济",
+      "logo": "https://live.fanmingming.cn/tv/辽宁经济.png",
+      "key": "辽宁经济",
+      "latency_ms": 1084,
+      "speed_kbps": 7056,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1034.3811506298837
     },
     {
       "name": "辽宁都市",
@@ -2971,45 +3097,29 @@
       "tvg_id": "辽宁都市",
       "logo": "https://www.xn--rgv465a.top/tvlogo/辽宁都市.png",
       "key": "辽宁都市",
-      "latency_ms": 1399,
-      "speed_kbps": 6454,
+      "latency_ms": 1152,
+      "speed_kbps": 6320,
       "width": 0,
       "height": 0,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1297.2876178129343
-    },
-    {
-      "name": "重庆新闻",
-      "url": "http://38.75.136.137:98/gslb/dsdqpub/cqxw.m3u8?auth=testpub",
-      "source": "previous output",
-      "group": "☘️重庆频道",
-      "tvg_id": "重庆新闻",
-      "logo": "https://www.xn--rgv465a.top/tvlogo/重庆新闻.png",
-      "key": "重庆新闻",
-      "latency_ms": 20,
-      "speed_kbps": 720,
-      "width": 1280,
-      "height": 720,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1371.710306546278
+      "score": 1306.37547581825
     },
     {
       "name": "安多卫视",
-      "url": "https://stream1.freetv.fun/52d0df257c5c3cec42f2ae19268dbbc261256ff391b27bd83553bea941d0c186.m3u8",
-      "source": "previous output",
+      "url": "https://liveout.xntv.tv/a65jur/96iln2.m3u8",
+      "source": "Guovin/TV",
       "group": "☘️青海频道",
       "tvg_id": "安多卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/安多卫视.png",
       "key": "安多卫视",
-      "latency_ms": 672,
-      "speed_kbps": 6840,
-      "width": 1280,
-      "height": 720,
+      "latency_ms": 2059,
+      "speed_kbps": 2168,
+      "width": 1920,
+      "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1412.2311275442992
+      "score": 1448.6925414160548
     },
     {
       "name": "西宁新闻综合",
@@ -3019,13 +3129,13 @@
       "tvg_id": "西宁新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/西宁新闻综合.png",
       "key": "西宁新闻综合",
-      "latency_ms": 2082,
-      "speed_kbps": 2699,
+      "latency_ms": 2795,
+      "speed_kbps": 2168,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1452.8104188131686
+      "score": 1414.8665765037742
     },
     {
       "name": "西宁生活服务",
@@ -3035,13 +3145,13 @@
       "tvg_id": "西宁生活服务",
       "logo": "https://www.xn--rgv465a.top/tvlogo/西宁生活服务.png",
       "key": "西宁生活服务",
-      "latency_ms": 343,
+      "latency_ms": 329,
       "speed_kbps": 22184,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1507.151670687572
+      "score": 1507.7309921189035
     },
     {
       "name": "七台河新闻综合",
@@ -3051,13 +3161,13 @@
       "tvg_id": "七台河新闻综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/七台河新闻综合.png",
       "key": "七台河新闻综合",
-      "latency_ms": 1206,
-      "speed_kbps": 2869,
+      "latency_ms": 1897,
+      "speed_kbps": 2686,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1384.1046812394475
+      "score": 1353.6313427705427
     },
     {
       "name": "双鸭山综合",
@@ -3067,13 +3177,13 @@
       "tvg_id": "双鸭山综合",
       "logo": "https://www.xn--rgv465a.top/tvlogo/双鸭山综合.png",
       "key": "双鸭山综合",
-      "latency_ms": 979,
-      "speed_kbps": 2924,
+      "latency_ms": 1884,
+      "speed_kbps": 2740,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1394.0065415349607
+      "score": 1355.0128404231561
     },
     {
       "name": "黑龙江少儿",
@@ -3083,13 +3193,13 @@
       "tvg_id": "黑龙江少儿",
       "logo": "https://www.xn--rgv465a.top/tvlogo/黑龙江少儿.png",
       "key": "黑龙江少儿",
-      "latency_ms": 1422,
+      "latency_ms": 1352,
       "speed_kbps": 6312,
       "width": 0,
       "height": 0,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1290.9994402951172
+      "score": 1293.934690314439
     },
     {
       "name": "黑龙江新闻",
@@ -3099,13 +3209,13 @@
       "tvg_id": "黑龙江新闻",
       "logo": "https://www.xn--rgv465a.top/tvlogo/黑龙江新闻.png",
       "key": "黑龙江新闻",
-      "latency_ms": 1507,
-      "speed_kbps": 6312,
+      "latency_ms": 3719,
+      "speed_kbps": 13277,
       "width": 0,
       "height": 0,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1296.410012982342
+      "score": 1240.2094228203662
     },
     {
       "name": "Ando TV (1080p)",
@@ -3115,13 +3225,13 @@
       "tvg_id": "AndoTV.cn@SD",
       "logo": "",
       "key": "ANDOTVCNSD",
-      "latency_ms": 4955,
-      "speed_kbps": 5837,
+      "latency_ms": 4317,
+      "speed_kbps": 5174,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1349.2480498375683
+      "score": 1369.7042108622966
     },
     {
       "name": "Beautiful Life TV",
@@ -3131,13 +3241,13 @@
       "tvg_id": "BeautifulLifeTV.tw@SD",
       "logo": "",
       "key": "BEAUTIFULLIFETVTWSD",
-      "latency_ms": 1780,
-      "speed_kbps": 4704,
+      "latency_ms": 2758,
+      "speed_kbps": 4800,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1382.5448840014785
+      "score": 1344.3185958025958
     },
     {
       "name": "Bread TV面包台 (720p)",
@@ -3147,29 +3257,13 @@
       "tvg_id": "BreadTV.cn@SD",
       "logo": "",
       "key": "BREADTVCNSD",
-      "latency_ms": 1425,
-      "speed_kbps": 5456,
+      "latency_ms": 1763,
+      "speed_kbps": 4807,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1518.363551527113
-    },
-    {
-      "name": "CCTV-2",
-      "url": "http://74.91.26.218:82/live/cctv2hd.m3u8",
-      "source": "iptv-org China",
-      "group": "其他频道",
-      "tvg_id": "CCTV2.cn@SD",
-      "logo": "",
-      "key": "CCTV2",
-      "latency_ms": 337,
-      "speed_kbps": 12584,
-      "width": 1280,
-      "height": 720,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1482.8538023188582
+      "score": 1499.381667731856
     },
     {
       "name": "CCTV-4 Asia (720p)",
@@ -3179,29 +3273,29 @@
       "tvg_id": "CCTV4Asia.cn@SD",
       "logo": "",
       "key": "CCTV4ASIACNSD",
-      "latency_ms": 309,
-      "speed_kbps": 12849,
+      "latency_ms": 169,
+      "speed_kbps": 28593,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1484.8757675347538
+      "score": 1525.1152663723935
     },
     {
-      "name": "CCTV-8",
-      "url": "http://74.91.26.218:82/live/cctv8hd.m3u8",
+      "name": "CCTV-7",
+      "url": "http://74.91.26.218:82/live/cctv7hd.m3u8",
       "source": "iptv-org China",
       "group": "其他频道",
-      "tvg_id": "CCTV8.cn@SD",
+      "tvg_id": "CCTV7.cn@SD",
       "logo": "",
-      "key": "CCTV8",
-      "latency_ms": 311,
-      "speed_kbps": 12988,
+      "key": "CCTV7",
+      "latency_ms": 153,
+      "speed_kbps": 28790,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1485.2614637349704
+      "score": 1526.0524401412433
     },
     {
       "name": "CCTV-8K (1080p)",
@@ -3211,45 +3305,29 @@
       "tvg_id": "CCTV8K.cn@HD",
       "logo": "",
       "key": "CCTV8KCN",
-      "latency_ms": 312,
-      "speed_kbps": 13532,
+      "latency_ms": 150,
+      "speed_kbps": 29171,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1486.9973375102074
-    },
-    {
-      "name": "CGNTV Chinese (1080p)",
-      "url": "https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8",
-      "source": "previous output",
-      "group": "其他频道",
-      "tvg_id": "CGNTVChinese.tw@SD",
-      "logo": "",
-      "key": "CGNTVCHINESETWSD",
-      "latency_ms": 1073,
-      "speed_kbps": 8212,
-      "width": 1920,
-      "height": 1080,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1550.1402510196458
+      "score": 1526.7414517811817
     },
     {
       "name": "CGTN (1080p)",
       "url": "https://english-livebkali.cgtn.com/live/encgtn.m3u8",
-      "source": "iptv-org China",
+      "source": "previous output",
       "group": "其他频道",
       "tvg_id": "CGTN.cn@SD",
       "logo": "",
       "key": "CGTNCNSD",
-      "latency_ms": 1506,
-      "speed_kbps": 35219,
+      "latency_ms": 1386,
+      "speed_kbps": 42296,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1595.8367034290839
+      "score": 1608.5810434291475
     },
     {
       "name": "CGTN Documentary (1080p)",
@@ -3259,13 +3337,13 @@
       "tvg_id": "CGTNDocumentary.cn@SD",
       "logo": "",
       "key": "CGTNDOCUMENTARYCNSD",
-      "latency_ms": 1349,
-      "speed_kbps": 8009,
+      "latency_ms": 152,
+      "speed_kbps": 71911,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1533.6116194421284
+      "score": 1676.525815724261
     },
     {
       "name": "CGTN French (1080p)",
@@ -3275,13 +3353,13 @@
       "tvg_id": "CGTNFrench.cn@SD",
       "logo": "",
       "key": "CGTNFRENCHCNSD",
-      "latency_ms": 840,
-      "speed_kbps": 4932,
+      "latency_ms": 675,
+      "speed_kbps": 2517,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1524.177567157636
+      "score": 1501.7408253857066
     },
     {
       "name": "CGTN Global Biz (1080p)",
@@ -3291,13 +3369,13 @@
       "tvg_id": "CGTNGlobalBiz.cn@SD",
       "logo": "",
       "key": "CGTNGLOBALBIZCNSD",
-      "latency_ms": 602,
-      "speed_kbps": 106865,
+      "latency_ms": 474,
+      "speed_kbps": 80145,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1680.037610629688
+      "score": 1672.723782010658
     },
     {
       "name": "Chifeng Comprehensive News Chanel",
@@ -3307,13 +3385,13 @@
       "tvg_id": "ChifengComprehensiveNewsChanel.cn@SD",
       "logo": "",
       "key": "CHIFENGCOMPREHENSIVENEWSCHANELCNSD",
-      "latency_ms": 1106,
-      "speed_kbps": 4371,
+      "latency_ms": 1000,
+      "speed_kbps": 4672,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1517.1218571963457
+      "score": 1524.2828069418392
     },
     {
       "name": "China Travel (1080p)",
@@ -3323,13 +3401,13 @@
       "tvg_id": "ChinaTravel.cn@SD",
       "logo": "",
       "key": "CHINATRAVELCNSD",
-      "latency_ms": 628,
-      "speed_kbps": 119783,
+      "latency_ms": 532,
+      "speed_kbps": 96426,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1683.9366230074152
+      "score": 1678.408072552578
     },
     {
       "name": "Discovering China (1080p)",
@@ -3339,13 +3417,13 @@
       "tvg_id": "DiscoveringChina.cn@SD",
       "logo": "",
       "key": "DISCOVERINGCHINACNSD",
-      "latency_ms": 662,
-      "speed_kbps": 70234,
+      "latency_ms": 508,
+      "speed_kbps": 65216,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1659.4711731197167
+      "score": 1662.4421851726936
     },
     {
       "name": "Dragon TV International",
@@ -3355,29 +3433,29 @@
       "tvg_id": "DragonTVInternational.cn@SD",
       "logo": "",
       "key": "DRAGONTVINTERNATIONALCNSD",
-      "latency_ms": 3052,
+      "latency_ms": 3054,
       "speed_kbps": 8256,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1170.9895048873675
+      "score": 1171.7403264346274
     },
     {
-      "name": "Guangxi Variety &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Travel Channel",
+      "name": "Guangxi Variety &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Travel Channel",
       "url": "http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0",
       "source": "previous output",
       "group": "其他频道",
       "tvg_id": "GuangxiVarietyTravelChannel.cn@SD",
       "logo": "",
       "key": "GUANGXIVARIETYTRAVELCHANNELCNSD",
-      "latency_ms": 7238,
+      "latency_ms": 933,
       "speed_kbps": 3552,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1024.1518229292788
+      "score": 1277.9844759905031
     },
     {
       "name": "Guangzhou TV",
@@ -3387,13 +3465,13 @@
       "tvg_id": "GuangzhouTV.cn@SD",
       "logo": "",
       "key": "GUANGZHOUTVCNSD",
-      "latency_ms": 1189,
-      "speed_kbps": 6262,
+      "latency_ms": 1632,
+      "speed_kbps": 2645,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1409.7563747633233
+      "score": 1354.7936654731996
     },
     {
       "name": "Harbin Comprehensive News Channel",
@@ -3403,13 +3481,13 @@
       "tvg_id": "HarbinComprehensiveNewsChannel.cn@SD",
       "logo": "",
       "key": "HARBINCOMPREHENSIVENEWSCHANNELCNSD",
-      "latency_ms": 3171,
-      "speed_kbps": 3403,
+      "latency_ms": 3869,
+      "speed_kbps": 2913,
       "width": 640,
       "height": 480,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1247.0471703917258
+      "score": 1212.436769759649
     },
     {
       "name": "Harbin Movie Channel",
@@ -3419,13 +3497,13 @@
       "tvg_id": "HarbinMovieChannel.cn@SD",
       "logo": "",
       "key": "HARBINMOVIECHANNELCNSD",
-      "latency_ms": 3107,
-      "speed_kbps": 3549,
+      "latency_ms": 4135,
+      "speed_kbps": 3331,
       "width": 640,
       "height": 480,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1255.830619428216
+      "score": 1211.9862242479496
     },
     {
       "name": "Hebei TV (2160p)",
@@ -3435,13 +3513,13 @@
       "tvg_id": "HebeiTV.cn@SD",
       "logo": "",
       "key": "HEBEITVCNSD",
-      "latency_ms": 1527,
-      "speed_kbps": 5083,
+      "latency_ms": 1695,
+      "speed_kbps": 5019,
       "width": 3840,
       "height": 2160,
       "basic_ok": true,
       "video_ok": true,
-      "score": 2133.298649119841
+      "score": 2126.0495620105044
     },
     {
       "name": "Hunan TV (2160p)",
@@ -3451,77 +3529,29 @@
       "tvg_id": "HunanTV.cn@SD",
       "logo": "",
       "key": "HUNANTVCNSD",
-      "latency_ms": 699,
-      "speed_kbps": 18878,
+      "latency_ms": 644,
+      "speed_kbps": 37358,
       "width": 3840,
       "height": 2160,
       "basic_ok": true,
       "video_ok": true,
-      "score": 2223.207262905071
+      "score": 2254.9679231015534
     },
     {
-      "name": "Jiangsu Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; News Channel",
+      "name": "Jiangsu Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; News Channel",
       "url": "https://jiangning-tv-playing-t.cm.jstv.com/jiangning-tv/jnxwzh.m3u8",
       "source": "previous output",
       "group": "其他频道",
       "tvg_id": "JiangsuPublicNewsChannel.cn@SD",
       "logo": "",
       "key": "JIANGSUPUBLICNEWSCHANNELCNSD",
-      "latency_ms": 1570,
-      "speed_kbps": 4794,
+      "latency_ms": 1594,
+      "speed_kbps": 4430,
       "width": 720,
       "height": 480,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1325.354566778637
-    },
-    {
-      "name": "Kangba TV",
-      "url": "http://110.185.237.164:8888/hls/30/index.m3u8",
-      "source": "previous output",
-      "group": "其他频道",
-      "tvg_id": "KangbaTV.cn@SD",
-      "logo": "",
-      "key": "KANGBATVCNSD",
-      "latency_ms": 875,
-      "speed_kbps": 3134,
-      "width": 1920,
-      "height": 1080,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1275.875724750504
-    },
-    {
-      "name": "Lanzhou Comprehensive News Channel",
-      "url": "https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8",
-      "source": "previous output",
-      "group": "其他频道",
-      "tvg_id": "LanzhouComprehensiveNewsChannel.cn@SD",
-      "logo": "",
-      "key": "LANZHOUCOMPREHENSIVENEWSCHANNELCNSD",
-      "latency_ms": 2297,
-      "speed_kbps": 5913,
-      "width": 1920,
-      "height": 1080,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1478.154377822102
-    },
-    {
-      "name": "Lanzhou Culture &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Tourism Channel",
-      "url": "https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8",
-      "source": "previous output",
-      "group": "其他频道",
-      "tvg_id": "LanzhouCultureTourismChannel.cn@SD",
-      "logo": "",
-      "key": "LANZHOUCULTURETOURISMCHANNELCNSD",
-      "latency_ms": 1693,
-      "speed_kbps": 5690,
-      "width": 1920,
-      "height": 1080,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1500.6505290849811
+      "score": 1321.0348347664292
     },
     {
       "name": "Nei Monggol TV (1080i) [Not 24/7]",
@@ -3531,13 +3561,13 @@
       "tvg_id": "NeiMonggolTV.cn@SD",
       "logo": "",
       "key": "NEIMONGGOLTVCNSD",
-      "latency_ms": 1048,
-      "speed_kbps": 5049,
+      "latency_ms": 1485,
+      "speed_kbps": 4805,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1521.277599830696
+      "score": 1501.7117267329913
     },
     {
       "name": "Nei Monggol TV 2 Mongolian Culture Channel (1080i) [Not 24/7]",
@@ -3547,13 +3577,13 @@
       "tvg_id": "NeiMonggolTV2MongolianCultureChannel.cn@SD",
       "logo": "",
       "key": "NEIMONGGOLTV2MONGOLIANCULTURECHANNELCNSD",
-      "latency_ms": 1374,
-      "speed_kbps": 3415,
+      "latency_ms": 1018,
+      "speed_kbps": 2994,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1491.3142368644867
+      "score": 1499.9178604449105
     },
     {
       "name": "Qinghai TV",
@@ -3563,13 +3593,13 @@
       "tvg_id": "QinghaiTV.cn@SD",
       "logo": "",
       "key": "QINGHAITVCNSD",
-      "latency_ms": 3228,
-      "speed_kbps": 28009,
+      "latency_ms": 832,
+      "speed_kbps": 30419,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1512.6375129812159
+      "score": 1612.088623354234
     },
     {
       "name": "Siping TV",
@@ -3579,13 +3609,13 @@
       "tvg_id": "SipingTV.cn@SD",
       "logo": "",
       "key": "SIPINGTVCNSD",
-      "latency_ms": 1125,
-      "speed_kbps": 4025,
+      "latency_ms": 1599,
+      "speed_kbps": 3974,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1346.9046193494555
+      "score": 1327.4313548929285
     },
     {
       "name": "TVBS Asia (1080p)",
@@ -3595,13 +3625,13 @@
       "tvg_id": "TVBSAsia.tw@SD",
       "logo": "",
       "key": "TVBSASIATWSD",
-      "latency_ms": 83,
-      "speed_kbps": 64410,
+      "latency_ms": 251,
+      "speed_kbps": 4879,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1529.104890117587
+      "score": 1411.3823211079562
     },
     {
       "name": "Taiwan Indigenous TV (720p)",
@@ -3611,13 +3641,13 @@
       "tvg_id": "TaiwanIndigenousTV.tw@SD",
       "logo": "",
       "key": "TAIWANINDIGENOUSTVTWSD",
-      "latency_ms": 388,
-      "speed_kbps": 14127,
+      "latency_ms": 1811,
+      "speed_kbps": 3173,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1485.8197388970082
+      "score": 1364.2829892652483
     },
     {
       "name": "VOA美国之音 (1080p)",
@@ -3627,13 +3657,13 @@
       "tvg_id": "VoATVChina.cn@SD",
       "logo": "",
       "key": "VOATVCHINACNSD",
-      "latency_ms": 1169,
-      "speed_kbps": 743466,
+      "latency_ms": 720,
+      "speed_kbps": 13140,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1741.3119308940848
+      "score": 1584.6243647440099
     },
     {
       "name": "Xinjiang TV 2",
@@ -3643,29 +3673,29 @@
       "tvg_id": "XinjiangTV2.cn@SD",
       "logo": "",
       "key": "XINJIANGTV2CNSD",
-      "latency_ms": 1589,
+      "latency_ms": 1415,
       "speed_kbps": 8536,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1360.8817611375082
+      "score": 1367.8804040001714
     },
     {
       "name": "Xinjiang TV 3",
       "url": "http://218.84.35.38:3000/m3u8/live/tctv-2/index.m3u8",
-      "source": "iptv-org China",
+      "source": "previous output",
       "group": "其他频道",
       "tvg_id": "XinjiangTV3.cn@SD",
       "logo": "",
       "key": "XINJIANGTV3CNSD",
-      "latency_ms": 1098,
-      "speed_kbps": 2427,
+      "latency_ms": 2162,
+      "speed_kbps": 2467,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1289.335007301142
+      "score": 1248.4099442195302
     },
     {
       "name": "Xizang TV Tibetan (720p) [Not 24/7]",
@@ -3675,13 +3705,13 @@
       "tvg_id": "XizangTVTibetan.cn@SD",
       "logo": "",
       "key": "XIZANGTVTIBETANCNSD",
-      "latency_ms": 1360,
-      "speed_kbps": 6283,
+      "latency_ms": 1844,
+      "speed_kbps": 4876,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1496.2348451934845
+      "score": 1466.056753020361
     },
     {
       "name": "Zhejiang TV International",
@@ -3691,13 +3721,13 @@
       "tvg_id": "ZhejiangInternationalChannel.cn@SD",
       "logo": "",
       "key": "ZHEJIANGINTERNATIONALCHANNELCNSD",
-      "latency_ms": 1123,
-      "speed_kbps": 5801,
+      "latency_ms": 1281,
+      "speed_kbps": 4535,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1528.6920044323524
+      "score": 1511.754675237915
     },
     {
       "name": "上虞1新闻综合 (720p) [Not 24/7]",
@@ -3707,13 +3737,13 @@
       "tvg_id": "上虞1新闻综合 (720p) [Not 24/7]",
       "logo": "",
       "key": "上虞1新闻综合",
-      "latency_ms": 1272,
-      "speed_kbps": 4707,
+      "latency_ms": 1412,
+      "speed_kbps": 4460,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1240.559438139488
+      "score": 1233.8630854582652
     },
     {
       "name": "上虞3新商都 (720p) [Not 24/7]",
@@ -3723,13 +3753,13 @@
       "tvg_id": "上虞3新商都 (720p) [Not 24/7]",
       "logo": "",
       "key": "上虞3新商都",
-      "latency_ms": 1626,
-      "speed_kbps": 4444,
+      "latency_ms": 1449,
+      "speed_kbps": 3965,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1250.3426851121576
+      "score": 1253.6071896054596
     },
     {
       "name": "上虞經濟文化 (720p) [Not 24/7]",
@@ -3739,13 +3769,13 @@
       "tvg_id": "上虞經濟文化 (720p) [Not 24/7]",
       "logo": "",
       "key": "上虞經濟文化",
-      "latency_ms": 1380,
-      "speed_kbps": 4549,
+      "latency_ms": 1489,
+      "speed_kbps": 4075,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1239.1669719311724
+      "score": 1231.2617408464898
     },
     {
       "name": "农安新闻综合 [Geo-blocked]",
@@ -3755,13 +3785,13 @@
       "tvg_id": "农安新闻综合 [Geo-blocked]",
       "logo": "",
       "key": "农安新闻综合",
-      "latency_ms": 2412,
-      "speed_kbps": 4115,
+      "latency_ms": 2087,
+      "speed_kbps": 3872,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1283.1658697412079
+      "score": 1293.6280725568342
     },
     {
       "name": "前郭综合 [Geo-blocked]",
@@ -3771,13 +3801,13 @@
       "tvg_id": "前郭综合 [Geo-blocked]",
       "logo": "",
       "key": "前郭综合",
-      "latency_ms": 1589,
-      "speed_kbps": 4212,
+      "latency_ms": 1997,
+      "speed_kbps": 3993,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1321.4995462563222
+      "score": 1302.9458610498687
     },
     {
       "name": "吉林市新闻综合 [Geo-blocked]",
@@ -3787,13 +3817,13 @@
       "tvg_id": "吉林市新闻综合 [Geo-blocked]",
       "logo": "",
       "key": "吉林市新闻综合",
-      "latency_ms": 1417,
-      "speed_kbps": 4427,
+      "latency_ms": 2947,
+      "speed_kbps": 4022,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1326.1289780248742
+      "score": 1260.873096427757
     },
     {
       "name": "唯心電視 (480p)",
@@ -3803,13 +3833,13 @@
       "tvg_id": "WXTV.tw@SD",
       "logo": "",
       "key": "WXTVTWSD",
-      "latency_ms": 1789,
-      "speed_kbps": 6033,
+      "latency_ms": 2209,
+      "speed_kbps": 4123,
       "width": 854,
       "height": 480,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1064.2534700196059
+      "score": 1032.214607990677
     },
     {
       "name": "四平新闻综合 [Geo-blocked]",
@@ -3819,13 +3849,13 @@
       "tvg_id": "四平新闻综合 [Geo-blocked]",
       "logo": "",
       "key": "四平新闻综合",
-      "latency_ms": 1554,
-      "speed_kbps": 4157,
+      "latency_ms": 1980,
+      "speed_kbps": 4091,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1313.520092917057
+      "score": 1295.9033451829573
     },
     {
       "name": "嵊州综合 (720p) [Not 24/7]",
@@ -3835,13 +3865,13 @@
       "tvg_id": "嵊州综合 (720p) [Not 24/7]",
       "logo": "",
       "key": "嵊州综合",
-      "latency_ms": 2063,
-      "speed_kbps": 4304,
+      "latency_ms": 2026,
+      "speed_kbps": 4416,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1160.3301263833068
+      "score": 1163.8494179138715
     },
     {
       "name": "广东 Ⅰ 韶关综合台 (720p) [Not 24/7]",
@@ -3851,13 +3881,13 @@
       "tvg_id": "广东 Ⅰ 韶关综合台 (720p) [Not 24/7]",
       "logo": "",
       "key": "广东韶关综合台",
-      "latency_ms": 1691,
-      "speed_kbps": 4623,
+      "latency_ms": 1674,
+      "speed_kbps": 5040,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1491.7425503862412
+      "score": 1496.218345814776
     },
     {
       "name": "延边新闻综合 [Geo-blocked]",
@@ -3867,13 +3897,13 @@
       "tvg_id": "延边新闻综合 [Geo-blocked]",
       "logo": "",
       "key": "延边新闻综合",
-      "latency_ms": 1516,
-      "speed_kbps": 3311,
+      "latency_ms": 2898,
+      "speed_kbps": 3483,
       "width": 960,
       "height": 540,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1319.9651071438482
+      "score": 1266.973618166198
     },
     {
       "name": "新昌休闲影视 (1080p) [Not 24/7]",
@@ -3883,13 +3913,13 @@
       "tvg_id": "新昌休闲影视 (1080p) [Not 24/7]",
       "logo": "",
       "key": "新昌休闲影视",
-      "latency_ms": 1355,
-      "speed_kbps": 4500,
+      "latency_ms": 1434,
+      "speed_kbps": 4373,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1292.5616750589031
+      "score": 1289.1480184661207
     },
     {
       "name": "松原新闻综合 [Geo-blocked]",
@@ -3899,13 +3929,13 @@
       "tvg_id": "松原新闻综合 [Geo-blocked]",
       "logo": "",
       "key": "松原新闻综合",
-      "latency_ms": 1655,
-      "speed_kbps": 5073,
-      "width": 1280,
-      "height": 720,
+      "latency_ms": 2358,
+      "speed_kbps": 3872,
+      "width": 720,
+      "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1373.1922716358727
+      "score": 1282.7880725568343
     },
     {
       "name": "武进新闻 (576p) [Not 24/7]",
@@ -3915,13 +3945,13 @@
       "tvg_id": "武进新闻 (576p) [Not 24/7]",
       "logo": "",
       "key": "武进新闻",
-      "latency_ms": 1907,
-      "speed_kbps": 2168,
+      "latency_ms": 2334,
+      "speed_kbps": 2192,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1253.6036078044926
+      "score": 1237.1933133660089
     },
     {
       "name": "武进生活 (576p) [Not 24/7]",
@@ -3931,13 +3961,13 @@
       "tvg_id": "武进生活 (576p) [Not 24/7]",
       "logo": "",
       "key": "武进生活",
-      "latency_ms": 2141,
-      "speed_kbps": 2160,
+      "latency_ms": 2089,
+      "speed_kbps": 2168,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1239.6783181317892
+      "score": 1242.1308572055284
     },
     {
       "name": "江津新闻综合 (480p)",
@@ -3947,13 +3977,13 @@
       "tvg_id": "江津新闻综合 (480p)",
       "logo": "",
       "key": "江津新闻综合",
-      "latency_ms": 1896,
-      "speed_kbps": 3109,
+      "latency_ms": 939,
+      "speed_kbps": 3319,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1461.9659016657827
+      "score": 1503.1521277732263
     },
     {
       "name": "河源综合 (540p)",
@@ -3963,13 +3993,29 @@
       "tvg_id": "河源综合 (540p)",
       "logo": "",
       "key": "河源综合540P",
-      "latency_ms": 2270,
-      "speed_kbps": 3526,
+      "latency_ms": 2476,
+      "speed_kbps": 3119,
       "width": 960,
       "height": 540,
       "basic_ok": true,
       "video_ok": true,
-      "score": 966.5368816342309
+      "score": 954.514807051049
+    },
+    {
+      "name": "浙江 Ⅰ 绍兴影视 (720p)",
+      "url": "http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8",
+      "source": "previous output",
+      "group": "其他频道",
+      "tvg_id": "浙江 Ⅰ 绍兴影视 (720p)",
+      "logo": "",
+      "key": "浙江绍兴影视",
+      "latency_ms": 2039,
+      "speed_kbps": 5583,
+      "width": 1280,
+      "height": 720,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1112.074920662006
     },
     {
       "name": "浙江 Ⅰ 绍兴综合 (576p)",
@@ -3979,29 +4025,29 @@
       "tvg_id": "浙江 Ⅰ 绍兴综合 (576p)",
       "logo": "",
       "key": "浙江绍兴综合",
-      "latency_ms": 1085,
+      "latency_ms": 960,
       "speed_kbps": 5583,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1098.3489919194442
+      "score": 1104.5469206620057
     },
     {
       "name": "浙江钱江",
       "url": "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8",
-      "source": "iptv-org China",
+      "source": "previous output",
       "group": "其他频道",
-      "tvg_id": "",
+      "tvg_id": "浙江钱江",
       "logo": "",
       "key": "浙江钱江",
-      "latency_ms": 1127,
-      "speed_kbps": 5733,
+      "latency_ms": 1288,
+      "speed_kbps": 5028,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1528.0216642237338
+      "score": 1515.9411382080539
     },
     {
       "name": "白城新闻综合 [Geo-blocked]",
@@ -4011,13 +4057,13 @@
       "tvg_id": "BaichengTV.cn@SD",
       "logo": "",
       "key": "BAICHENGTVCNSD",
-      "latency_ms": 2094,
-      "speed_kbps": 4696,
+      "latency_ms": 2573,
+      "speed_kbps": 4396,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1297.1967827316275
+      "score": 1275.2954806547928
     },
     {
       "name": "白山新闻综合 [Geo-blocked]",
@@ -4027,13 +4073,13 @@
       "tvg_id": "白山新闻综合 [Geo-blocked]",
       "logo": "",
       "key": "白山新闻综合",
-      "latency_ms": 1885,
+      "latency_ms": 2088,
       "speed_kbps": 4032,
       "width": 720,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1307.769252330548
+      "score": 1299.7265380558747
     },
     {
       "name": "福州广播电视台都市生活频道 (FZTV-3) (1080p)",
@@ -4043,29 +4089,13 @@
       "tvg_id": "福州广播电视台都市生活频道 (FZTV-3) (1080p)",
       "logo": "",
       "key": "福州广播都市生活FZTV3",
-      "latency_ms": 930,
+      "latency_ms": 1992,
       "speed_kbps": 4080,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1525.5853167621533
-    },
-    {
-      "name": "荣昌综合 (404p) [Not 24/7]",
-      "url": "http://183.64.181.25:40023/rongchang01.m3u8",
-      "source": "previous output",
-      "group": "其他频道",
-      "tvg_id": "荣昌综合 (404p) [Not 24/7]",
-      "logo": "",
-      "key": "荣昌综合404P",
-      "latency_ms": 931,
-      "speed_kbps": 3016,
-      "width": 720,
-      "height": 404,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1017.0147183143595
+      "score": 1483.124638193485
     },
     {
       "name": "萧山新闻综合 (720p) [Not 24/7]",
@@ -4075,13 +4105,13 @@
       "tvg_id": "萧山新闻综合 (720p) [Not 24/7]",
       "logo": "",
       "key": "萧山新闻综合",
-      "latency_ms": 2111,
-      "speed_kbps": 4367,
+      "latency_ms": 1620,
+      "speed_kbps": 3933,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1207.4972097597513
+      "score": 1223.3217323739016
     },
     {
       "name": "萬州三峽移民 (576p)",
@@ -4091,13 +4121,13 @@
       "tvg_id": "萬州三峽移民 (576p)",
       "logo": "",
       "key": "萬州三峽移民",
-      "latency_ms": 1318,
+      "latency_ms": 1403,
       "speed_kbps": 3976,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 790.8861008944457
+      "score": 790.6548156328336
     },
     {
       "name": "辽源新闻综合 [Geo-blocked]",
@@ -4107,13 +4137,13 @@
       "tvg_id": "辽源新闻综合 [Geo-blocked]",
       "logo": "",
       "key": "辽源新闻综合",
-      "latency_ms": 1468,
-      "speed_kbps": 4555,
+      "latency_ms": 2849,
+      "speed_kbps": 3787,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1376.0106284426208
+      "score": 1312.875366615129
     },
     {
       "name": "通化新闻 [Geo-blocked]",
@@ -4123,13 +4153,13 @@
       "tvg_id": "通化新闻 [Geo-blocked]",
       "logo": "",
       "key": "通化新闻",
-      "latency_ms": 1678,
+      "latency_ms": 1850,
       "speed_kbps": 4032,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1366.737252330548
+      "score": 1359.9345380558748
     },
     {
       "name": "长春综合 [Geo-blocked]",
@@ -4139,13 +4169,13 @@
       "tvg_id": "长春综合 [Geo-blocked]",
       "logo": "",
       "key": "长春综合",
-      "latency_ms": 1451,
-      "speed_kbps": 4056,
-      "width": 1280,
-      "height": 720,
+      "latency_ms": 3171,
+      "speed_kbps": 4400,
+      "width": 720,
+      "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1371.6688263920387
+      "score": 1255.800809690957
     },
     {
       "name": "集安综合 [Geo-blocked]",
@@ -4155,13 +4185,13 @@
       "tvg_id": "集安综合 [Geo-blocked]",
       "logo": "",
       "key": "集安综合",
-      "latency_ms": 1565,
+      "latency_ms": 2059,
       "speed_kbps": 3912,
       "width": 320,
       "height": 240,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1276.659001586893
+      "score": 1257.014930174883
     },
     {
       "name": "靖江新闻綜合 (480p) [Not 24/7]",
@@ -4171,13 +4201,13 @@
       "tvg_id": "靖江新闻綜合 (480p) [Not 24/7]",
       "logo": "",
       "key": "靖江新闻綜合",
-      "latency_ms": 1765,
-      "speed_kbps": 1623,
+      "latency_ms": 2479,
+      "speed_kbps": 1770,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1323.8722731619898
+      "score": 1299.1421496999878
     },
     {
       "name": "餘姚姚江文化 (576p) [Not 24/7]",
@@ -4187,13 +4217,13 @@
       "tvg_id": "餘姚姚江文化 (576p) [Not 24/7]",
       "logo": "",
       "key": "餘姚姚江文化",
-      "latency_ms": 1412,
-      "speed_kbps": 4372,
+      "latency_ms": 3036,
+      "speed_kbps": 3848,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1297.843299733153
+      "score": 1228.3045118113469
     },
     {
       "name": "CGTN",
@@ -4203,13 +4233,13 @@
       "tvg_id": "CGTN",
       "logo": "https://live.fanmingming.cn/tv/CGTN.png",
       "key": "CGTN",
-      "latency_ms": 894,
-      "speed_kbps": 23042,
+      "latency_ms": 381,
+      "speed_kbps": 24841,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1482.3487770579459
+      "score": 1506.1611391189178
     },
     {
       "name": "CGTN纪录",
@@ -4219,13 +4249,13 @@
       "tvg_id": "CGTN纪录",
       "logo": "https://live.fanmingming.cn/tv/CGTN纪录.png",
       "key": "CGTN纪录",
-      "latency_ms": 626,
-      "speed_kbps": 21660,
+      "latency_ms": 1109,
+      "speed_kbps": 22032,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1490.3917959876462
+      "score": 1471.8474554994878
     },
     {
       "name": "CGTN西语",
@@ -4235,13 +4265,13 @@
       "tvg_id": "CGTN西语",
       "logo": "https://live.fanmingming.cn/tv/CGTN西语.png",
       "key": "CGTN西语",
-      "latency_ms": 331,
-      "speed_kbps": 27236,
+      "latency_ms": 341,
+      "speed_kbps": 37373,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1631.7115301919346
+      "score": 1645.0252977593825
     },
     {
       "name": "CGTN阿语",
@@ -4251,13 +4281,13 @@
       "tvg_id": "CGTN阿语",
       "logo": "https://live.fanmingming.cn/tv/CGTN阿语.png",
       "key": "CGTN阿语",
-      "latency_ms": 5053,
-      "speed_kbps": 27178,
+      "latency_ms": 347,
+      "speed_kbps": 34689,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1442.739263851587
+      "score": 1641.5597540286171
     },
     {
       "name": "浙江少儿",
@@ -4267,13 +4297,13 @@
       "tvg_id": "浙江少儿",
       "logo": "https://live.fanmingming.cn/tv/浙江少儿.png",
       "key": "浙江少儿",
-      "latency_ms": 1064,
-      "speed_kbps": 5716,
+      "latency_ms": 1214,
+      "speed_kbps": 4958,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1530.4131333456498
+      "score": 1518.2943468580402
     },
     {
       "name": "TVBS亚洲",
@@ -4283,13 +4313,13 @@
       "tvg_id": "TVBS亚洲",
       "logo": "https://www.xn--rgv465a.top/tvlogo/TVBS亚洲.png",
       "key": "TVBS亚洲",
-      "latency_ms": 53,
-      "speed_kbps": 12105,
+      "latency_ms": 169,
+      "speed_kbps": 17157,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1488.7914461454438
+      "score": 1499.7882731838738
     },
     {
       "name": "Viutv",
@@ -4299,13 +4329,13 @@
       "tvg_id": "Viutv",
       "logo": "https://www.xn--rgv465a.top/tvlogo/Viutv.png",
       "key": "VIUTV",
-      "latency_ms": 282,
-      "speed_kbps": 55726,
+      "latency_ms": 959,
+      "speed_kbps": 74177,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1466.4187176043267
+      "score": 1452.60614304996
     },
     {
       "name": "东森超视",
@@ -4315,13 +4345,13 @@
       "tvg_id": "东森超视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/东森超视.png",
       "key": "东森超视",
-      "latency_ms": 45,
-      "speed_kbps": 12748,
+      "latency_ms": 1174,
+      "speed_kbps": 3255,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1491.3514814921903
+      "score": 1387.6462372977303
     },
     {
       "name": "凤凰中文",
@@ -4331,13 +4361,13 @@
       "tvg_id": "凤凰中文",
       "logo": "https://www.xn--rgv465a.top/tvlogo/凤凰中文.png",
       "key": "凤凰中文",
-      "latency_ms": 253,
-      "speed_kbps": 56322,
+      "latency_ms": 226,
+      "speed_kbps": 83663,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1666.2770419968847
+      "score": 1684.5030984125342
     },
     {
       "name": "凤凰卫视",
@@ -4347,13 +4377,13 @@
       "tvg_id": "凤凰卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/凤凰卫视.png",
       "key": "凤凰卫视",
-      "latency_ms": 358,
-      "speed_kbps": 60317,
+      "latency_ms": 238,
+      "speed_kbps": 82062,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1665.0430252853087
+      "score": 1683.1868359469318
     },
     {
       "name": "凤凰资讯",
@@ -4363,29 +4393,29 @@
       "tvg_id": "凤凰资讯",
       "logo": "https://www.xn--rgv465a.top/tvlogo/凤凰资讯.png",
       "key": "凤凰资讯",
-      "latency_ms": 280,
-      "speed_kbps": 87313,
+      "latency_ms": 224,
+      "speed_kbps": 79354,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1684.171979208082
+      "score": 1682.2944948804652
     },
     {
       "name": "凤凰香港",
-      "url": "http://r.jdshipin.com/yDoTN",
+      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fhhk",
       "source": "Guovin/TV",
       "group": "🌊港·澳·台",
       "tvg_id": "凤凰香港",
       "logo": "https://www.xn--rgv465a.top/tvlogo/凤凰香港.png",
       "key": "凤凰香港",
-      "latency_ms": 229,
-      "speed_kbps": 58802,
+      "latency_ms": 235,
+      "speed_kbps": 75872,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1664.6967554638688
+      "score": 1679.9124335121796
     },
     {
       "name": "无线新闻",
@@ -4395,13 +4425,13 @@
       "tvg_id": "无线新闻台",
       "logo": "https://www.xn--rgv465a.top/tvlogo/无线新闻.png",
       "key": "无线新闻台",
-      "latency_ms": 292,
-      "speed_kbps": 47835,
+      "latency_ms": 230,
+      "speed_kbps": 35701,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1657.648082992211
+      "score": 1647.4843410336287
     },
     {
       "name": "明珠台",
@@ -4411,45 +4441,45 @@
       "tvg_id": "明珠台",
       "logo": "https://www.xn--rgv465a.top/tvlogo/明珠台.png",
       "key": "明珠台",
-      "latency_ms": 274,
-      "speed_kbps": 35465,
+      "latency_ms": 318,
+      "speed_kbps": 71084,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1641.0126771270407
+      "score": 1669.3851875478533
     },
     {
       "name": "纬来育乐",
-      "url": "https://live.catvod.com/live.php?id=videolandmax",
-      "source": "previous output",
+      "url": "https://live.catvod.com/live.php?id=videolandyule",
+      "source": "Guovin/TV",
       "group": "🌊港·澳·台",
       "tvg_id": "纬来育乐",
       "logo": "https://www.xn--rgv465a.top/tvlogo/纬来育乐.png",
       "key": "纬来育乐",
-      "latency_ms": 302,
-      "speed_kbps": 103835,
+      "latency_ms": 414,
+      "speed_kbps": 64864,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1690.7927124764733
+      "score": 1665.967946291726
     },
     {
       "name": "翡翠台",
-      "url": "http://r.jdshipin.com/qrfbg",
+      "url": "http://r.jdshipin.com/GeWKr",
       "source": "Guovin/TV",
       "group": "🌊港·澳·台",
       "tvg_id": "翡翠台",
       "logo": "https://www.xn--rgv465a.top/tvlogo/翡翠台.png",
       "key": "翡翠台",
-      "latency_ms": 230,
-      "speed_kbps": 114437,
+      "latency_ms": 215,
+      "speed_kbps": 82590,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1693.4752490235726
+      "score": 1671.226525057
     },
     {
       "name": "CHC动作电影",
@@ -4459,29 +4489,29 @@
       "tvg_id": "CHC动作电影",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CHC动作电影.png",
       "key": "CHC动作电影",
-      "latency_ms": 304,
-      "speed_kbps": 13826,
+      "latency_ms": 157,
+      "speed_kbps": 26680,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1603.447599965603
+      "score": 1637.7981664698775
     },
     {
       "name": "CHC家庭影院",
-      "url": "http://192.151.150.154/live/chcjt.m3u8",
-      "source": "previous output",
+      "url": "http://107.150.60.122/live/chcjt.m3u8",
+      "source": "Guovin/TV",
       "group": "🎬电影频道",
       "tvg_id": "CHC家庭影院",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CHC家庭影院.png",
       "key": "CHC家庭影院",
-      "latency_ms": 332,
-      "speed_kbps": 13848,
+      "latency_ms": 160,
+      "speed_kbps": 25924,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1602.3964139373868
+      "score": 1636.4340566492738
     },
     {
       "name": "NewTV动作电影",
@@ -4491,13 +4521,13 @@
       "tvg_id": "NewTV动作电影",
       "logo": "https://www.xn--rgv465a.top/tvlogo/NewTV动作电影.png",
       "key": "NEWTV动作电影",
-      "latency_ms": 259,
-      "speed_kbps": 46255,
+      "latency_ms": 260,
+      "speed_kbps": 69347,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1657.514364769782
+      "score": 1675.020410631099
     },
     {
       "name": "东森洋片",
@@ -4507,13 +4537,13 @@
       "tvg_id": "东森洋片",
       "logo": "https://www.xn--rgv465a.top/tvlogo/东森洋片.png",
       "key": "东森洋片",
-      "latency_ms": 254,
-      "speed_kbps": 19641,
+      "latency_ms": 468,
+      "speed_kbps": 65898,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1620.642136585678
+      "score": 1664.4924468801248
     },
     {
       "name": "无线星河",
@@ -4523,13 +4553,13 @@
       "tvg_id": "无线星河",
       "logo": "https://www.xn--rgv465a.top/tvlogo/无线星河.png",
       "key": "无线星河",
-      "latency_ms": 335,
-      "speed_kbps": 59735,
+      "latency_ms": 285,
+      "speed_kbps": 51266,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1308.052630687234
+      "score": 1304.5174063991713
     },
     {
       "name": "靖天戏剧",
@@ -4539,13 +4569,13 @@
       "tvg_id": "靖天戏剧",
       "logo": "https://www.xn--rgv465a.top/tvlogo/靖天戏剧.png",
       "key": "靖天戏剧",
-      "latency_ms": 443,
-      "speed_kbps": 120712,
+      "latency_ms": 184,
+      "speed_kbps": 181346,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1682.8604282555486
+      "score": 1710.8936672080629
     },
     {
       "name": "天元围棋",
@@ -4555,13 +4585,13 @@
       "tvg_id": "天元围棋",
       "logo": "https://www.xn--rgv465a.top/tvlogo/天元围棋.png",
       "key": "天元围棋",
-      "latency_ms": 317,
-      "speed_kbps": 13285,
+      "latency_ms": 161,
+      "speed_kbps": 26420,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1601.2000318777239
+      "score": 1637.214320471745
     },
     {
       "name": "天津体育",
@@ -4571,29 +4601,29 @@
       "tvg_id": "天津体育",
       "logo": "https://www.xn--rgv465a.top/tvlogo/天津体育.png",
       "key": "天津体育",
-      "latency_ms": 420,
-      "speed_kbps": 9943,
+      "latency_ms": 221,
+      "speed_kbps": 26118,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1469.3386784102067
+      "score": 1519.116739252991
     },
     {
       "name": "三国演义",
-      "url": "https://live.metshop.top/huya/11602081",
-      "source": "previous output",
+      "url": "https://live.ottiptv.cc/huya/11602081",
+      "source": "Guovin/TV",
       "group": "🏛经典剧场",
       "tvg_id": "三国演义",
       "logo": "https://www.xn--rgv465a.top/tvlogo/三国演义.png",
       "key": "三国演义",
-      "latency_ms": 476,
-      "speed_kbps": 19729,
+      "latency_ms": 471,
+      "speed_kbps": 37538,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1496.7556200121917
+      "score": 1524.815960065351
     },
     {
       "name": "仙剑奇侠传",
@@ -4603,13 +4633,13 @@
       "tvg_id": "仙剑奇侠传",
       "logo": "https://www.xn--rgv465a.top/tvlogo/仙剑奇侠传.png",
       "key": "仙剑奇侠传",
-      "latency_ms": 931,
-      "speed_kbps": 4936,
+      "latency_ms": 1047,
+      "speed_kbps": 4456,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1502.9515096255839
+      "score": 1494.0382862219553
     },
     {
       "name": "天龙八部",
@@ -4619,45 +4649,45 @@
       "tvg_id": "天龙八部",
       "logo": "https://www.xn--rgv465a.top/tvlogo/天龙八部.png",
       "key": "天龙八部",
-      "latency_ms": 444,
-      "speed_kbps": 18702,
+      "latency_ms": 556,
+      "speed_kbps": 32974,
       "width": 900,
       "height": 500,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1448.5618618667834
+      "score": 1468.6452737033137
     },
     {
       "name": "封神榜",
-      "url": "https://live.ottiptv.cc/huya/29465849",
+      "url": "https://live.metshop.top/huya/29465849",
       "source": "Guovin/TV",
       "group": "🏛经典剧场",
       "tvg_id": "封神榜",
       "logo": "https://www.xn--rgv465a.top/tvlogo/封神榜.png",
       "key": "封神榜",
-      "latency_ms": 466,
-      "speed_kbps": 18523,
+      "latency_ms": 487,
+      "speed_kbps": 35805,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1609.62561837006
+      "score": 1637.3302384884282
     },
     {
       "name": "射雕英雄传",
-      "url": "https://live.metshop.top/huya/23824164",
-      "source": "previous output",
+      "url": "https://live.ottiptv.cc/huya/23824164",
+      "source": "Guovin/TV",
       "group": "🏛经典剧场",
       "tvg_id": "射雕英雄传",
       "logo": "https://www.xn--rgv465a.top/tvlogo/射雕英雄传.png",
       "key": "射雕英雄传",
-      "latency_ms": 453,
-      "speed_kbps": 19532,
+      "latency_ms": 653,
+      "speed_kbps": 37185,
       "width": 1274,
       "height": 670,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1490.4392755355116
+      "score": 1510.3250296385766
     },
     {
       "name": "新白娘子传奇",
@@ -4667,13 +4697,13 @@
       "tvg_id": "新白娘子传奇",
       "logo": "https://www.xn--rgv465a.top/tvlogo/新白娘子传奇.png",
       "key": "新白娘子传奇",
-      "latency_ms": 937,
-      "speed_kbps": 4868,
+      "latency_ms": 816,
+      "speed_kbps": 4564,
       "width": 800,
       "height": 600,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1364.777544550575
+      "score": 1366.8845975518182
     },
     {
       "name": "水浒传",
@@ -4683,45 +4713,45 @@
       "tvg_id": "水浒传",
       "logo": "https://www.xn--rgv465a.top/tvlogo/水浒传.png",
       "key": "水浒传",
-      "latency_ms": 658,
-      "speed_kbps": 113376,
+      "latency_ms": 663,
+      "speed_kbps": 76867,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1680.3573861599373
+      "score": 1663.356337376466
     },
     {
       "name": "笑傲江湖",
-      "url": "https://live.metshop.top/huya/26355790",
-      "source": "previous output",
+      "url": "https://live.metshop.top/huya/23865142",
+      "source": "Guovin/TV",
       "group": "🏛经典剧场",
       "tvg_id": "笑傲江湖",
       "logo": "https://www.xn--rgv465a.top/tvlogo/笑傲江湖.png",
       "key": "笑傲江湖",
-      "latency_ms": 448,
-      "speed_kbps": 19371,
-      "width": 720,
-      "height": 540,
+      "latency_ms": 447,
+      "speed_kbps": 32867,
+      "width": 1920,
+      "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1443.8030380304428
+      "score": 1635.224599802304
     },
     {
       "name": "西游记",
-      "url": "https://live.ottiptv.cc/huya/26355861",
+      "url": "http://173.208.234.146/live/vlxyj.m3u8",
       "source": "Guovin/TV",
       "group": "🏛经典剧场",
       "tvg_id": "西游记",
-      "logo": "https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/西游记.png",
       "key": "西游记",
-      "latency_ms": 470,
-      "speed_kbps": 18571,
-      "width": 576,
-      "height": 432,
+      "latency_ms": 155,
+      "speed_kbps": 26393,
+      "width": 1920,
+      "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1427.1008301249767
+      "score": 1637.4100668567287
     },
     {
       "name": "闯关东",
@@ -4731,13 +4761,13 @@
       "tvg_id": "闯关东",
       "logo": "https://www.xn--rgv465a.top/tvlogo/闯关东.png",
       "key": "闯关东",
-      "latency_ms": 316,
-      "speed_kbps": 13364,
+      "latency_ms": 155,
+      "speed_kbps": 26703,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1601.4966416764366
+      "score": 1637.9154614753968
     },
     {
       "name": "世界地理",
@@ -4747,61 +4777,61 @@
       "tvg_id": "世界地理",
       "logo": "https://www.xn--rgv465a.top/tvlogo/世界地理.png",
       "key": "世界地理",
-      "latency_ms": 2078,
-      "speed_kbps": 63799,
+      "latency_ms": 983,
+      "speed_kbps": 167948,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1387.2183548806188
+      "score": 1473.8573719938315
     },
     {
       "name": "兵器科技",
       "url": "https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37dd776&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "💰央视付费频道",
       "tvg_id": "兵器科技",
       "logo": "https://www.xn--rgv465a.top/tvlogo/兵器科技.png",
       "key": "兵器科技",
-      "latency_ms": 213,
-      "speed_kbps": 115651,
+      "latency_ms": 161,
+      "speed_kbps": 90298,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1699.0172601070558
+      "score": 1690.406227493415
     },
     {
       "name": "央视台球",
-      "url": "http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub",
+      "url": "http://107.150.60.122/live/ystq.m3u8",
       "source": "Guovin/TV",
       "group": "💰央视付费频道",
       "tvg_id": "央视台球",
       "logo": "https://www.xn--rgv465a.top/tvlogo/央视台球.png",
       "key": "央视台球",
-      "latency_ms": 1054,
-      "speed_kbps": 13180,
+      "latency_ms": 161,
+      "speed_kbps": 26137,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1456.17659615325
+      "score": 1521.548213225225
     },
     {
       "name": "女性时尚",
-      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nxss",
-      "source": "previous output",
+      "url": "http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub",
+      "source": "Guovin/TV",
       "group": "💰央视付费频道",
       "tvg_id": "女性时尚",
       "logo": "https://www.xn--rgv465a.top/tvlogo/女性时尚.png",
       "key": "女性时尚",
-      "latency_ms": 415,
-      "speed_kbps": 13371,
+      "latency_ms": 204,
+      "speed_kbps": 25558,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1482.359306046402
+      "score": 1518.8586548221695
     },
     {
       "name": "怀旧剧场",
@@ -4811,13 +4841,13 @@
       "tvg_id": "怀旧剧场",
       "logo": "https://www.xn--rgv465a.top/tvlogo/怀旧剧场.png",
       "key": "怀旧剧场",
-      "latency_ms": 215,
-      "speed_kbps": 107415,
+      "latency_ms": 187,
+      "speed_kbps": 66671,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1695.7397920787312
+      "score": 1676.2371874630917
     },
     {
       "name": "文化精品",
@@ -4827,29 +4857,29 @@
       "tvg_id": "文化精品",
       "logo": "https://www.xn--rgv465a.top/tvlogo/文化精品.png",
       "key": "文化精品",
-      "latency_ms": 243,
-      "speed_kbps": 102388,
+      "latency_ms": 147,
+      "speed_kbps": 69328,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1692.5453270776668
+      "score": 1679.5285507258754
     },
     {
       "name": "第一剧场",
-      "url": "https://live.264788.xyz/channel/diyijuchang?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "url": "https://live.264788.xyz/channel/diyijuchang?streamid=e9b0fb1ca135a4aeae12944494883794&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
       "source": "Guovin/TV",
       "group": "💰央视付费频道",
       "tvg_id": "第一剧场",
       "logo": "https://www.xn--rgv465a.top/tvlogo/第一剧场.png",
       "key": "第一剧场",
-      "latency_ms": 133,
-      "speed_kbps": 104567,
+      "latency_ms": 197,
+      "speed_kbps": 82341,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1697.8567567120065
+      "score": 1684.9737355665798
     },
     {
       "name": "风云剧场",
@@ -4859,13 +4889,13 @@
       "tvg_id": "风云剧场",
       "logo": "https://www.xn--rgv465a.top/tvlogo/风云剧场.png",
       "key": "风云剧场",
-      "latency_ms": 156,
-      "speed_kbps": 119530,
+      "latency_ms": 172,
+      "speed_kbps": 63639,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1702.7251105576959
+      "score": 1674.8227414501284
     },
     {
       "name": "风云足球",
@@ -4875,29 +4905,29 @@
       "tvg_id": "风云足球",
       "logo": "https://www.xn--rgv465a.top/tvlogo/风云足球.png",
       "key": "风云足球",
-      "latency_ms": 425,
-      "speed_kbps": 13056,
+      "latency_ms": 210,
+      "speed_kbps": 26373,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1596.1274739155324
+      "score": 1635.177257204074
     },
     {
       "name": "风云音乐",
-      "url": "https://live.264788.xyz/channel/fengyunyinyue?streamid=1b41fb9153cba3ee19bd5d1b323da27e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-      "source": "previous output",
+      "url": "https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "source": "Guovin/TV",
       "group": "💰央视付费频道",
       "tvg_id": "风云音乐",
       "logo": "https://www.xn--rgv465a.top/tvlogo/风云音乐.png",
       "key": "风云音乐",
-      "latency_ms": 148,
-      "speed_kbps": 115490,
+      "latency_ms": 179,
+      "speed_kbps": 67836,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1701.556966016657
+      "score": 1677.3069395590162
     },
     {
       "name": "高尔夫网球",
@@ -4907,29 +4937,29 @@
       "tvg_id": "高尔夫网球",
       "logo": "https://www.xn--rgv465a.top/tvlogo/高尔夫网球.png",
       "key": "高尔夫网球",
-      "latency_ms": 571,
-      "speed_kbps": 13356,
+      "latency_ms": 519,
+      "speed_kbps": 28714,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1471.665438654669
+      "score": 1506.9120711315622
     },
     {
       "name": "三沙卫视",
       "url": "http://107.150.60.122/live/ssws.m3u8",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "📡卫视频道",
       "tvg_id": "三沙卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/三沙卫视.png",
       "key": "三沙卫视",
-      "latency_ms": 310,
-      "speed_kbps": 13777,
+      "latency_ms": 166,
+      "speed_kbps": 25747,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1603.0539381217613
+      "score": 1635.8975367200526
     },
     {
       "name": "东南卫视",
@@ -4939,45 +4969,45 @@
       "tvg_id": "东南卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/东南卫视.png",
       "key": "东南卫视",
-      "latency_ms": 313,
-      "speed_kbps": 13134,
+      "latency_ms": 150,
+      "speed_kbps": 25956,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1600.8652758534508
+      "score": 1636.8874486082132
     },
     {
       "name": "东方卫视",
-      "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8",
-      "source": "previous output",
+      "url": "http://107.150.60.122/live/dfwshd.m3u8",
+      "source": "Guovin/TV",
       "group": "📡卫视频道",
       "tvg_id": "东方卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/东方卫视.png",
       "key": "东方卫视",
-      "latency_ms": 97,
-      "speed_kbps": 108223,
-      "width": 1280,
-      "height": 720,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1581.1788557240668
-    },
-    {
-      "name": "云南卫视",
-      "url": "http://192.151.150.154/live/ynwshd.m3u8",
-      "source": "Guovin/TV",
-      "group": "📡卫视频道",
-      "tvg_id": "云南卫视",
-      "logo": "https://www.xn--rgv465a.top/tvlogo/云南卫视.png",
-      "key": "云南卫视",
-      "latency_ms": 315,
-      "speed_kbps": 13857,
+      "latency_ms": 154,
+      "speed_kbps": 28895,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1603.1045336034936
+      "score": 1641.3700025716082
+    },
+    {
+      "name": "云南卫视",
+      "url": "http://192.151.150.154/live/ynwshd.m3u8",
+      "source": "previous output",
+      "group": "📡卫视频道",
+      "tvg_id": "云南卫视",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/云南卫视.png",
+      "key": "云南卫视",
+      "latency_ms": 148,
+      "speed_kbps": 28884,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1641.5935229035886
     },
     {
       "name": "内蒙古卫视",
@@ -4987,29 +5017,29 @@
       "tvg_id": "内蒙古卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/内蒙古卫视.png",
       "key": "内蒙古卫视",
-      "latency_ms": 271,
-      "speed_kbps": 107484,
+      "latency_ms": 174,
+      "speed_kbps": 79503,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1693.5275854033841
+      "score": 1684.3756854949665
     },
     {
       "name": "北京卫视",
-      "url": "http://38.75.136.137:98/gslb/dsdqbv/bjwshd.m3u8?auth=test20251009",
-      "source": "previous output",
+      "url": "http://107.150.60.122/live/bjwshd.m3u8",
+      "source": "Guovin/TV",
       "group": "📡卫视频道",
       "tvg_id": "北京卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/北京卫视.png",
       "key": "北京卫视",
-      "latency_ms": 231,
-      "speed_kbps": 13032,
+      "latency_ms": 155,
+      "speed_kbps": 26270,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1603.8078403121533
+      "score": 1637.2078924883492
     },
     {
       "name": "吉林卫视",
@@ -5019,61 +5049,61 @@
       "tvg_id": "吉林卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/吉林卫视.png",
       "key": "吉林卫视",
-      "latency_ms": 307,
-      "speed_kbps": 13274,
+      "latency_ms": 166,
+      "speed_kbps": 26685,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1601.5641804231725
+      "score": 1637.4462768139895
     },
     {
       "name": "四川卫视",
       "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "📡卫视频道",
       "tvg_id": "四川卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/四川卫视.png",
       "key": "四川卫视",
-      "latency_ms": 179,
-      "speed_kbps": 112060,
+      "latency_ms": 142,
+      "speed_kbps": 64400,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1699.0120698199141
+      "score": 1676.5372271243994
     },
     {
       "name": "天津卫视",
-      "url": "http://107.150.60.122/live/tjwshd.m3u8",
-      "source": "previous output",
+      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjwshd",
+      "source": "Guovin/TV",
       "group": "📡卫视频道",
       "tvg_id": "天津卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/天津卫视.png",
       "key": "天津卫视",
-      "latency_ms": 304,
-      "speed_kbps": 13786,
+      "latency_ms": 222,
+      "speed_kbps": 25620,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1603.3222026557298
+      "score": 1633.4435207445895
     },
     {
       "name": "宁夏卫视",
-      "url": "https://live.264788.xyz/channel/ningxiaweishi?streamid=1b2952717a920173e66d4a348f9dcb5c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "url": "https://live.264788.xyz/channel/ningxiaweishi?streamid=551474d02bee1c160e1692e22c45ddba&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
       "source": "Guovin/TV",
       "group": "📡卫视频道",
       "tvg_id": "宁夏卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/宁夏卫视.png",
       "key": "宁夏卫视",
-      "latency_ms": 247,
-      "speed_kbps": 93697,
+      "latency_ms": 155,
+      "speed_kbps": 67388,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1688.5461707309278
+      "score": 1677.980157740824
     },
     {
       "name": "安徽卫视",
@@ -5083,29 +5113,29 @@
       "tvg_id": "安徽卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/安徽卫视.png",
       "key": "安徽卫视",
-      "latency_ms": 322,
-      "speed_kbps": 13366,
+      "latency_ms": 162,
+      "speed_kbps": 26404,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1601.2631184218626
+      "score": 1637.1481015697004
     },
     {
       "name": "山东卫视",
       "url": "http://107.150.60.122/live/sdwshd.m3u8",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "📡卫视频道",
       "tvg_id": "山东卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/山东卫视.png",
       "key": "山东卫视",
-      "latency_ms": 307,
-      "speed_kbps": 13312,
+      "latency_ms": 157,
+      "speed_kbps": 26588,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1601.6879052006204
+      "score": 1637.64866424445
     },
     {
       "name": "山西卫视",
@@ -5115,29 +5145,29 @@
       "tvg_id": "山西卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/山西卫视.png",
       "key": "山西卫视",
-      "latency_ms": 192,
-      "speed_kbps": 98518,
+      "latency_ms": 151,
+      "speed_kbps": 146650,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1692.9177052484495
+      "score": 1711.7945614536698
     },
     {
       "name": "广东卫视",
-      "url": "https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4",
+      "url": "http://107.150.60.122/live/gdwshd.m3u8",
       "source": "Guovin/TV",
       "group": "📡卫视频道",
       "tvg_id": "广东卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/广东卫视.png",
       "key": "广东卫视",
-      "latency_ms": 74,
-      "speed_kbps": 129979,
-      "width": 1280,
-      "height": 720,
+      "latency_ms": 160,
+      "speed_kbps": 26511,
+      "width": 1920,
+      "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1590.0269981566098
+      "score": 1637.4031391731505
     },
     {
       "name": "广西卫视",
@@ -5147,13 +5177,13 @@
       "tvg_id": "广西卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/广西卫视.png",
       "key": "广西卫视",
-      "latency_ms": 312,
-      "speed_kbps": 13381,
+      "latency_ms": 165,
+      "speed_kbps": 26376,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1601.711663143623
+      "score": 1636.982180237831
     },
     {
       "name": "新疆卫视",
@@ -5164,12 +5194,12 @@
       "logo": "https://www.xn--rgv465a.top/tvlogo/新疆卫视.png",
       "key": "新疆卫视",
       "latency_ms": 189,
-      "speed_kbps": 107441,
+      "speed_kbps": 70031,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1696.7902670213662
+      "score": 1678.2852171271252
     },
     {
       "name": "江苏卫视",
@@ -5179,13 +5209,13 @@
       "tvg_id": "江苏卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/江苏卫视.png",
       "key": "江苏卫视",
-      "latency_ms": 316,
-      "speed_kbps": 13013,
+      "latency_ms": 159,
+      "speed_kbps": 26263,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1600.3446929657
+      "score": 1637.0363581780919
     },
     {
       "name": "江西卫视",
@@ -5195,29 +5225,29 @@
       "tvg_id": "江西卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/江西卫视.png",
       "key": "江西卫视",
-      "latency_ms": 227,
-      "speed_kbps": 113722,
+      "latency_ms": 165,
+      "speed_kbps": 69407,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1697.7292691893922
+      "score": 1678.8578416418877
     },
     {
       "name": "河北卫视",
-      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hewshd",
-      "source": "previous output",
+      "url": "http://173.208.212.130:8181/720p/hews.m3u8",
+      "source": "Guovin/TV",
       "group": "📡卫视频道",
       "tvg_id": "河北卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/河北卫视.png",
       "key": "河北卫视",
-      "latency_ms": 432,
-      "speed_kbps": 13764,
+      "latency_ms": 157,
+      "speed_kbps": 3591,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1598.133078958497
+      "score": 1550.999133217659
     },
     {
       "name": "河南卫视",
@@ -5227,13 +5257,13 @@
       "tvg_id": "河南卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/河南卫视.png",
       "key": "河南卫视",
-      "latency_ms": 328,
-      "speed_kbps": 10975,
+      "latency_ms": 178,
+      "speed_kbps": 4042,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1592.4927132356902
+      "score": 1555.2796432791115
     },
     {
       "name": "浙江卫视",
@@ -5243,13 +5273,13 @@
       "tvg_id": "浙江卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/浙江卫视.png",
       "key": "浙江卫视",
-      "latency_ms": 310,
-      "speed_kbps": 13118,
+      "latency_ms": 155,
+      "speed_kbps": 25589,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1600.9325184478912
+      "score": 1636.0711195435536
     },
     {
       "name": "海南卫视",
@@ -5259,29 +5289,29 @@
       "tvg_id": "海南卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/海南卫视.png",
       "key": "海南卫视",
-      "latency_ms": 333,
-      "speed_kbps": 4860,
+      "latency_ms": 164,
+      "speed_kbps": 3941,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1552.6316452675699
+      "score": 1550.3584511995737
     },
     {
       "name": "深圳卫视",
       "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=szwshd",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "📡卫视频道",
       "tvg_id": "深圳卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/深圳卫视.png",
       "key": "深圳卫视",
-      "latency_ms": 423,
-      "speed_kbps": 12954,
+      "latency_ms": 209,
+      "speed_kbps": 28836,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1595.8680145186972
+      "score": 1639.08153810325
     },
     {
       "name": "湖北卫视",
@@ -5291,45 +5321,45 @@
       "tvg_id": "湖北卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/湖北卫视.png",
       "key": "湖北卫视",
-      "latency_ms": 411,
-      "speed_kbps": 13635,
+      "latency_ms": 206,
+      "speed_kbps": 26508,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1598.5655260504664
+      "score": 1635.5582412100123
     },
     {
       "name": "湖南卫视",
-      "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8",
+      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hnwshd",
       "source": "Guovin/TV",
       "group": "📡卫视频道",
       "tvg_id": "湖南卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/湖南卫视.png",
       "key": "湖南卫视",
-      "latency_ms": 115,
-      "speed_kbps": 132456,
+      "latency_ms": 210,
+      "speed_kbps": 26661,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1589.204037440161
+      "score": 1520.4473332943435
     },
     {
       "name": "甘肃卫视",
-      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gswshd",
-      "source": "previous output",
+      "url": "http://38.75.136.137:98/gslb/dsdqpub/gswshd.m3u8?auth=testpub",
+      "source": "Guovin/TV",
       "group": "📡卫视频道",
       "tvg_id": "甘肃卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/甘肃卫视.png",
       "key": "甘肃卫视",
-      "latency_ms": 417,
-      "speed_kbps": 12986,
+      "latency_ms": 198,
+      "speed_kbps": 25530,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1596.214798477203
+      "score": 1634.2512126065535
     },
     {
       "name": "西藏卫视",
@@ -5339,13 +5369,13 @@
       "tvg_id": "西藏卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/西藏卫视.png",
       "key": "西藏卫视",
-      "latency_ms": 193,
-      "speed_kbps": 97806,
+      "latency_ms": 155,
+      "speed_kbps": 68542,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1692.563774183696
+      "score": 1678.7150551484963
     },
     {
       "name": "贵州卫视",
@@ -5355,29 +5385,29 @@
       "tvg_id": "贵州卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/贵州卫视.png",
       "key": "贵州卫视",
-      "latency_ms": 200,
-      "speed_kbps": 122490,
+      "latency_ms": 174,
+      "speed_kbps": 72083,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1702.0238470913978
+      "score": 1680.1351781385424
     },
     {
       "name": "辽宁卫视",
       "url": "http://107.150.60.122/live/lnwshd.m3u8",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "📡卫视频道",
       "tvg_id": "辽宁卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/辽宁卫视.png",
       "key": "辽宁卫视",
-      "latency_ms": 319,
-      "speed_kbps": 13254,
-      "width": 1280,
-      "height": 720,
+      "latency_ms": 152,
+      "speed_kbps": 26773,
+      "width": 1920,
+      "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1485.8189197786805
+      "score": 1638.1487706726548
     },
     {
       "name": "重庆卫视",
@@ -5387,13 +5417,13 @@
       "tvg_id": "重庆卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/重庆卫视.png",
       "key": "重庆卫视",
-      "latency_ms": 313,
-      "speed_kbps": 13269,
+      "latency_ms": 162,
+      "speed_kbps": 25967,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1601.3078744849822
+      "score": 1636.4257868926197
     },
     {
       "name": "陕西卫视",
@@ -5403,45 +5433,29 @@
       "tvg_id": "陕西卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/陕西卫视.png",
       "key": "陕西卫视",
-      "latency_ms": 213,
-      "speed_kbps": 103233,
+      "latency_ms": 170,
+      "speed_kbps": 65937,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1694.101054607117
+      "score": 1676.4380539381457
     },
     {
       "name": "青海卫视",
       "url": "http://107.150.60.122/live/qhws.m3u8",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "📡卫视频道",
       "tvg_id": "青海卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/青海卫视.png",
       "key": "青海卫视",
-      "latency_ms": 310,
-      "speed_kbps": 12878,
+      "latency_ms": 153,
+      "speed_kbps": 29061,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1600.1333416955326
-    },
-    {
-      "name": "香港卫视",
-      "url": "https://stream1.freetv.fun/ae7eaf28d8610cdc1651ef6a1f7dbb24b49c5a87627d0d881330afaea37a1616.m3u8",
-      "source": "previous output",
-      "group": "📡卫视频道",
-      "tvg_id": "香港卫视",
-      "logo": "https://www.xn--rgv465a.top/tvlogo/香港卫视.png",
-      "key": "香港卫视",
-      "latency_ms": 667,
-      "speed_kbps": 6840,
-      "width": 1280,
-      "height": 720,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1421.2417002315237
+      "score": 1641.657936899408
     },
     {
       "name": "黑龙江卫视",
@@ -5451,77 +5465,77 @@
       "tvg_id": "黑龙江卫视",
       "logo": "https://www.xn--rgv465a.top/tvlogo/黑龙江卫视.png",
       "key": "黑龙江卫视",
-      "latency_ms": 315,
-      "speed_kbps": 13359,
+      "latency_ms": 152,
+      "speed_kbps": 28899,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1601.5204455713097
+      "score": 1641.455993622762
     },
     {
       "name": "CCTV-1",
-      "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009",
+      "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
       "source": "Guovin/TV",
       "group": "📺央视频道",
       "tvg_id": "CCTV-1",
-      "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-1.png",
+      "logo": "https://i.imgur.com/TpA3cUl.png",
       "key": "CCTV1",
-      "latency_ms": 227,
-      "speed_kbps": 13413,
+      "latency_ms": 150,
+      "speed_kbps": 25674,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1490.0150435943017
+      "score": 1521.2146490180587
     },
     {
       "name": "CCTV-10",
       "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv10hd.m3u8?auth=test20251009",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "📺央视频道",
       "tvg_id": "CCTV-10",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-10.png",
       "key": "CCTV10",
-      "latency_ms": 226,
-      "speed_kbps": 13184,
+      "latency_ms": 192,
+      "speed_kbps": 26351,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1489.3097294718843
+      "score": 1520.661137835959
     },
     {
       "name": "CCTV-11",
-      "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009",
+      "url": "http://74.91.26.218:82/live/cctv11hd.m3u8",
       "source": "Guovin/TV",
       "group": "📺央视频道",
       "tvg_id": "CCTV-11",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-11.png",
       "key": "CCTV11",
-      "latency_ms": 215,
-      "speed_kbps": 13741,
+      "latency_ms": 153,
+      "speed_kbps": 28919,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1491.540695042101
+      "score": 1526.2459364453796
     },
     {
       "name": "CCTV-12",
-      "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009",
+      "url": "http://107.150.60.122/live/cctv12hd.m3u8",
       "source": "Guovin/TV",
       "group": "📺央视频道",
       "tvg_id": "CCTV-12",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-12.png",
       "key": "CCTV12",
-      "latency_ms": 222,
-      "speed_kbps": 13851,
+      "latency_ms": 155,
+      "speed_kbps": 28798,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1491.6057891895032
+      "score": 1525.9844651051953
     },
     {
       "name": "CCTV-13",
@@ -5531,77 +5545,93 @@
       "tvg_id": "CCTV-13",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-13.png",
       "key": "CCTV13",
-      "latency_ms": 232,
-      "speed_kbps": 13189,
+      "latency_ms": 195,
+      "speed_kbps": 26193,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1489.0861405179335
+      "score": 1520.2808456958498
     },
     {
       "name": "CCTV-14",
-      "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009",
+      "url": "http://198.204.228.26/live/cctv14hd.m3u8",
       "source": "Guovin/TV",
       "group": "📺央视频道",
       "tvg_id": "CCTV-14",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-14.png",
       "key": "CCTV14",
-      "latency_ms": 226,
-      "speed_kbps": 13261,
+      "latency_ms": 160,
+      "speed_kbps": 26231,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1489.5617721992446
+      "score": 1521.7435907223514
     },
     {
       "name": "CCTV-15",
-      "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009",
+      "url": "http://74.91.26.218:82/live/cctv15hd.m3u8",
       "source": "Guovin/TV",
       "group": "📺央视频道",
       "tvg_id": "CCTV-15",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-15.png",
       "key": "CCTV15",
-      "latency_ms": 221,
-      "speed_kbps": 13393,
-      "width": 1280,
-      "height": 720,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1490.1904597559706
-    },
-    {
-      "name": "CCTV-16",
-      "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009",
-      "source": "Guovin/TV",
-      "group": "📺央视频道",
-      "tvg_id": "CCTV-16",
-      "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-16.png",
-      "key": "CCTV16",
-      "latency_ms": 222,
-      "speed_kbps": 11904,
-      "width": 1280,
-      "height": 720,
-      "basic_ok": true,
-      "video_ok": true,
-      "score": 1485.0494779896285
-    },
-    {
-      "name": "CCTV-17",
-      "url": "https://live.264788.xyz/channel/cctv17?streamid=348c8c0c04a6d2b900e5a3bcb4af8ce1&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-      "source": "previous output",
-      "group": "📺央视频道",
-      "tvg_id": "CCTV-17",
-      "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-17.png",
-      "key": "CCTV17",
-      "latency_ms": 243,
-      "speed_kbps": 114699,
+      "latency_ms": 153,
+      "speed_kbps": 26604,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1697.459512288867
+      "score": 1637.8347017553733
+    },
+    {
+      "name": "CCTV-16",
+      "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009",
+      "source": "previous output",
+      "group": "📺央视频道",
+      "tvg_id": "CCTV-16",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-16.png",
+      "key": "CCTV16",
+      "latency_ms": 199,
+      "speed_kbps": 26243,
+      "width": 1280,
+      "height": 720,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1520.2033860580902
+    },
+    {
+      "name": "CCTV-17",
+      "url": "https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "source": "Guovin/TV",
+      "group": "📺央视频道",
+      "tvg_id": "CCTV-17",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-17.png",
+      "key": "CCTV17",
+      "latency_ms": 155,
+      "speed_kbps": 78296,
+      "width": 1920,
+      "height": 1080,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1684.473564616332
+    },
+    {
+      "name": "CCTV-2",
+      "url": "http://192.151.150.154/live/cctv2hd.m3u8",
+      "source": "Guovin/TV",
+      "group": "📺央视频道",
+      "tvg_id": "CCTV-2",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-2.png",
+      "key": "CCTV2",
+      "latency_ms": 160,
+      "speed_kbps": 28503,
+      "width": 1280,
+      "height": 720,
+      "basic_ok": true,
+      "video_ok": true,
+      "score": 1525.3388196918343
     },
     {
       "name": "CCTV-3",
@@ -5611,13 +5641,13 @@
       "tvg_id": "CCTV-3",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-3.png",
       "key": "CCTV3",
-      "latency_ms": 335,
-      "speed_kbps": 13174,
+      "latency_ms": 150,
+      "speed_kbps": 26339,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1600.1168886999717
+      "score": 1637.5214236502047
     },
     {
       "name": "CCTV-4",
@@ -5627,29 +5657,29 @@
       "tvg_id": "CCTV-4",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-4.png",
       "key": "CCTV4",
-      "latency_ms": 318,
-      "speed_kbps": 13343,
+      "latency_ms": 156,
+      "speed_kbps": 26006,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1486.148577269122
+      "score": 1521.5307419082878
     },
     {
       "name": "CCTV-5",
       "url": "http://207.56.13.146:81/cdnlive/cctv5.m3u8",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "📺央视频道",
       "tvg_id": "CCTV-5",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-5.png",
       "key": "CCTV5",
-      "latency_ms": 604,
-      "speed_kbps": 12903,
+      "latency_ms": 558,
+      "speed_kbps": 25276,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1464.446708469137
+      "score": 1495.4465217772904
     },
     {
       "name": "CCTV-5+",
@@ -5659,109 +5689,109 @@
       "tvg_id": "CCTV-5+",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-5+.png",
       "key": "CCTV5+",
-      "latency_ms": 1032,
-      "speed_kbps": 10828,
+      "latency_ms": 195,
+      "speed_kbps": 26780,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1448.5490888228367
+      "score": 1521.2400852940696
     },
     {
       "name": "CCTV-6",
       "url": "http://69.30.245.50/live/cctv6.m3u8",
-      "source": "Guovin/TV",
+      "source": "previous output",
       "group": "📺央视频道",
       "tvg_id": "CCTV-6",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-6.png",
       "key": "CCTV6",
-      "latency_ms": 312,
-      "speed_kbps": 12952,
+      "latency_ms": 159,
+      "speed_kbps": 25931,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1485.1013317654647
+      "score": 1521.2857417697223
     },
     {
-      "name": "CCTV-7",
-      "url": "http://107.150.60.122/live/cctv7hd.m3u8",
-      "source": "previous output",
+      "name": "CCTV-8",
+      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv8k",
+      "source": "Guovin/TV",
       "group": "📺央视频道",
-      "tvg_id": "CCTV-7",
-      "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-7.png",
-      "key": "CCTV7",
-      "latency_ms": 315,
-      "speed_kbps": 13343,
+      "tvg_id": "CCTV-8",
+      "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-8.png",
+      "key": "CCTV8",
+      "latency_ms": 200,
+      "speed_kbps": 28959,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1601.4685772691219
+      "score": 1639.6257600165013
     },
     {
       "name": "CCTV-9",
-      "url": "http://192.151.150.154/live/cctv9hd.m3u8",
+      "url": "http://74.91.26.218:82/live/cctv9hd.m3u8",
       "source": "Guovin/TV",
       "group": "📺央视频道",
       "tvg_id": "CCTV-9",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-9.png",
       "key": "CCTV9",
-      "latency_ms": 310,
-      "speed_kbps": 13043,
+      "latency_ms": 157,
+      "speed_kbps": 26258,
       "width": 1280,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1485.484357235776
+      "score": 1521.9081175026747
     },
     {
       "name": "CETV-1",
-      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cetv1hd",
+      "url": "http://198.204.228.26/live/cetv1hd.m3u8",
       "source": "Guovin/TV",
       "group": "📺央视频道",
       "tvg_id": "CETV-1",
       "logo": "https://www.xn--rgv465a.top/tvlogo/CETV-1.png",
       "key": "CETV1",
-      "latency_ms": 422,
-      "speed_kbps": 13071,
+      "latency_ms": 159,
+      "speed_kbps": 26212,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1596.2971706154772
+      "score": 1636.9522295794238
     },
     {
       "name": "七龙珠",
-      "url": "https://live.ottiptv.cc/huya/11601966",
+      "url": "https://live.metshop.top/huya/11601966",
       "source": "Guovin/TV",
       "group": "🪁动画频道",
       "tvg_id": "七龙珠",
       "logo": "https://www.xn--rgv465a.top/tvlogo/七龙珠.png",
       "key": "七龙珠",
-      "latency_ms": 628,
-      "speed_kbps": 19408,
+      "latency_ms": 1031,
+      "speed_kbps": 37626,
       "width": 960,
       "height": 720,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1466.925628710003
+      "score": 1479.477304236714
     },
     {
       "name": "中华小当家",
-      "url": "https://live.metshop.top/huya/11342413",
+      "url": "https://live.ottiptv.cc/huya/11342413",
       "source": "Guovin/TV",
       "group": "🪁动画频道",
       "tvg_id": "中华小当家",
       "logo": "https://www.xn--rgv465a.top/tvlogo/中华小当家.png",
       "key": "中华小当家",
-      "latency_ms": 955,
-      "speed_kbps": 19587,
+      "latency_ms": 783,
+      "speed_kbps": 37135,
       "width": 640,
       "height": 432,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1412.770978461761
+      "score": 1447.356793823511
     },
     {
       "name": "海绵宝宝",
@@ -5771,13 +5801,13 @@
       "tvg_id": "海绵宝宝",
       "logo": "https://www.xn--rgv465a.top/tvlogo/海绵宝宝.png",
       "key": "海绵宝宝",
-      "latency_ms": 503,
-      "speed_kbps": 103938,
+      "latency_ms": 1023,
+      "speed_kbps": 77095,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1669.5797649696701
+      "score": 1635.926630650864
     },
     {
       "name": "漫画解说",
@@ -5787,29 +5817,29 @@
       "tvg_id": "漫画解说",
       "logo": "https://www.xn--rgv465a.top/tvlogo/漫画解说.png",
       "key": "漫画解说",
-      "latency_ms": 1277,
-      "speed_kbps": 4869,
+      "latency_ms": 1935,
+      "speed_kbps": 4588,
       "width": 1920,
       "height": 1080,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1369.577271531642
+      "score": 1341.3607183506501
     },
     {
       "name": "猫和老鼠",
-      "url": "https://live.ottiptv.cc/huya/11352879",
+      "url": "https://live.metshop.top/huya/11352879",
       "source": "Guovin/TV",
       "group": "🪁动画频道",
       "tvg_id": "猫和老鼠",
       "logo": "https://www.xn--rgv465a.top/tvlogo/猫和老鼠.png",
       "key": "猫和老鼠",
-      "latency_ms": 913,
-      "speed_kbps": 5653,
+      "latency_ms": 1785,
+      "speed_kbps": 10501,
       "width": 1024,
       "height": 576,
       "basic_ok": true,
       "video_ok": true,
-      "score": 1387.595856762438
+      "score": 1379.5576431882225
     }
   ]
 }
