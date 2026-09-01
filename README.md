@@ -14,6 +14,8 @@ https://raw.githubusercontent.com/liao-zc/aptv-live/main/APTV_ALL.m3u
 
 云端每小时更新一次。只有通过媒体分片、FFmpeg视频、速度、延迟和历史稳定性检查的频道才会显示；未达标频道会临时注释并继续复测。
 
+`config/regional_failures.json` 保存从国内本地网络检测到的超时地址。隔离记录有效期为7天，期间云端会跳过这些URL并尝试同频道的其他候选源。
+
 ## 维护说明
 
 ### 添加频道

@@ -226,12 +226,24 @@ def collect_candidates(config: dict) -> list[Candidate]:
             items.extend(parse_m3u(path.read_text(encoding="utf-8-sig", errors="replace"), source))
     items.extend(issue_candidates(timeout))
     assign_keys(items)
+    blocked_urls: set[str] = set()
+    regional = load_json(ROOT / "config" / "regional_failures.json", {})
+    try:
+        expires_at = dt.datetime.fromisoformat(regional.get("expires_at", ""))
+        if expires_at > dt.datetime.now(dt.timezone.utc):
+            blocked_urls = set(regional.get("urls", []))
+    except (TypeError, ValueError):
+        pass
+    if blocked_urls:
+        print(f"regional_blocked_urls={len(blocked_urls)} expires_at={regional.get('expires_at')}")
     unique: dict[str, Candidate] = {}
     priority = {"own registry": 100, "GitHub Issue": 95, "previous output": 90, "Guovin/TV": 80}
     for item in items:
         if not item.key or not re.match(r"^https?://", item.url, re.I):
             continue
         marker = item.url.split("|", 1)[0]
+        if marker in blocked_urls:
+            continue
         if marker not in unique or priority.get(item.source, 50) > priority.get(unique[marker].source, 50):
             unique[marker] = item
     print(f"candidates={len(unique)}")
