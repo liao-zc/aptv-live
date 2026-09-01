@@ -25,6 +25,8 @@ https://raw.githubusercontent.com/liao-zc/aptv-live/main/APTV_ALL.m3u
 https://example.com/live/index.m3u8
 ```
 
+`sources/` 目录中的所有 `.m3u` 文件都会作为长期候选库参与检测。历史备份频道保存在 `sources/legacy-20260817.m3u`；失效频道不会显示在播放器中，但会保留为注释并持续复测。
+
 ### 报告问题
 
 进入 **Issues → New issue → 报告失效或错误频道**，填写频道名称、直播地址、问题类型以及所在地区和网络运营商。

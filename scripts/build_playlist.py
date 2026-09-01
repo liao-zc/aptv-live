@@ -219,7 +219,9 @@ def collect_candidates(config: dict) -> list[Candidate]:
         futures = [pool.submit(fetch_feed, feed, timeout) for feed in config["feeds"]]
         for future in concurrent.futures.as_completed(futures):
             items.extend(future.result())
-    for path, source in [(ROOT / "sources" / "manual.m3u", "own registry"), (ROOT / "APTV_ALL.m3u", "previous output")]:
+    local_sources = [(path, "own registry") for path in sorted((ROOT / "sources").glob("*.m3u"))]
+    local_sources.append((ROOT / "APTV_ALL.m3u", "previous output"))
+    for path, source in local_sources:
         if path.exists():
             items.extend(parse_m3u(path.read_text(encoding="utf-8-sig", errors="replace"), source))
     items.extend(issue_candidates(timeout))
