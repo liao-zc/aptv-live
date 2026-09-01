@@ -298,6 +298,29 @@ def history_score(item: Candidate, history: dict) -> float:
     return reliability * 1000 + math.log2(max(item.speed_kbps, 1)) * 30 + resolution - item.latency_ms / 25
 
 
+def quality_ok(item: Candidate, config: dict, history: dict, require_video: bool = False) -> bool:
+    if not item.basic_ok:
+        return False
+    if item.speed_kbps < int(config["minimum_speed_kbps"]):
+        return False
+    if item.latency_ms > int(config["maximum_latency_ms"]):
+        return False
+    record = history.get(hashlib.sha256(item.url.encode()).hexdigest(), {})
+    good = int(record.get("successes", 0)); bad = int(record.get("failures", 0))
+    if good < int(config["minimum_prior_successes"]):
+        return False
+    samples = good + bad
+    if samples >= int(config["minimum_history_samples"]):
+        if good / samples < float(config["minimum_history_success_ratio"]):
+            return False
+    if require_video:
+        if not item.video_ok:
+            return False
+        if item.width < int(config["minimum_video_width"]) or item.height < int(config["minimum_video_height"]):
+            return False
+    return True
+
+
 def select_streams(items: list[Candidate], config: dict, history: dict) -> tuple[list[Candidate], list[Candidate]]:
     groups: dict[str, list[Candidate]] = {}
     source_priority = {"own registry": 5, "previous output": 4, "GitHub Issue": 3, "Guovin/TV": 2}
@@ -314,17 +337,18 @@ def select_streams(items: list[Candidate], config: dict, history: dict) -> tuple
         probed = list(pool.map(lambda x: basic_probe(x, timeout), capped))
     passing: dict[str, list[Candidate]] = {}
     for item in probed:
-        if item.basic_ok:
+        if quality_ok(item, config, history):
             item.score = history_score(item, history)
             passing.setdefault(item.key, []).append(item)
     for values in passing.values():
         values.sort(key=lambda x: x.score, reverse=True)
 
     def validate_group(values):
-        for candidate in values[:3]:
+        for candidate in values[:5]:
             ffprobe(candidate, timeout)
             # Re-read HLS and a media segment immediately before publishing.
-            if candidate.video_ok and basic_probe(candidate, timeout).basic_ok:
+            basic_probe(candidate, timeout)
+            if quality_ok(candidate, config, history, require_video=True):
                 candidate.score = history_score(candidate, history)
                 return candidate
         return None

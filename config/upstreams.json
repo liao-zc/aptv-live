@@ -38,6 +38,13 @@
   ],
   "request_timeout_seconds": 6,
   "max_candidates_per_channel": 8,
-  "minimum_output_channels": 150,
+  "minimum_output_channels": 50,
+  "minimum_speed_kbps": 1200,
+  "maximum_latency_ms": 2500,
+  "minimum_video_width": 640,
+  "minimum_video_height": 360,
+  "minimum_prior_successes": 1,
+  "minimum_history_samples": 3,
+  "minimum_history_success_ratio": 0.6,
   "history_retention_days": 30
 }
