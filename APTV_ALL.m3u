@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml.gz,https://assets.livednow.com/epg.xml"
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-1.png" group-title="📺央视频道",CCTV-1
-http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
+http://198.204.228.26/live/cctv1hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-2" tvg-name="CCTV-2" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-2.png" group-title="📺央视频道",CCTV-2
 http://107.150.60.122/live/cctv2hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-3" tvg-name="CCTV-3" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-3.png" group-title="📺央视频道",CCTV-3
@@ -10,7 +10,7 @@ http://207.56.13.146:81/cdnlive/cctv4.m3u8
 #EXTINF:-1 tvg-id="CCTV4Asia.cn@SD" tvg-name="CCTV-4 Asia (720p)" group-title="其他频道",CCTV-4 Asia (720p)
 http://74.91.26.218:82/live/cctv4hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-5" tvg-name="CCTV-5" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-5.png" group-title="📺央视频道",CCTV-5
-http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
+http://107.150.60.122/live/cctv5hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-5+" tvg-name="CCTV-5+" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-5+.png" group-title="📺央视频道",CCTV-5+
 http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
 #EXTINF:-1 tvg-id="CCTV-6" tvg-name="CCTV-6" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-6.png" group-title="📺央视频道",CCTV-6
@@ -20,27 +20,27 @@ http://74.91.26.218:82/live/cctv7hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-8" tvg-name="CCTV-8" tvg-logo="https://i.imgur.com/GyHaZ8X.png" group-title="📺央视频道",CCTV-8
 http://74.91.26.218:82/live/cctv8hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-9" tvg-name="CCTV-9" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-9.png" group-title="📺央视频道",CCTV-9
-http://74.91.26.218:82/live/cctv9hd.m3u8
+http://192.151.150.154/live/cctv9hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-10" tvg-name="CCTV-10" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-10.png" group-title="📺央视频道",CCTV-10
 http://38.75.136.137:98/gslb/dsdqbv/cctv10hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-id="CCTV-11" tvg-name="CCTV-11" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-11.png" group-title="📺央视频道",CCTV-11
-http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009
+http://74.91.26.218:82/live/cctv11hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-12" tvg-name="CCTV-12" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-12.png" group-title="📺央视频道",CCTV-12
-http://38.75.136.137:98/gslb/dsdqpub/cctv12hd.m3u8?auth=testpub
+http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-id="CCTV-13" tvg-name="CCTV-13" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-13.png" group-title="📺央视频道",CCTV-13
 http://38.75.136.137:98/gslb/dsdqbv/cctv13hd.m3u8?auth=test20251009
-#EXTINF:-1 tvg-id="CCTV-14" tvg-name="CCTV-14" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-14.png" group-title="📺央视频道",CCTV-14
-http://204.12.221.218:8181/3m1080p/cctv14.m3u8
+#EXTINF:-1 tvg-id="CCTV-14" tvg-name="CCTV-14" tvg-logo="https://i.imgur.com/c5SXW7i.png" group-title="📺央视频道",CCTV-14
+http://74.91.26.218:82/live/cctv14hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-15" tvg-name="CCTV-15" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-15.png" group-title="📺央视频道",CCTV-15
-http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009
+http://74.91.26.218:82/live/cctv15hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-16" tvg-name="CCTV-16" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-16.png" group-title="📺央视频道",CCTV-16
 http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-id="CCTV-17" tvg-name="CCTV-17" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-17.png" group-title="📺央视频道",CCTV-17
-https://live.264788.xyz/channel/cctv17?streamid=348c8c0c04a6d2b900e5a3bcb4af8ce1&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="CETV-1" tvg-name="CETV-1" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CETV-1.png" group-title="📺央视频道",CETV-1
 http://198.204.228.26/live/cetv1hd.m3u8
 #EXTINF:-1 tvg-id="CETV-3" tvg-name="CETV-3" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CETV-3.png" group-title="📺央视频道",CETV-3
-http://107.150.60.122/live/cetv3.m3u8
+http://198.204.228.26/live/cetv3.m3u8
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://live.fanmingming.cn/tv/CGTN.png" group-title="央视频道",CGTN
 https://0472.org/hls/cgtn.m3u8
 #EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://live.fanmingming.cn/tv/CGTN纪录.png" group-title="央视频道",CGTN纪录
@@ -54,7 +54,7 @@ http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="兵器科技" tvg-name="兵器科技" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兵器科技.png" group-title="💰央视付费频道",兵器科技
 https://live.264788.xyz/channel/bingqikeji?streamid=6fc55a0966bdad1e1cdf39a4d37dd776&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="央视台球" tvg-name="央视台球" tvg-logo="https://www.xn--rgv465a.top/tvlogo/央视台球.png" group-title="💰央视付费频道",央视台球
-http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
+http://107.150.60.122/live/ystq.m3u8
 #EXTINF:-1 tvg-id="女性时尚" tvg-name="女性时尚" tvg-logo="https://www.xn--rgv465a.top/tvlogo/女性时尚.png" group-title="💰央视付费频道",女性时尚
 http://38.75.136.137:98/gslb/dsdqpub/nxss.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="怀旧剧场" tvg-name="怀旧剧场" tvg-logo="https://www.xn--rgv465a.top/tvlogo/怀旧剧场.png" group-title="💰央视付费频道",怀旧剧场
@@ -76,77 +76,77 @@ http://207.56.13.146:81/cdnlive/gefwq.m3u8
 #EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三沙卫视.png" group-title="📡卫视频道",三沙卫视
 http://107.150.60.122/live/ssws.m3u8
 #EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东南卫视.png" group-title="📡卫视频道",东南卫视
-http://38.75.136.137:98/gslb/dsdqpub/dnwshd.m3u8?auth=testpub
+http://107.150.60.122/live/dnwshd.m3u8
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东方卫视.png" group-title="📡卫视频道",东方卫视
 http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/云南卫视.png" group-title="📡卫视频道",云南卫视
 http://192.151.150.154/live/ynwshd.m3u8
 #EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/内蒙古卫视.png" group-title="📡卫视频道",内蒙古卫视
-https://live.264788.xyz/channel/neimengguweishi?streamid=3e7340acf8869ac1c7dad1bb836dcd35&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/neimengguweishi?streamid=81a015dbecf3031d7d847b7a9b059f67&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/北京卫视.png" group-title="📡卫视频道",北京卫视
 http://38.75.136.137:98/gslb/dsdqbv/bjwshd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/厦门卫视.png" group-title="☘️福建频道",厦门卫视
-http://107.150.60.122/live/xmws.m3u8
+http://198.204.228.26/live/xmws.m3u8
 #EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/吉林卫视.png" group-title="📡卫视频道",吉林卫视
-http://38.75.136.137:98/gslb/dsdqpub/jlwshd.m3u8?auth=testpub
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jlwshd
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/四川卫视.png" group-title="📡卫视频道",四川卫视
-https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/大湾区卫视.png" group-title="☘️广东频道",大湾区卫视
-http://38.75.136.137:98/gslb/dsdqpub/nfws.m3u8?auth=testpub
+http://198.204.228.26/live/nfws.m3u8
 #EXTINF:-1 tvg-id="天津卫视" tvg-name="天津卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/天津卫视.png" group-title="📡卫视频道",天津卫视
-http://38.75.136.137:98/gslb/dsdqpub/tjwshd.m3u8?auth=testpub
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjwshd
 #EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宁夏卫视.png" group-title="📡卫视频道",宁夏卫视
 https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+#EXTINF:-1 tvg-id="安多卫视" tvg-name="安多卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/安多卫视.png" group-title="☘️青海频道",安多卫视
+https://liveout.xntv.tv/a65jur/96iln2.m3u8
 #EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/安徽卫视.png" group-title="📡卫视频道",安徽卫视
-http://107.150.60.122/live/ahwshd.m3u8
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ahwshd
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/山东卫视.png" group-title="📡卫视频道",山东卫视
 http://107.150.60.122/live/sdwshd.m3u8
 #EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/山西卫视.png" group-title="📡卫视频道",山西卫视
-https://live.264788.xyz/channel/shanxiweishi?streamid=69e002ac7467d661ff7ad0671ed43f16&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/shanxiweishi?streamid=eeb7d60ca6e0db131ea7a092a3cd28d2&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广东卫视.png" group-title="📡卫视频道",广东卫视
-http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdwshd
 #EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广西卫视.png" group-title="📡卫视频道",广西卫视
-http://38.75.136.137:98/gslb/dsdqpub/gxwshd.m3u8?auth=testpub
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gxwshd
 #EXTINF:-1 tvg-id="延边卫视" tvg-name="延边卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/延边卫视.png" group-title="☘️吉林频道",延边卫视
 https://srs.iyb983.cn/video/CYS/index.m3u8
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新疆卫视.png" group-title="📡卫视频道",新疆卫视
 https://live.264788.xyz/channel/xinjiangweishi?streamid=4f481f56ae39ce5d24203471de9df635&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/江苏卫视.png" group-title="📡卫视频道",江苏卫视
-http://107.150.60.122/live/jswshd.m3u8
+http://38.75.136.137:98/gslb/dsdqbv/jswshd.m3u8?auth=test20251009
 #EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/江西卫视.png" group-title="📡卫视频道",江西卫视
 https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/河北卫视.png" group-title="📡卫视频道",河北卫视
-http://38.75.136.137:98/gslb/dsdqpub/hewshd.m3u8?auth=testpub
+http://204.12.221.218:8181/3m1080p/hews.m3u8
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/河南卫视.png" group-title="📡卫视频道",河南卫视
 http://173.208.212.130:8181/720p/haws.m3u8
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江卫视.png" group-title="📡卫视频道",浙江卫视
-http://38.75.136.137:98/gslb/dsdqpub/zjwshd.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/海南卫视.png" group-title="📡卫视频道",海南卫视
-http://120.76.248.139/live/bfgd/4200000473.m3u8
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=zjwshd
 #EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/深圳卫视.png" group-title="📡卫视频道",深圳卫视
-http://38.75.136.137:98/gslb/dsdqpub/szwshd.m3u8?auth=testpub
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=szwshd
 #EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖北卫视.png" group-title="📡卫视频道",湖北卫视
-http://107.150.60.122/live/hbwshd.m3u8
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hbwshd
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖南卫视.png" group-title="📡卫视频道",湖南卫视
-http://107.150.60.122/live/hnwshd.m3u8
+http://74.91.26.218:82/live/hnwshd.m3u8
 #EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/甘肃卫视.png" group-title="📡卫视频道",甘肃卫视
 http://38.75.136.137:98/gslb/dsdqpub/gswshd.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="海峡卫视" tvg-name="福建海峡卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/福建海峡卫视.png" group-title="☘️福建频道",福建海峡卫视
-http://38.64.72.148:80/hls/modn/list/4009/playlist.m3u8
+http://38.64.72.148:80/hls/modn/list/4009/chunklist0.m3u8
 #EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/西藏卫视.png" group-title="📡卫视频道",西藏卫视
 https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/贵州卫视.png" group-title="📡卫视频道",贵州卫视
 https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/辽宁卫视.png" group-title="📡卫视频道",辽宁卫视
-http://38.75.136.137:98/gslb/dsdqpub/lnwshd.m3u8?auth=testpub
+http://198.204.228.26/live/lnwshd.m3u8
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/重庆卫视.png" group-title="📡卫视频道",重庆卫视
 http://107.150.60.122/live/cqwshd.m3u8
 #EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/陕西卫视.png" group-title="📡卫视频道",陕西卫视
 https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/青海卫视.png" group-title="📡卫视频道",青海卫视
-http://107.150.60.122/live/qhws.m3u8
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=qhws
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑龙江卫视.png" group-title="📡卫视频道",黑龙江卫视
-http://38.75.136.137:98/gslb/dsdqpub/hljwshd.m3u8?auth=testpub
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hljwshd
 #EXTINF:-1 tvg-id="CGNTVChinese.tw@SD" tvg-name="CGNTV Chinese (1080p)" group-title="其他频道",CGNTV Chinese (1080p)
 https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" group-title="香港频道",TVBS
@@ -155,8 +155,6 @@ http://38.64.72.148:80/hls/modn/list/4005/chunklist0.m3u8
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBS亚洲" tvg-name="TVBS亚洲" group-title="香港频道",TVBS亚洲
 http://38.64.72.148:80/hls/modn/list/4005/playlist.m3u8
-#EXTINF:-1 tvg-id="ViuTV" tvg-name="Viutv" tvg-logo="https://live.fanmingming.cn/tv/VIUTV.png" group-title="🌊港·澳·台",Viutv
-http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
 #EXTINF:-1 tvg-id="三立戲劇" tvg-name="三立戲劇" tvg-logo="https://epg.pw/media/images/channel/2023/07/21/large/20230721172523829915_30.png" group-title="台湾频道",三立戲劇
 http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1 tvg-id="东森洋片" tvg-name="东森洋片" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东森洋片.png" group-title="🎬电影频道",东森洋片
@@ -195,82 +193,62 @@ https://live.catvod.com/live.php?id=videolandmax
 http://r.jdshipin.com/GeWKr
 #EXTINF:-1 tvg-id="七台河新闻综合" tvg-name="七台河新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/七台河新闻综合.png" group-title="☘️黑龙江频道",七台河新闻综合
 http://live.qthnews.org.cn:1935/live/live1/800k/tzwj_video.m3u8
-#EXTINF:-1 tvg-id="上虞新闻综合" tvg-name="上虞新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上虞新闻综合.png" group-title="☘️浙江频道",上虞新闻综合
-http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-id="东阳影视生活" tvg-name="东阳影视生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东阳影视生活.png" group-title="☘️浙江频道",东阳影视生活
-http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 #EXTINF:-1 tvg-id="中国蓝新闻" tvg-name="中国蓝新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/中国蓝新闻.png" group-title="☘️浙江频道",中国蓝新闻
 http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
-#EXTINF:-1 tvg-id="之江纪录" tvg-name="之江纪录" group-title="地方频道",之江纪录
-https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 tvg-id="之江纪录" tvg-name="之江纪录" tvg-logo="https://www.xn--rgv465a.top/tvlogo/之江纪录.png" group-title="☘️浙江频道",之江纪录
+https://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8
 #EXTINF:-1 tvg-id="乐至综合" tvg-name="乐至综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/乐至综合.png" group-title="☘️四川频道",乐至综合
 http://175.155.106.72:89/live1/live1.m3u8?zsicd
-#EXTINF:-1 tvg-id="云和新闻综合" tvg-name="云和新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/云和新闻综合.png" group-title="☘️浙江频道",云和新闻综合
-http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8
 #EXTINF:-1 tvg-id="云霄综合" tvg-name="云霄综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/云霄综合.png" group-title="☘️福建频道",云霄综合
-http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian,
+http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian
 #EXTINF:-1 tvg-id="任丘综合" tvg-name="任丘综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/任丘综合.png" group-title="☘️河北频道",任丘综合
 https://jwcdnqx.hebyun.com.cn/live/rqtv1/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="伊犁哈萨克" tvg-name="伊犁哈萨克" tvg-logo="https://www.xn--rgv465a.top/tvlogo/伊犁哈萨克.png" group-title="☘️新疆频道",伊犁哈萨克
 http://110.153.180.106:55555/out_3/index.m3u8?zxinjd
-#EXTINF:-1 tvg-id="余姚新闻综合 (576p)" tvg-name="余姚新闻综合 (576p)" group-title="地方频道",余姚新闻综合 (576p)
-https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8
-#EXTINF:-1 tvg-id="余姚综合" tvg-name="余姚综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/余姚综合.png" group-title="☘️浙江频道",余姚综合
-http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?
-#EXTINF:-1 tvg-id="余杭未来E" tvg-name="余杭未来E" tvg-logo="https://www.xn--rgv465a.top/tvlogo/余杭未来E.png" group-title="☘️浙江频道",余杭未来E
-http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
-#EXTINF:-1 tvg-id="余杭综合" tvg-name="余杭综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/余杭综合.png" group-title="☘️浙江频道",余杭综合
-http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-id="杭州余杭综合" tvg-name="余杭综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/余杭综合.png" group-title="☘️浙江频道",余杭综合
-http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
-#EXTINF:-1 tvg-id="兰溪新闻综合" tvg-name="兰溪新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兰溪新闻综合.png" group-title="☘️浙江频道",兰溪新闻综合
-http://l.cztvcloud.com/channels/lantian/SXlanxi1/720p.m3u8
+#EXTINF:-1 tvg-id="伊犁经济法制" tvg-name="伊犁经济法制" tvg-logo="https://www.xn--rgv465a.top/tvlogo/伊犁经济法制.png" group-title="☘️新疆频道",伊犁经济法制
+http://110.153.180.106:55555/out_4/index.m3u8
+#EXTINF:-1 tvg-id="余姚新闻综合" tvg-name="余姚新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/余姚新闻综合.png" group-title="☘️浙江频道",余姚新闻综合
+http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?cWlkPSZzPTg3OWMwYmMyZDMzYTFhZGY3NDQxMjgyYTg1MmUzNTY0JmVzPTE3MDY2Nzc4NzMmdXVpZD0yMjdiY2MzNGNiNGY0MThlYjRiY2IxYzcwNmZjODNkMS02NzQ3NDY2NyZ2PTImYXM9MCZjZG5leF9pZD10eF9waG9uZV9saXZl
 #EXTINF:-1 tvg-id="兴隆综合" tvg-name="兴隆综合" group-title="地方频道",兴隆综合
 https://jwcdnqx.hebyun.com.cn/live/xlzh/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="农安新闻综合 [Geo-blocked]" tvg-name="农安新闻综合 [Geo-blocked]" group-title="地方频道",农安新闻综合 [Geo-blocked]
 https://stream2.jlntv.cn/naxw/sd/live.m3u8
+#EXTINF:-1 tvg-id="前郭综合 [Geo-blocked]" tvg-name="前郭综合 [Geo-blocked]" group-title="地方频道",前郭综合 [Geo-blocked]
+https://stream2.jlntv.cn/qg/sd/live.m3u8
 #EXTINF:-1 tvg-id="南京教科" tvg-name="南京教科" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南京教科.png" group-title="☘️江苏频道",南京教科
 http://nklive.nbs.cn/hls/75b3c462-b831-4de7-a34b-5d3221db2069/index.m3u8
+#EXTINF:-1 tvg-id="南宁都市生活" tvg-name="南宁都市生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁都市生活.png" group-title="☘️广西频道",南宁都市生活
+http://615bbf179ba53515dccad7b1da5d1ad9.livehwc3.cn/hls.nntv.cn/nnlive/WLSH_24.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2598844eaee8a4265e706fc14b3fc11d
 #EXTINF:-1 tvg-id="双鸭山综合" tvg-name="双鸭山综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/双鸭山综合.png" group-title="☘️黑龙江频道",双鸭山综合
 http://live.qthnews.org.cn:1935/live/live2/800k/tzwj_video.m3u8
+#EXTINF:-1 tvg-id="吉林市新闻综合 [Geo-blocked]" tvg-name="吉林市新闻综合 [Geo-blocked]" group-title="地方频道",吉林市新闻综合 [Geo-blocked]
+https://stream2.jlntv.cn/jilin1/sd/live.m3u8
+#EXTINF:-1 tvg-id="名山综合" tvg-name="名山综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/名山综合.png" group-title="☘️四川频道",名山综合
+https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8
+#EXTINF:-1 tvg-id="四平新闻综合 [Geo-blocked]" tvg-name="四平新闻综合 [Geo-blocked]" group-title="地方频道",四平新闻综合 [Geo-blocked]
+https://stream2.jlntv.cn/sptv/sd/live.m3u8
 #EXTINF:-1 tvg-id="太谷新闻综合" tvg-name="太谷新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/太谷新闻综合.png" group-title="☘️山西频道",太谷新闻综合
 https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0
-#EXTINF:-1 tvg-id="嵊泗综合" tvg-name="嵊泗综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嵊泗综合.png" group-title="☘️浙江频道",嵊泗综合
-http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-id="平湖民生休闲" tvg-name="平湖民生休闲" tvg-logo="https://www.xn--rgv465a.top/tvlogo/平湖民生休闲.png" group-title="☘️浙江频道",平湖民生休闲
-http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8
+#EXTINF:-1 tvg-id="山东教育" tvg-name="山东教育" tvg-logo="https://www.xn--rgv465a.top/tvlogo/山东教育.png" group-title="☘️山东频道",山东教育
+https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
 #EXTINF:-1 tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广东体育.png" group-title="☘️广东频道",广东体育
 http://38.75.136.137:98/gslb/dsdqpub/gdty.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="广东新闻" tvg-name="广东新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广东新闻.png" group-title="☘️广东频道",广东新闻
 http://38.75.136.137:98/gslb/dsdqpub/gdxw.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广东民生.png" group-title="☘️广东频道",广东民生
-http://38.75.136.137:98/gslb/dsdqpub/gdgg.m3u8?auth=testpub
+http://38.75.136.137:98/gslb/dsdqpub/gdgga.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="广东珠江" tvg-name="广东珠江" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广东珠江.png" group-title="☘️广东频道",广东珠江
 http://38.75.136.137:98/gslb/dsdqpub/gdzja.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="广安公共" tvg-name="广安公共" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广安公共.png" group-title="☘️四川频道",广安公共
 http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8?zsicd
 #EXTINF:-1 tvg-id="广州综合" tvg-name="广州综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广州综合.png" group-title="☘️广东频道",广州综合
-https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=439b0fd2cf766b363c93a59cbcbe1370&txTime=18d00acf488
+https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=f0147ae6453a80f5989f382368b72aad&txTime=18d00acf487
 #EXTINF:-1 tvg-id="广西国际" tvg-name="广西国际" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广西国际.png" group-title="☘️广西频道",广西国际
-http://198.204.228.26/live/gxgj.m3u8
+http://192.151.150.154/live/gxgj.m3u8
 #EXTINF:-1 tvg-id="广西新闻" tvg-name="广西新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/广西新闻.png" group-title="☘️广西频道",广西新闻
-http://38.75.136.137:98/gslb/dsdqpub/gxxw.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="庆元新闻综合" tvg-name="庆元新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/庆元新闻综合.png" group-title="☘️浙江频道",庆元新闻综合
-http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?fbl=
-#EXTINF:-1 tvg-id="庆元综合" tvg-name="庆元综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/庆元综合.png" group-title="☘️浙江频道",庆元综合
-http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?zzhed?
-#EXTINF:-1 tvg-id="开化国家公园" tvg-name="开化国家公园" tvg-logo="https://www.xn--rgv465a.top/tvlogo/开化国家公园.png" group-title="☘️浙江频道",开化国家公园
-http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8
-#EXTINF:-1 tvg-id="开化新闻综合" tvg-name="开化新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/开化新闻综合.png" group-title="☘️浙江频道",开化新闻综合
-http://l.cztvcloud.com/channels/lantian/SXkaihua1/720p.m3u8?zzhed
+http://107.150.60.122/live/gxxw.m3u8
 #EXTINF:-1 tvg-id="数码时代" tvg-name="数码时代" tvg-logo="https://www.xn--rgv465a.top/tvlogo/数码时代.png" group-title="☘️浙江频道",数码时代
 http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8?zzhed
-#EXTINF:-1 tvg-id="文成新闻综合" tvg-name="文成新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/文成新闻综合.png" group-title="☘️浙江频道",文成新闻综合
-http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8
-#EXTINF:-1 tvg-id="文成综合" tvg-name="文成综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/文成综合.png" group-title="☘️浙江频道",文成综合
-http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8?zzhed?
-#EXTINF:-1 tvg-id="新昌生活" tvg-name="新昌生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新昌生活.png" group-title="☘️浙江频道",新昌生活
-http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 #EXTINF:-1 tvg-id="新沂新闻" tvg-name="新沂新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新沂新闻.png" group-title="☘️江苏频道",新沂新闻
 http://live.xysrmt.cn/xwzh/sd/live.m3u8?zjiangsd"
 #EXTINF:-1 tvg-id="新沂生活" tvg-name="新沂生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新沂生活.png" group-title="☘️江苏频道",新沂生活
@@ -281,24 +259,22 @@ http://live.spccmc.com:90/live/spxwzh.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%
 https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="易门综合" tvg-name="易门综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/易门综合.png" group-title="☘️云南频道",易门综合
 https://zb-live.ynurl.com/yimen/3b75a2f9-7941-46b7-992d-a9796fbca5fe.m3u8
-#EXTINF:-1 tvg-id="普陀电视台" tvg-name="普陀电视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/普陀电视台.png" group-title="☘️浙江频道",普陀电视台
-https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
-#EXTINF:-1 tvg-id="普陀新闻综合" tvg-name="普陀新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/普陀新闻综合.png" group-title="☘️浙江频道",普陀新闻综合
-http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
-#EXTINF:-1 tvg-id="松阳综合" tvg-name="松阳综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/松阳综合.png" group-title="☘️浙江频道",松阳综合
-http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8
+#EXTINF:-1 tvg-id="松原新闻综合 [Geo-blocked]" tvg-name="松原新闻综合 [Geo-blocked]" group-title="地方频道",松原新闻综合 [Geo-blocked]
+https://stream2.jlntv.cn/sytv/sd/live.m3u8
+#EXTINF:-1 tvg-id="松潘新闻综合" tvg-name="松潘新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/松潘新闻综合.png" group-title="☘️四川频道",松潘新闻综合
+http://live.spccmc.com:90/live/spxwzh.m3u8?zsicd
 #EXTINF:-1 tvg-id="梨园" tvg-name="梨园" tvg-logo="https://www.xn--rgv465a.top/tvlogo/梨园.png" group-title="☘️河南频道",梨园
 https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=41543190cdf375f1c73207222bb96542&wsTime=1769313549
-#EXTINF:-1 tvg-id="武义新闻综合" tvg-name="武义新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武义新闻综合.png" group-title="☘️浙江频道",武义新闻综合
-http://l.cztvcloud.com/channels/lantian/SXwuyi1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-id="武进新闻 (576p)" tvg-name="武进新闻 (576p)" group-title="地方频道",武进新闻 (576p)
 https://live.wjyanghu.com/live/CH1.m3u8
+#EXTINF:-1 tvg-id="江津新闻综合 (480p)" tvg-name="江津新闻综合 (480p)" group-title="地方频道",江津新闻综合 (480p)
+http://222.179.155.21:1935/ch1.m3u8
 #EXTINF:-1 tvg-id="汶川新闻综合" tvg-name="汶川新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/汶川新闻综合.png" group-title="☘️四川频道",汶川新闻综合
-http://live.iwcmt.cn:90/live/zhxw.m3u8
+http://live.iwcmt.cn:90/live/zhxw.m3u8?zsicd
+#EXTINF:-1 tvg-id="沐川综合" tvg-name="沐川综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/沐川综合.png" group-title="☘️四川频道",沐川综合
+http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd
 #EXTINF:-1 tvg-id="泸县新闻综合" tvg-name="泸县新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/泸县新闻综合.png" group-title="☘️四川频道",泸县新闻综合
 https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8
-#EXTINF:-1 tvg-id="洞头综合" tvg-name="洞头综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/洞头综合.png" group-title="☘️浙江频道",洞头综合
-http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8?zzhed?
 #EXTINF:-1 tvg-id="浙江休闲台" tvg-name="浙江休闲台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江休闲台.png" group-title="☘️浙江频道",浙江休闲台
 http://ali-m-l.cztv.com/channels/lantian/channel006/720p.m3u8
 #EXTINF:-1 tvg-id="浙江公共新闻" tvg-name="浙江公共新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江公共新闻.png" group-title="☘️浙江频道",浙江公共新闻
@@ -325,10 +301,10 @@ https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8
 #EXTINF:-1 tvg-id="浙江经视" tvg-name="浙江经视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江经视.png" group-title="☘️浙江频道",浙江经视
 http://ali-m-l.cztv.com/channels/lantian/channel003/720p.m3u8
-#EXTINF:-1 tvg-id="浙江钱江都市" tvg-name="浙江钱江" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江钱江.png" group-title="☘️浙江频道",浙江钱江
-https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8?
 #EXTINF:-1 tvg-id="浙江钱江" tvg-name="浙江钱江" group-title="地方频道",浙江钱江
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+#EXTINF:-1 tvg-id="浙江钱江都市" tvg-name="浙江钱江都市" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江钱江都市.png" group-title="☘️浙江频道",浙江钱江都市
+http://ali-xwl.cztv.com/live/channel021080Plxw.m3u8
 #EXTINF:-1 tvg-id="海宁新闻综合" tvg-name="海宁新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/海宁新闻综合.png" group-title="☘️浙江频道",海宁新闻综合
 https://p2hs.vzan.com/slowlive/317913155078575177/live.m3u8
 #EXTINF:-1 tvg-id="湖州公共民生" tvg-name="湖州公共民生" tvg-logo="https://www.xn--rgv465a.top/tvlogo/湖州公共民生.png" group-title="☘️浙江频道",湖州公共民生
@@ -341,6 +317,8 @@ http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b473
 http://jwplay.hebyun.com.cn/live/LPTV001/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="白城新闻综合 [Geo-blocked]" tvg-name="白城新闻综合 [Geo-blocked]" group-title="地方频道",白城新闻综合 [Geo-blocked]
 https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
+#EXTINF:-1 tvg-id="福州广播电视台新闻综合频道 (FZTV-1) (1080p)" tvg-name="福州广播电视台新闻综合频道 (FZTV-1) (1080p)" group-title="地方频道",福州广播电视台新闻综合频道 (FZTV-1) (1080p)
+http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 #EXTINF:-1 tvg-id="福州广播电视台都市生活频道 (FZTV-3) (1080p)" tvg-name="福州广播电视台都市生活频道 (FZTV-3) (1080p)" group-title="地方频道",福州广播电视台都市生活频道 (FZTV-3) (1080p)
 http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 #EXTINF:-1 tvg-id="FZTV3" tvg-name="福州生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/福州生活.png" group-title="☘️福建频道",福州生活
@@ -348,11 +326,7 @@ http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
 #EXTINF:-1 tvg-id="福建公共" tvg-name="福建公共" tvg-logo="https://www.xn--rgv465a.top/tvlogo/福建公共.png" group-title="☘️福建频道",福建公共
 https://live.264788.xyz/channel/fujianxiangcungonggong?streamid=1cf7fc3a8f6d160c33b43c2f9507a0cc&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="福建旅游" tvg-name="福建旅游" tvg-logo="https://www.xn--rgv465a.top/tvlogo/福建旅游.png" group-title="☘️福建频道",福建旅游
-https://live.264788.xyz/channel/fujianlvyou?streamid=221239fcf3c7edb274f2f0760fe47f96&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-#EXTINF:-1 tvg-id="缙云新闻综合" tvg-name="缙云新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/缙云新闻综合.png" group-title="☘️浙江频道",缙云新闻综合
-http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8
-#EXTINF:-1 tvg-id="缙云综合" tvg-name="缙云综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/缙云综合.png" group-title="☘️浙江频道",缙云综合
-http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed?
+https://live.264788.xyz/channel/fujianlvyou?streamid=fc58882de71ce4575b66002f2475226b&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="苏州文化生活" tvg-name="苏州文化生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/苏州文化生活.png" group-title="☘️江苏频道",苏州文化生活
 https://live-auth.51kandianshi.com/szgd/csztv3.m3u8
 #EXTINF:-1 tvg-id="苏州新闻综合" tvg-name="苏州新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/苏州新闻综合.png" group-title="☘️江苏频道",苏州新闻综合
@@ -363,16 +337,16 @@ https://live-auth.51kandianshi.com/szgd/csztv5.m3u8
 https://live-auth.51kandianshi.com/szgd/csztv2.m3u8
 #EXTINF:-1 tvg-id="荆门新闻综合" tvg-name="荆门新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/荆门新闻综合.png" group-title="☘️湖北频道",荆门新闻综合
 http://stream.jmtv.com.cn/xwzh/sd/live.m3u8
-#EXTINF:-1 tvg-id="荣昌综合 (404p)" tvg-name="荣昌综合 (404p)" group-title="地方频道",荣昌综合 (404p)
-http://183.64.181.25:40023/rongchang01.m3u8
-#EXTINF:-1 tvg-id="萧山生活" tvg-name="萧山生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/萧山生活.png" group-title="☘️浙江频道",萧山生活
-http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
-#EXTINF:-1 tvg-id="诸暨新闻综合" tvg-name="诸暨新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/诸暨新闻综合.png" group-title="☘️浙江频道",诸暨新闻综合
-http://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8?zzhed
-#EXTINF:-1 tvg-id="象山新闻综合" tvg-name="象山新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/象山新闻综合.png" group-title="☘️浙江频道",象山新闻综合
-http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8
-#EXTINF:-1 tvg-id="遂昌综合" tvg-name="遂昌综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/遂昌综合.png" group-title="☘️浙江频道",遂昌综合
-http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="营山电视台" tvg-name="营山电视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/营山电视台.png" group-title="☘️四川频道",营山电视台
+http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8
+#EXTINF:-1 tvg-id="西宁新闻综合" tvg-name="西宁新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/西宁新闻综合.png" group-title="☘️青海频道",西宁新闻综合
+https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd
+#EXTINF:-1 tvg-id="辽源新闻综合 [Geo-blocked]" tvg-name="辽源新闻综合 [Geo-blocked]" group-title="地方频道",辽源新闻综合 [Geo-blocked]
+https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8
+#EXTINF:-1 tvg-id="通化新闻 [Geo-blocked]" tvg-name="通化新闻 [Geo-blocked]" group-title="地方频道",通化新闻 [Geo-blocked]
+https://stream2.jlntv.cn/tonghua1/sd/live.m3u8
+#EXTINF:-1 tvg-id="通海电视台" tvg-name="通海电视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/通海电视台.png" group-title="☘️云南频道",通海电视台
+https://zb-live.ynurl.com/tonghai/3bfe3a9e-48e6-4c1e-8770-1df66447cc6c.m3u8
 #EXTINF:-1 tvg-id="邢台综合" tvg-name="邢台综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邢台综合.png" group-title="☘️河北频道",邢台综合
 http://jwplay.hebyun.com.cn/live/xtsrmtzs/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="邢台新闻综合" tvg-name="邢台综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邢台综合.png" group-title="☘️河北频道",邢台综合
@@ -391,14 +365,8 @@ http://zjtv-wshls.homecdn.com/live/2aa16.m3u8
 https://stream2.jlntv.cn/jlcc/sd/live.m3u8
 #EXTINF:-1 tvg-id="青川综合" tvg-name="青川综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/青川综合.png" group-title="☘️四川频道",青川综合
 http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8
-#EXTINF:-1 tvg-id="青田电视台" tvg-name="青田电视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/青田电视台.png" group-title="☘️浙江频道",青田电视台
-http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
-#EXTINF:-1 tvg-id="黄山新闻综合" tvg-name="黄山新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黄山新闻综合.png" group-title="☘️安徽频道",黄山新闻综合
-http://hslive.hsnewsnet.com/lsdream/hve9Wjs/1000/live.m3u8?zanhd
-#EXTINF:-1 tvg-id="龙游新闻综合" tvg-name="龙游新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/龙游新闻综合.png" group-title="☘️浙江频道",龙游新闻综合
-http://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8?zzhed
-#EXTINF:-1 tvg-id="龙游生活娱乐" tvg-name="龙游生活娱乐" tvg-logo="https://www.xn--rgv465a.top/tvlogo/龙游生活娱乐.png" group-title="☘️浙江频道",龙游生活娱乐
-http://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8?zzhed
+#EXTINF:-1 tvg-id="靖江新闻綜合 (480p)" tvg-name="靖江新闻綜合 (480p)" group-title="地方频道",靖江新闻綜合 (480p)
+http://visit.jjbctv.com:1935/live/xwzhmb/playlist.m3u8
 #EXTINF:-1 tvg-id="adella13" tvg-name="adella13" tvg-logo="https://img.strpst.com/thumbs/1724137906/82660038_webp" group-title="Stripchat",adella13
 https://edge-hls.doppiocdn.com/hls/82660038/master/82660038.m3u8
 #EXTINF:-1 tvg-id="Afriqueena" tvg-name="Afriqueena" tvg-logo="https://img.strpst.com/thumbs/1724137923/16756373_webp" group-title="Stripchat",Afriqueena
@@ -419,18 +387,14 @@ https://edge-hls.doppiocdn.com/hls/152733635/master/152733635.m3u8
 https://edge-hls.doppiocdn.com/hls/121086378/master/121086378.m3u8
 #EXTINF:-1 tvg-id="ashleyro1" tvg-name="ashleyro1" tvg-logo="https://img.strpst.com/thumbs/1724137757/115603108_webp" group-title="Stripchat",ashleyro1
 https://edge-hls.doppiocdn.com/hls/115603108/master/115603108.m3u8
-#EXTINF:-1 tvg-id="Asian" tvg-name="Asian" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="成人频道",Asian
-http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="Asian2021" tvg-name="Asian2021" tvg-logo="https://img.strpst.com/thumbs/1724137692/46540334_webp" group-title="Stripchat",Asian2021
 https://edge-hls.doppiocdn.com/hls/46540334/master/46540334.m3u8
-#EXTINF:-1 tvg-id="babykitty-" tvg-name="babykitty-" tvg-logo="https://img.strpst.com/thumbs/1724137685/125533131_webp" group-title="Stripchat",babykitty-
-https://edge-hls.doppiocdn.com/hls/125533131/master/125533131.m3u8
 #EXTINF:-1 tvg-id="Batari" tvg-name="Batari" tvg-logo="https://img.strpst.com/thumbs/1724137918/48721496_webp" group-title="Stripchat",Batari
 https://edge-hls.doppiocdn.com/hls/48721496/master/48721496.m3u8
-#EXTINF:-1 tvg-id="BeataBabe" tvg-name="BeataBabe" tvg-logo="https://img.strpst.com/thumbs/1724137737/70302604_webp" group-title="Stripchat",BeataBabe
-https://edge-hls.doppiocdn.com/hls/70302604/master/70302604.m3u8
 #EXTINF:-1 tvg-id="Big Ass" tvg-name="Big Ass" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="成人频道",Big Ass
 http://cdn.adultiptv.net/bigass.m3u8
+#EXTINF:-1 tvg-id="BigBoGcup" tvg-name="BigBoGcup" tvg-logo="https://img.strpst.com/thumbs/1724137878/56269980_webp" group-title="Stripchat",BigBoGcup
+https://edge-hls.doppiocdn.com/hls/56269980/master/56269980.m3u8
 #EXTINF:-1 tvg-id="Big Dick" tvg-name="Big Dick" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="成人频道",Big Dick
 http://cdn.adultiptv.net/bigdick.m3u8
 #EXTINF:-1 tvg-id="Big_SlutNasty" tvg-name="Big_SlutNasty" tvg-logo="https://img.strpst.com/thumbs/1724137860/154314790_webp" group-title="Stripchat",Big_SlutNasty
@@ -485,6 +449,8 @@ http://cdn.adultiptv.net/cuckold.m3u8
 https://edge-hls.doppiocdn.com/hls/74883753/master/74883753.m3u8
 #EXTINF:-1 tvg-id="dark_enchantress_" tvg-name="dark_enchantress_" tvg-logo="https://img.strpst.com/thumbs/1724137906/81687184_webp" group-title="Stripchat",dark_enchantress_
 https://edge-hls.doppiocdn.com/hls/81687184/master/81687184.m3u8
+#EXTINF:-1 tvg-id="Demongirl6666" tvg-name="Demongirl6666" tvg-logo="https://img.strpst.com/thumbs/1724137823/152531734_webp" group-title="Stripchat",Demongirl6666
+https://edge-hls.doppiocdn.com/hls/152531734/master/152531734.m3u8
 #EXTINF:-1 tvg-id="Diana_49" tvg-name="Diana_49" tvg-logo="https://img.strpst.com/thumbs/1724137913/64846233_webp" group-title="Stripchat",Diana_49
 https://edge-hls.doppiocdn.com/hls/64846233/master/64846233.m3u8
 #EXTINF:-1 tvg-id="DiscoveringChina.cn@SD" tvg-name="Discovering China (1080p)" group-title="其他频道",Discovering China (1080p)
@@ -499,6 +465,8 @@ https://edge-hls.doppiocdn.com/hls/134099700/master/134099700.m3u8
 https://edge-hls.doppiocdn.com/hls/136782474/master/136782474.m3u8
 #EXTINF:-1 tvg-id="EmmersonRae1" tvg-name="EmmersonRae1" tvg-logo="https://img.strpst.com/thumbs/1724137914/61104033_webp" group-title="Stripchat",EmmersonRae1
 https://edge-hls.doppiocdn.com/hls/61104033/master/61104033.m3u8
+#EXTINF:-1 tvg-id="erlyn_misha" tvg-name="erlyn_misha" tvg-logo="https://img.strpst.com/thumbs/1724137869/146053225_webp" group-title="Stripchat",erlyn_misha
+https://edge-hls.doppiocdn.com/hls/146053225/master/146053225.m3u8
 #EXTINF:-1 tvg-id="evamila" tvg-name="evamila" tvg-logo="https://img.strpst.com/thumbs/1724137807/82106967_webp" group-title="Stripchat",evamila
 https://edge-hls.doppiocdn.com/hls/82106967/master/82106967.m3u8
 #EXTINF:-1 tvg-id="Eva_vagner" tvg-name="Eva_vagner" tvg-logo="https://img.strpst.com/thumbs/1724137793/151922035_webp" group-title="Stripchat",Eva_vagner
@@ -513,9 +481,7 @@ http://cdn.adultiptv.net/gangbang.m3u8
 https://edge-hls.doppiocdn.com/hls/79361357/master/79361357.m3u8
 #EXTINF:-1 tvg-id="Girlnina-1995" tvg-name="Girlnina-1995" tvg-logo="https://img.strpst.com/thumbs/1724137804/75132059_webp" group-title="Stripchat",Girlnina-1995
 https://edge-hls.doppiocdn.com/hls/75132059/master/75132059.m3u8
-#EXTINF:-1 tvg-id="GirlsTattooed" tvg-name="GirlsTattooed" tvg-logo="https://img.strpst.com/thumbs/1724137788/114016172_webp" group-title="Stripchat",GirlsTattooed
-https://edge-hls.doppiocdn.com/hls/114016172/master/114016172.m3u8
-#EXTINF:-1 tvg-id="GuangxiVarietyTravelChannel.cn@SD" tvg-name="Guangxi Variety &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Travel Channel" group-title="其他频道",Guangxi Variety &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Travel Channel
+#EXTINF:-1 tvg-id="GuangxiVarietyTravelChannel.cn@SD" tvg-name="Guangxi Variety &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Travel Channel" group-title="其他频道",Guangxi Variety &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Travel Channel
 http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="HaileyMadow" tvg-name="HaileyMadow" tvg-logo="https://img.strpst.com/thumbs/1724137727/117187856_webp" group-title="Stripchat",HaileyMadow
 https://edge-hls.doppiocdn.com/hls/117187856/master/117187856.m3u8
@@ -535,7 +501,7 @@ https://edge-hls.doppiocdn.com/hls/127118585/master/127118585.m3u8
 http://cdn.adultiptv.net/interracial.m3u8
 #EXTINF:-1 tvg-id="_in_yan" tvg-name="_in_yan" tvg-logo="https://img.strpst.com/thumbs/1724137791/59113609_webp" group-title="Stripchat",_in_yan
 https://edge-hls.doppiocdn.com/hls/59113609/master/59113609.m3u8
-#EXTINF:-1 tvg-id="JiangsuPublicNewsChannel.cn@SD" tvg-name="Jiangsu Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; News Channel" group-title="其他频道",Jiangsu Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; News Channel
+#EXTINF:-1 tvg-id="JiangsuPublicNewsChannel.cn@SD" tvg-name="Jiangsu Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; News Channel" group-title="其他频道",Jiangsu Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; News Channel
 https://jiangning-tv-playing-t.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
 #EXTINF:-1 tvg-id="kagomme" tvg-name="kagomme" tvg-logo="https://img.strpst.com/thumbs/1724137862/56230033_webp" group-title="Stripchat",kagomme
 https://edge-hls.doppiocdn.com/hls/56230033/master/56230033.m3u8
@@ -543,8 +509,6 @@ https://edge-hls.doppiocdn.com/hls/56230033/master/56230033.m3u8
 https://edge-hls.doppiocdn.com/hls/133045844/master/133045844.m3u8
 #EXTINF:-1 tvg-id="KangbaTV.cn@SD" tvg-name="Kangba TV" group-title="其他频道",Kangba TV
 http://110.185.237.164:8888/hls/30/index.m3u8
-#EXTINF:-1 tvg-id="kattyytaylor" tvg-name="kattyytaylor" tvg-logo="https://img.strpst.com/thumbs/1724137826/64200277_webp" group-title="Stripchat",kattyytaylor
-https://edge-hls.doppiocdn.com/hls/64200277/master/64200277.m3u8
 #EXTINF:-1 tvg-id="KiraAltman" tvg-name="KiraAltman" tvg-logo="https://img.strpst.com/thumbs/1724137794/116060235_webp" group-title="Stripchat",KiraAltman
 https://edge-hls.doppiocdn.com/hls/116060235/master/116060235.m3u8
 #EXTINF:-1 tvg-id="Kisasolo" tvg-name="Kisasolo" tvg-logo="https://img.strpst.com/thumbs/1724137783/95102032_webp" group-title="Stripchat",Kisasolo
@@ -565,8 +529,6 @@ https://edge-hls.doppiocdn.com/hls/91959608/master/91959608.m3u8
 https://edge-hls.doppiocdn.com/hls/123746003/master/123746003.m3u8
 #EXTINF:-1 tvg-id="mayaa2u" tvg-name="mayaa2u" tvg-logo="https://img.strpst.com/thumbs/1724137698/155703437_webp" group-title="Stripchat",mayaa2u
 https://edge-hls.doppiocdn.com/hls/155703437/master/155703437.m3u8
-#EXTINF:-1 tvg-id="MelissaMoore_" tvg-name="MelissaMoore_" tvg-logo="https://img.strpst.com/thumbs/1724137916/55800293_webp" group-title="Stripchat",MelissaMoore_
-https://edge-hls.doppiocdn.com/hls/55800293/master/55800293.m3u8
 #EXTINF:-1 tvg-id="Meow_Nancy" tvg-name="Meow_Nancy" tvg-logo="https://img.strpst.com/thumbs/1724137787/124705513_webp" group-title="Stripchat",Meow_Nancy
 https://edge-hls.doppiocdn.com/hls/124705513/master/124705513.m3u8
 #EXTINF:-1 tvg-id="MILF" tvg-name="MILF" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="成人频道",MILF
@@ -575,6 +537,8 @@ http://cdn.adultiptv.net/milf.m3u8
 https://edge-hls.doppiocdn.com/hls/65373768/master/65373768.m3u8
 #EXTINF:-1 tvg-id="miss_eylens" tvg-name="miss_eylens" tvg-logo="https://img.strpst.com/thumbs/1724137809/114986834_webp" group-title="Stripchat",miss_eylens
 https://edge-hls.doppiocdn.com/hls/114986834/master/114986834.m3u8
+#EXTINF:-1 tvg-id="NeiMonggolTV2MongolianCultureChannel.cn@SD" tvg-name="Nei Monggol TV 2 Mongolian Culture Channel (1080i) [Not 24/7]" group-title="其他频道",Nei Monggol TV 2 Mongolian Culture Channel (1080i) [Not 24/7]
+http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
 #EXTINF:-1 tvg-id="NethuQueen" tvg-name="NethuQueen" tvg-logo="https://img.strpst.com/thumbs/1724137702/153992756_webp" group-title="Stripchat",NethuQueen
 https://edge-hls.doppiocdn.com/hls/153992756/master/153992756.m3u8
 #EXTINF:-1 tvg-id="NewTV动作电影" tvg-name="NewTV动作电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/NewTV动作电影.png" group-title="🎬电影频道",NewTV动作电影
@@ -589,8 +553,6 @@ http://cdn.adultiptv.net/pornstar.m3u8
 http://cdn.adultiptv.net/pov.m3u8
 #EXTINF:-1 tvg-id="pretty_maja" tvg-name="pretty_maja" tvg-logo="https://img.strpst.com/thumbs/1724137894/153434145_webp" group-title="Stripchat",pretty_maja
 https://edge-hls.doppiocdn.com/hls/153434145/master/153434145.m3u8
-#EXTINF:-1 tvg-id="QinghaiTV.cn@SD" tvg-name="Qinghai TV" group-title="其他频道",Qinghai TV
-https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 #EXTINF:-1 tvg-id="RagazzaBella" tvg-name="RagazzaBella" tvg-logo="https://img.strpst.com/thumbs/1724137729/95921957_webp" group-title="Stripchat",RagazzaBella
 https://edge-hls.doppiocdn.com/hls/95921957/master/95921957.m3u8
 #EXTINF:-1 tvg-id="Rough" tvg-name="Rough" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="成人频道",Rough
@@ -601,8 +563,8 @@ http://cdn.adultiptv.net/russian.m3u8
 https://edge-hls.doppiocdn.com/hls/51165337/master/51165337.m3u8
 #EXTINF:-1 tvg-id="Saly-18" tvg-name="Saly-18" tvg-logo="https://img.strpst.com/thumbs/1724137698/141047531_webp" group-title="Stripchat",Saly-18
 https://edge-hls.doppiocdn.com/hls/141047531/master/141047531.m3u8
-#EXTINF:-1 tvg-id="simyhvn" tvg-name="simyhvn" tvg-logo="https://img.strpst.com/thumbs/1724137916/56012723_webp" group-title="Stripchat",simyhvn
-https://edge-hls.doppiocdn.com/hls/56012723/master/56012723.m3u8
+#EXTINF:-1 tvg-id="shaira4u" tvg-name="shaira4u" tvg-logo="https://img.strpst.com/thumbs/1724137703/88339810_webp" group-title="Stripchat",shaira4u
+https://edge-hls.doppiocdn.com/hls/88339810/master/88339810.m3u8
 #EXTINF:-1 tvg-id="SipingTV.cn@SD" tvg-name="Siping TV" group-title="其他频道",Siping TV
 http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 #EXTINF:-1 tvg-id="sophialinn" tvg-name="sophialinn" tvg-logo="https://img.strpst.com/thumbs/1724137921/26153769_webp" group-title="Stripchat",sophialinn
@@ -611,8 +573,8 @@ https://edge-hls.doppiocdn.com/hls/26153769/master/26153769.m3u8
 https://edge-hls.doppiocdn.com/hls/29813296/master/29813296.m3u8
 #EXTINF:-1 tvg-id="sweetangel41" tvg-name="sweetangel41" tvg-logo="https://img.strpst.com/thumbs/1724137858/150738677_webp" group-title="Stripchat",sweetangel41
 https://edge-hls.doppiocdn.com/hls/150738677/master/150738677.m3u8
-#EXTINF:-1 tvg-id="Sweet_Bear" tvg-name="Sweet_Bear" tvg-logo="https://img.strpst.com/thumbs/1724137826/139050377_webp" group-title="Stripchat",Sweet_Bear
-https://edge-hls.doppiocdn.com/hls/139050377/master/139050377.m3u8
+#EXTINF:-1 tvg-id="Sweetblackgal3" tvg-name="Sweetblackgal3" tvg-logo="https://img.strpst.com/thumbs/1724137895/119468377_webp" group-title="Stripchat",Sweetblackgal3
+https://edge-hls.doppiocdn.com/hls/119468377/master/119468377.m3u8
 #EXTINF:-1 tvg-id="Talla_a" tvg-name="Talla_a" tvg-logo="https://img.strpst.com/thumbs/1724137903/89173168_webp" group-title="Stripchat",Talla_a
 https://edge-hls.doppiocdn.com/hls/89173168/master/89173168.m3u8
 #EXTINF:-1 tvg-id="Teen" tvg-name="Teen" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="成人频道",Teen
@@ -639,8 +601,6 @@ https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 http://204.12.221.218:8181/3m1080p/gztywq.m3u8
 #EXTINF:-1 tvg-id="天津体育" tvg-name="天津体育" tvg-logo="https://www.xn--rgv465a.top/tvlogo/天津体育.png" group-title="🏀体育频道",天津体育
 http://38.75.136.137:98/gslb/dsdqpub/tjtv5.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="TVB星河" tvg-name="无线星河" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/TVB星河.png" group-title="🎬电影频道",无线星河
-http://r.jdshipin.com/sXuuD
 #EXTINF:-1 tvg-id="水浒传" tvg-name="水浒传" tvg-logo="https://www.xn--rgv465a.top/tvlogo/水浒传.png" group-title="🏛经典剧场",水浒传
 http://173.208.234.146/live/vlshz.m3u8
 #EXTINF:-1 tvg-id="海绵宝宝" tvg-name="海绵宝宝" tvg-logo="https://www.xn--rgv465a.top/tvlogo/海绵宝宝.png" group-title="🪁动画频道",海绵宝宝
@@ -717,9 +677,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 #DISABLED-EXTINF:-1 tvg-id="B33" tvg-name="宁夏卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Ningxia.png" group-title="卫视频道",宁夏卫视
 #DISABLED-URL:http://video.qd.sdu.edu.cn/liverespath/eefad27700cf7ea30b4f5145f0b8d466a27c1478/index.m3u8
 # APTV-DISABLED channel="安多卫视" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="安多卫视" tvg-name="安多卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/安多卫视.png" group-title="☘️青海频道",安多卫视
-#DISABLED-URL:https://liveout.xntv.tv/a65jur/90p2i1.m3u8?zqing
-# APTV-DISABLED channel="安多卫视" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="B35" tvg-name="安多卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Anduo.png" group-title="卫视频道",安多卫视
 #DISABLED-URL:http://stream.qhbtv.com/adws/sd/live.m3u8
 # APTV-DISABLED channel="康巴卫视" reason="no currently playable candidate"
@@ -737,6 +694,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="星空卫视" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="星空卫视" tvg-name="星空卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/星空卫视.png" group-title="🎬电影频道",星空卫视
 #DISABLED-URL:https://stream1.freetv.fun/xing-kong-wei-shi-12.m3u8
+# APTV-DISABLED channel="海南卫视" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/海南卫视.png" group-title="📡卫视频道",海南卫视
+#DISABLED-URL:http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 # APTV-DISABLED channel="西藏卫视" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="B30" tvg-name="西藏卫视" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/Xizang.png" group-title="卫视频道",西藏卫视
 #DISABLED-URL:http://video.qd.sdu.edu.cn/liverespath/223db5dc75cab2536cbebcda8e6730ff6bf58309/index.m3u8
@@ -788,6 +748,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="TVBS欢乐台" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="TVBS欢乐台" tvg-name="TVBS欢乐台" group-title="香港频道",TVBS欢乐台
 #DISABLED-URL:http://37.27.111.214:8080/live/24/hls.m3u8
+# APTV-DISABLED channel="Viutv" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="ViuTV" tvg-name="Viutv" tvg-logo="https://live.fanmingming.cn/tv/VIUTV.png" group-title="🌊港·澳·台",Viutv
+#DISABLED-URL:http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
 # APTV-DISABLED channel="三立台湾" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="三立台湾台" tvg-name="三立台湾" tvg-logo="https://www.xn--rgv465a.top/tvlogo/三立台湾.png" group-title="🌊港·澳·台",三立台湾
 #DISABLED-URL:https://hls-gateway.vpstv.net/streams/477050.m3u8
@@ -992,6 +955,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="上虞新商都" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="上虞新商都" tvg-name="上虞新商都" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上虞新商都.png" group-title="☘️浙江频道",上虞新商都
 #DISABLED-URL:https://stream1.freetv.fun/shang-yu-xin-shang-du-4.m3u8
+# APTV-DISABLED channel="上虞新闻综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="上虞新闻综合" tvg-name="上虞新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/上虞新闻综合.png" group-title="☘️浙江频道",上虞新闻综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed
 # APTV-DISABLED channel="上虞經濟文化 (720p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="上虞經濟文化 (720p)" tvg-name="上虞經濟文化 (720p)" group-title="地方频道",上虞經濟文化 (720p)
 #DISABLED-URL:https://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
@@ -1019,6 +985,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="东至新闻综合 (720p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="东至新闻综合 (720p)" tvg-name="东至新闻综合 (720p)" group-title="地方频道",东至新闻综合 (720p)
 #DISABLED-URL:http://223.247.33.124:1935/live/zonghe/playlist.m3u8
+# APTV-DISABLED channel="东阳影视生活" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="东阳影视生活" tvg-name="东阳影视生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/东阳影视生活.png" group-title="☘️浙江频道",东阳影视生活
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 # APTV-DISABLED channel="中国交通 (576p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="中国交通 (576p)" tvg-name="中国交通 (576p)" group-title="地方频道",中国交通 (576p)
 #DISABLED-URL:http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227027/index.m3u8
@@ -1070,6 +1039,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="云南都市" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="云南都市" tvg-name="云南都市" tvg-logo="https://www.xn--rgv465a.top/tvlogo/云南都市.png" group-title="☘️云南频道",云南都市
 #DISABLED-URL:https://hwapi.yntv.net/62hdvf/rjwt14.m3u8
+# APTV-DISABLED channel="云和新闻综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="云和新闻综合" tvg-name="云和新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/云和新闻综合.png" group-title="☘️浙江频道",云和新闻综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8?zzhed
 # APTV-DISABLED channel="五星体育 (720p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="五星体育 (720p)" tvg-name="五星体育 (720p)" group-title="地方频道",五星体育 (720p)
 #DISABLED-URL:http://223.110.245.147/ott.js.chinamobile.com/PLTV/3/224/3221226799/index.m3u8
@@ -1103,9 +1075,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="任丘文娱" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="任丘文娱" tvg-name="任丘文娱" group-title="地方频道",任丘文娱
 #DISABLED-URL:https://jwcdnqx.hebyun.com.cn/live/rqtv2/1500k/tzwj_video.m3u8
-# APTV-DISABLED channel="伊犁经济法制" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="伊犁经济法制" tvg-name="伊犁经济法制" tvg-logo="https://www.xn--rgv465a.top/tvlogo/伊犁经济法制.png" group-title="☘️新疆频道",伊犁经济法制
-#DISABLED-URL:http://110.153.180.106:55555/out_4/index.m3u8
 # APTV-DISABLED channel="伊犁维吾尔" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="伊犁维吾尔" tvg-name="伊犁维吾尔" tvg-logo="https://www.xn--rgv465a.top/tvlogo/伊犁维吾尔.png" group-title="☘️新疆频道",伊犁维吾尔
 #DISABLED-URL:http://110.153.180.106:55555/out_2/index.m3u8
@@ -1118,6 +1087,18 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="余姚姚江文化 (576p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="余姚姚江文化 (576p)" tvg-name="余姚姚江文化 (576p)" group-title="地方频道",余姚姚江文化 (576p)
 #DISABLED-URL:https://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
+# APTV-DISABLED channel="余姚综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="余姚综合" tvg-name="余姚综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/余姚综合.png" group-title="☘️浙江频道",余姚综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?zzhed
+# APTV-DISABLED channel="余杭未来E" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="余杭未来E" tvg-name="余杭未来E" tvg-logo="https://www.xn--rgv465a.top/tvlogo/余杭未来E.png" group-title="☘️浙江频道",余杭未来E
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8?zzhed
+# APTV-DISABLED channel="余杭综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="余杭综合" tvg-name="余杭综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/余杭综合.png" group-title="☘️浙江频道",余杭综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8?zzhed
+# APTV-DISABLED channel="余杭综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="杭州余杭综合" tvg-name="余杭综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/余杭综合.png" group-title="☘️浙江频道",余杭综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
 # APTV-DISABLED channel="佛山综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="佛山综合" tvg-name="佛山综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/佛山综合.png" group-title="☘️广东频道",佛山综合
 #DISABLED-URL:https://stream1.freetv.fun/fo-shan-zong-he-7.ctv
@@ -1139,6 +1120,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="六安新闻综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="六安新闻综合" tvg-name="六安新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/六安新闻综合.png" group-title="☘️安徽频道",六安新闻综合
 #DISABLED-URL:http://ls.qingting.fm/live/267.m3u8
+# APTV-DISABLED channel="兰溪新闻综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="兰溪新闻综合" tvg-name="兰溪新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兰溪新闻综合.png" group-title="☘️浙江频道",兰溪新闻综合
+#DISABLED-URL:https://stream1.freetv.fun/lan-xi-xin-wen-zong-he-1.m3u8
 # APTV-DISABLED channel="兰考新闻" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="兰考新闻" tvg-name="兰考新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/兰考新闻.png" group-title="☘️河南频道",兰考新闻
 #DISABLED-URL:http://tvpull.dxhmt.cn:9081/tv/10225-1.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
@@ -1178,9 +1162,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="利川新闻综合 (480p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="利川新闻综合 (480p)" tvg-name="利川新闻综合 (480p)" group-title="地方频道",利川新闻综合 (480p)
 #DISABLED-URL:http://uni6rtmp.tulix.tv:1935/vbstv/vbsabr.smil/chunklist_w439903609_b1228800.m3u8
-# APTV-DISABLED channel="前郭综合 [Geo-blocked]" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="前郭综合 [Geo-blocked]" tvg-name="前郭综合 [Geo-blocked]" group-title="地方频道",前郭综合 [Geo-blocked]
-#DISABLED-URL:https://stream2.jlntv.cn/qg/sd/live.m3u8
 # APTV-DISABLED channel="剑阁综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="剑阁综合" tvg-name="剑阁综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/剑阁综合.png" group-title="☘️四川频道",剑阁综合
 #DISABLED-URL:https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8
@@ -1256,9 +1237,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="南宁新闻综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="南宁新闻综合" tvg-name="南宁新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁新闻综合.png" group-title="☘️广西频道",南宁新闻综合
 #DISABLED-URL:https://stream1.freetv.fun/nan-zhu-xin-wen-zong-he-3.m3u8
-# APTV-DISABLED channel="南宁都市生活" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="南宁都市生活" tvg-name="南宁都市生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/南宁都市生活.png" group-title="☘️广西频道",南宁都市生活
-#DISABLED-URL:http://615bbf179ba53515dccad7b1da5d1ad9.livehwc3.cn/hls.nntv.cn/nnlive/WLSH_24.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=2598844eaee8a4265e706fc14b3fc11d
 # APTV-DISABLED channel="南川新闻综合 (360p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="南川新闻综合 (360p)" tvg-name="南川新闻综合 (360p)" group-title="地方频道",南川新闻综合 (360p)
 #DISABLED-URL:http://221.5.213.4:30000/1111.m3u8
@@ -1307,12 +1285,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="吉林乡村 (900p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="吉林乡村 (900p)" tvg-name="吉林乡村 (900p)" group-title="地方频道",吉林乡村 (900p)
 #DISABLED-URL:https://stream1.jlntv.cn/xcpd/sd/live.m3u8
-# APTV-DISABLED channel="吉林市新闻综合 [Geo-blocked]" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="吉林市新闻综合 [Geo-blocked]" tvg-name="吉林市新闻综合 [Geo-blocked]" group-title="地方频道",吉林市新闻综合 [Geo-blocked]
-#DISABLED-URL:https://stream2.jlntv.cn/jilin1/sd/live.m3u8
-# APTV-DISABLED channel="名山综合" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="名山综合" tvg-name="名山综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/名山综合.png" group-title="☘️四川频道",名山综合
-#DISABLED-URL:https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8
 # APTV-DISABLED channel="吴江新闻综合 (720p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="吴江新闻综合 (720p)" tvg-name="吴江新闻综合 (720p)" group-title="地方频道",吴江新闻综合 (720p)
 #DISABLED-URL:http://30515.hlsplay.aodianyun.com/lms_30515/tv_channel_239.m3u8
@@ -1373,9 +1345,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="四川 Ⅰ 达州综合台 (720p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="四川 Ⅰ 达州综合台 (720p)" tvg-name="四川 Ⅰ 达州综合台 (720p)" group-title="地方频道",四川 Ⅰ 达州综合台 (720p)
 #DISABLED-URL:http://m3u8.channellive.dzxw.net/cms/videos/nmip-media/channellive/channel35/playlist.m3u8
-# APTV-DISABLED channel="四平新闻综合 [Geo-blocked]" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="四平新闻综合 [Geo-blocked]" tvg-name="四平新闻综合 [Geo-blocked]" group-title="地方频道",四平新闻综合 [Geo-blocked]
-#DISABLED-URL:https://stream2.jlntv.cn/sptv/sd/live.m3u8
 # APTV-DISABLED channel="固始综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="固始综合" tvg-name="固始综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/固始综合.png" group-title="☘️河南频道",固始综合
 #DISABLED-URL:http://tvpull.dxhmt.cn:9081/tv/11525-1.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
@@ -1523,9 +1492,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="山东影视 (406p) [Geo-blocked]" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="山东影视 (406p) [Geo-blocked]" tvg-name="山东影视 (406p) [Geo-blocked]" group-title="地方频道",山东影视 (406p) [Geo-blocked]
 #DISABLED-URL:http://livealone302.iqilu.com/iqilu/yspd.m3u8
-# APTV-DISABLED channel="山东教育" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="山东教育" tvg-name="山东教育" tvg-logo="https://www.xn--rgv465a.top/tvlogo/山东教育.png" group-title="☘️山东频道",山东教育
-#DISABLED-URL:https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8
 # APTV-DISABLED channel="山东新闻 (1080p) [Geo-blocked]" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="山东新闻 (1080p) [Geo-blocked]" tvg-name="山东新闻 (1080p) [Geo-blocked]" group-title="地方频道",山东新闻 (1080p) [Geo-blocked]
 #DISABLED-URL:http://livealone302.iqilu.com/iqilu/ggpd.m3u8
@@ -1571,6 +1537,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="嵊州综合 (720p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="嵊州综合 (720p)" tvg-name="嵊州综合 (720p)" group-title="地方频道",嵊州综合 (720p)
 #DISABLED-URL:https://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
+# APTV-DISABLED channel="嵊泗综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="嵊泗综合" tvg-name="嵊泗综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嵊泗综合.png" group-title="☘️浙江频道",嵊泗综合
+#DISABLED-URL:https://stream1.freetv.fun/sheng-zhou-xin-wen-zong-he-2.ctv
 # APTV-DISABLED channel="嵩县综合新闻" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="嵩县综合新闻" tvg-name="嵩县综合新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/嵩县综合新闻.png" group-title="☘️河南频道",嵩县综合新闻
 #DISABLED-URL:http://tvpull.dxhmt.cn:9081/tv/10325-1.m3u8?zhendhttp://wshls.live.migucloud.com/live/MZCYG799_C0/playlist.m3u8?zhend
@@ -1601,6 +1570,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="平湖新闻综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="平湖新闻综合" tvg-name="平湖新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/平湖新闻综合.png" group-title="☘️浙江频道",平湖新闻综合
 #DISABLED-URL:https://stream1.freetv.fun/ping-hu-xin-wen-zong-he-2.m3u8
+# APTV-DISABLED channel="平湖民生休闲" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="平湖民生休闲" tvg-name="平湖民生休闲" tvg-logo="https://www.xn--rgv465a.top/tvlogo/平湖民生休闲.png" group-title="☘️浙江频道",平湖民生休闲
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXpinghu2/720p.m3u8
 # APTV-DISABLED channel="广东 ‖ 清新综合台 (1080p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="广东 ‖ 清新综合台 (1080p)" tvg-name="广东 ‖ 清新综合台 (1080p)" group-title="地方频道",广东 ‖ 清新综合台 (1080p)
 #DISABLED-URL:https://hls.wiseqx.com/live/qxzh.m3u8
@@ -1622,9 +1594,21 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="广水新闻综合 [Geo-blocked]" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="广水新闻综合 [Geo-blocked]" tvg-name="广水新闻综合 [Geo-blocked]" group-title="地方频道",广水新闻综合 [Geo-blocked]
 #DISABLED-URL:http://guangshui.live.tempsource.cjyun.org/videotmp/s10146-GSXW.m3u8
+# APTV-DISABLED channel="庆元综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="庆元综合" tvg-name="庆元综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/庆元综合.png" group-title="☘️浙江频道",庆元综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8?zzhed?
+# APTV-DISABLED channel="庆元综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="庆元新闻综合" tvg-name="庆元综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/庆元综合.png" group-title="☘️浙江频道",庆元综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXqingyuan1/720p.m3u8
 # APTV-DISABLED channel="建安电视台 (1080p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="建安电视台 (1080p)" tvg-name="建安电视台 (1080p)" group-title="地方频道",建安电视台 (1080p)
 #DISABLED-URL:http://live.dxhmt.cn:9081/tv/11003-1.m3u8
+# APTV-DISABLED channel="开化国家公园" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="开化国家公园" tvg-name="开化国家公园" tvg-logo="https://www.xn--rgv465a.top/tvlogo/开化国家公园.png" group-title="☘️浙江频道",开化国家公园
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8zzhed
+# APTV-DISABLED channel="开化新闻综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="开化新闻综合" tvg-name="开化新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/开化新闻综合.png" group-title="☘️浙江频道",开化新闻综合
+#DISABLED-URL:https://stream1.freetv.fun/kai-hua-xin-wen-zong-he-1.m3u8
 # APTV-DISABLED channel="开封文化旅游" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="开封文化旅游" tvg-name="开封文化旅游" tvg-logo="https://www.xn--rgv465a.top/tvlogo/开封文化旅游.png" group-title="☘️河南频道",开封文化旅游
 #DISABLED-URL:http://tvpull.dxhmt.cn:9081/tv/10200-3.m3u8?zhend
@@ -1694,6 +1678,12 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="文山综合 (1080p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="文山综合 (1080p)" tvg-name="文山综合 (1080p)" group-title="地方频道",文山综合 (1080p)
 #DISABLED-URL:http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel7/playlist.m3u8
+# APTV-DISABLED channel="文成综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="文成新闻综合" tvg-name="文成综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/文成综合.png" group-title="☘️浙江频道",文成综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8?zzhed
+# APTV-DISABLED channel="文成综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="文成综合" tvg-name="文成综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/文成综合.png" group-title="☘️浙江频道",文成综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8?zzhed?
 # APTV-DISABLED channel="新乡县电视台" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="新乡县电视台" tvg-name="新乡县电视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新乡县电视台.png" group-title="☘️河南频道",新乡县电视台
 #DISABLED-URL:http://tvpull.dxhmt.cn:9081/tv/10721-1.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
@@ -1712,6 +1702,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="新昌新闻综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="新昌新闻综合" tvg-name="新昌新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新昌新闻综合.png" group-title="☘️浙江频道",新昌新闻综合
 #DISABLED-URL:https://stream1.freetv.fun/xin-chang-xin-wen-zong-he-4.m3u8
+# APTV-DISABLED channel="新昌生活" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="新昌生活" tvg-name="新昌生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新昌生活.png" group-title="☘️浙江频道",新昌生活
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 # APTV-DISABLED channel="新泰乡村党建 (480p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="新泰乡村党建 (480p)" tvg-name="新泰乡村党建 (480p)" group-title="地方频道",新泰乡村党建 (480p)
 #DISABLED-URL:http://live.xtgdw.cn:1935/live/xtxc/playlist.m3u8
@@ -1778,6 +1771,12 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="晋中综合 (1080p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="晋中综合 (1080p)" tvg-name="晋中综合 (1080p)" group-title="地方频道",晋中综合 (1080p)
 #DISABLED-URL:http://jzlive.jztvnews.com:90/live/jzzh.m3u8
+# APTV-DISABLED channel="普陀电视台" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="普陀电视台" tvg-name="普陀电视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/普陀电视台.png" group-title="☘️浙江频道",普陀电视台
+#DISABLED-URL:https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
+# APTV-DISABLED channel="普陀新闻综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="普陀新闻综合" tvg-name="普陀新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/普陀新闻综合.png" group-title="☘️浙江频道",普陀新闻综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 # APTV-DISABLED channel="景县电视一套 (576p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="景县电视一套 (576p)" tvg-name="景县电视一套 (576p)" group-title="地方频道",景县电视一套 (576p)
 #DISABLED-URL:http://hbjx.chinashadt.com:1935/live/jx1.stream/playlist.m3u8
@@ -1808,15 +1807,12 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="東光綜藝 (576p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="東光綜藝 (576p)" tvg-name="東光綜藝 (576p)" group-title="地方频道",東光綜藝 (576p)
 #DISABLED-URL:http://hbdg.chinashadt.com:1936/live/stream:dgzy.stream/playlist.m3u8
-# APTV-DISABLED channel="松原新闻综合 [Geo-blocked]" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="松原新闻综合 [Geo-blocked]" tvg-name="松原新闻综合 [Geo-blocked]" group-title="地方频道",松原新闻综合 [Geo-blocked]
-#DISABLED-URL:https://stream2.jlntv.cn/sytv/sd/live.m3u8
 # APTV-DISABLED channel="松江电视台" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="松江电视台" tvg-name="松江电视台" tvg-logo="https://iptv-pro.github.io/logo/%E6%9D%BE%E6%B1%9F%E7%94%B5%E8%A7%86%E5%8F%B0.png" group-title="上海频道",松江电视台
 #DISABLED-URL:http://192.168.190.1:4022/udp/239.45.1.40:5140
-# APTV-DISABLED channel="松潘新闻综合" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="松潘新闻综合" tvg-name="松潘新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/松潘新闻综合.png" group-title="☘️四川频道",松潘新闻综合
-#DISABLED-URL:http://live.spccmc.com:90/live/spxwzh.m3u8?zsicd
+# APTV-DISABLED channel="松阳综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="松阳综合" tvg-name="松阳综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/松阳综合.png" group-title="☘️浙江频道",松阳综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXsongyang1/720p.m3u8?zzhed?
 # APTV-DISABLED channel="林正英" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="林正英" tvg-name="林正英" group-title="地方频道",林正英
 #DISABLED-URL:http://epg.112114.xyz/douyu/218859
@@ -1829,6 +1825,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="欧美大片3" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="欧美大片3" tvg-name="欧美大片3" group-title="地方频道",欧美大片3
 #DISABLED-URL:http://epg.112114.xyz/douyu/9249162
+# APTV-DISABLED channel="武义新闻综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="武义新闻综合" tvg-name="武义新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武义新闻综合.png" group-title="☘️浙江频道",武义新闻综合
+#DISABLED-URL:https://stream1.freetv.fun/wu-yi-xin-wen-zong-he-3.m3u8
 # APTV-DISABLED channel="武乡新闻综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="武乡新闻综合" tvg-name="武乡新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/武乡新闻综合.png" group-title="☘️山西频道",武乡新闻综合
 #DISABLED-URL:http://uzoiczhh.live.sxmty.com/live/hls/0d41f1480c4042d49927858f01fde707/53130407737b417b9a6259b57246bae3.m3u8?zshanxd
@@ -1892,9 +1891,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="江津文化旅游 (576p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="江津文化旅游 (576p)" tvg-name="江津文化旅游 (576p)" group-title="地方频道",江津文化旅游 (576p)
 #DISABLED-URL:http://222.179.155.21:1935/ch2.m3u8
-# APTV-DISABLED channel="江津新闻综合 (480p)" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="江津新闻综合 (480p)" tvg-name="江津新闻综合 (480p)" group-title="地方频道",江津新闻综合 (480p)
-#DISABLED-URL:http://222.179.155.21:1935/ch1.m3u8
 # APTV-DISABLED channel="江津经济生活 (480p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="江津经济生活 (480p)" tvg-name="江津经济生活 (480p)" group-title="地方频道",江津经济生活 (480p)
 #DISABLED-URL:http://222.179.155.21:1935/ch0.m3u8
@@ -1958,9 +1954,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="沁阳新闻综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="沁阳新闻综合" tvg-name="沁阳新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/沁阳新闻综合.png" group-title="☘️河南频道",沁阳新闻综合
 #DISABLED-URL:https://stream1.freetv.fun/qin-yang-xin-wen-zong-he-1.m3u8
-# APTV-DISABLED channel="沐川综合" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="沐川综合" tvg-name="沐川综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/沐川综合.png" group-title="☘️四川频道",沐川综合
-#DISABLED-URL:http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd
 # APTV-DISABLED channel="沧县电视二套 (576p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="沧县电视二套 (576p)" tvg-name="沧县电视二套 (576p)" group-title="地方频道",沧县电视二套 (576p)
 #DISABLED-URL:http://hebcx.chinashadt.com:2036/live/10002.stream/playlist.m3u8
@@ -2024,6 +2017,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="洛阳综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="洛阳综合" tvg-name="洛阳综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/洛阳综合.png" group-title="☘️河南频道",洛阳综合
 #DISABLED-URL:https://wshlslive.migucloud.com/live/6AL7GTQX_C0/playlist.m3u8
+# APTV-DISABLED channel="洞头综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="洞头综合" tvg-name="洞头综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/洞头综合.png" group-title="☘️浙江频道",洞头综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXdongtou1/720p.m3u8
 # APTV-DISABLED channel="洪雅新闻综合 (1080p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="洪雅新闻综合 (1080p)" tvg-name="洪雅新闻综合 (1080p)" group-title="地方频道",洪雅新闻综合 (1080p)
 #DISABLED-URL:http://117.172.215.250:8083/videos/live/35/39/GQVbrgob5CGJM/GQVbrgob5CGJM.m3u8
@@ -2399,9 +2395,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="福山生活 (576p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="福山生活 (576p)" tvg-name="福山生活 (576p)" group-title="地方频道",福山生活 (576p)
 #DISABLED-URL:http://live.jiaodong.net:82/tvfushan/hls/tv_shenghuo.m3u8
-# APTV-DISABLED channel="福州广播电视台新闻综合频道 (FZTV-1) (1080p)" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="福州广播电视台新闻综合频道 (FZTV-1) (1080p)" tvg-name="福州广播电视台新闻综合频道 (FZTV-1) (1080p)" group-title="地方频道",福州广播电视台新闻综合频道 (FZTV-1) (1080p)
-#DISABLED-URL:http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 # APTV-DISABLED channel="福建少儿" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="福建少儿" tvg-name="福建少儿" tvg-logo="https://www.xn--rgv465a.top/tvlogo/福建少儿.png" group-title="☘️福建频道",福建少儿
 #DISABLED-URL:https://stream1.freetv.fun/fu-jian-shao-er-1.m3u8
@@ -2465,6 +2458,12 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="绵阳科技" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="绵阳科技" tvg-name="绵阳科技" tvg-logo="https://www.xn--rgv465a.top/tvlogo/绵阳科技.png" group-title="☘️四川频道",绵阳科技
 #DISABLED-URL:https://stream1.freetv.fun/mian-yang-ke-ji-2.m3u8
+# APTV-DISABLED channel="缙云综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="缙云综合" tvg-name="缙云综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/缙云综合.png" group-title="☘️浙江频道",缙云综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed?
+# APTV-DISABLED channel="缙云综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="缙云新闻综合" tvg-name="缙云综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/缙云综合.png" group-title="☘️浙江频道",缙云综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8?zzhed
 # APTV-DISABLED channel="罗山电视台 (1080p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="罗山电视台 (1080p)" tvg-name="罗山电视台 (1080p)" group-title="地方频道",罗山电视台 (1080p)
 #DISABLED-URL:http://live.dxhmt.cn:9081/tv/11521-1.m3u8
@@ -2507,6 +2506,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="苍南新闻综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="苍南新闻综合" tvg-name="苍南新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/苍南新闻综合.png" group-title="☘️浙江频道",苍南新闻综合
 #DISABLED-URL:https://stream1.freetv.fun/cang-nan-xin-wen-zong-he-5.m3u8
+# APTV-DISABLED channel="荣昌综合 (404p)" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="荣昌综合 (404p)" tvg-name="荣昌综合 (404p)" group-title="地方频道",荣昌综合 (404p)
+#DISABLED-URL:http://183.64.181.25:40023/rongchang01.m3u8
 # APTV-DISABLED channel="荥经综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="荥经综合" tvg-name="荥经综合" tvg-logo="https://live.fanmingming.cn/tv/荥经综合.png" group-title="☘️四川频道",荥经综合
 #DISABLED-URL:https://m3u8channel-yj.yunxya.com/nmip-media/channellive/channel101140/playlist.m3u8
@@ -2531,12 +2533,12 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="萍鄉新聞綜合 (576p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="PingxiangTVNewsChannel.cn" tvg-name="萍鄉新聞綜合 (576p)" tvg-logo="https://i.imgur.com/Kc7htop.jpg" group-title="地方频道",萍鄉新聞綜合 (576p)
 #DISABLED-URL:http://www.pxitv.com:8099/hls-live/livepkgr/_definst_/pxitvevent/pxtv1stream.m3u8
-# APTV-DISABLED channel="营山电视台" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="营山电视台" tvg-name="营山电视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/营山电视台.png" group-title="☘️四川频道",营山电视台
-#DISABLED-URL:http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8
 # APTV-DISABLED channel="萧山新闻综合 (720p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="萧山新闻综合 (720p)" tvg-name="萧山新闻综合 (720p)" group-title="地方频道",萧山新闻综合 (720p)
 #DISABLED-URL:https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
+# APTV-DISABLED channel="萧山生活" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="萧山生活" tvg-name="萧山生活" tvg-logo="https://www.xn--rgv465a.top/tvlogo/萧山生活.png" group-title="☘️浙江频道",萧山生活
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
 # APTV-DISABLED channel="萬州三峽移民 (576p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="萬州三峽移民 (576p)" tvg-name="萬州三峽移民 (576p)" group-title="地方频道",萬州三峽移民 (576p)
 #DISABLED-URL:http://123.146.162.24:8017/c2F0hmi/1000/live.m3u8
@@ -2570,9 +2572,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="西华综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="西华综合" tvg-name="西华综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/西华综合.png" group-title="☘️河南频道",西华综合
 #DISABLED-URL:http://tvpull.dxhmt.cn:9081/tv/11622-1.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
-# APTV-DISABLED channel="西宁新闻综合" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="西宁新闻综合" tvg-name="西宁新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/西宁新闻综合.png" group-title="☘️青海频道",西宁新闻综合
-#DISABLED-URL:https://liveout.xntv.tv/a65jur/90p2i1.m3u8
 # APTV-DISABLED channel="西宁生活服务" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="西宁生活服务" tvg-name="西宁生活服务" tvg-logo="https://www.xn--rgv465a.top/tvlogo/西宁生活服务.png" group-title="☘️青海频道",西宁生活服务
 #DISABLED-URL:https://stream1.freetv.fun/xi-zhu-sheng-huo-fu-wu-1.m3u8
@@ -2603,6 +2602,12 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="许昌公共" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="许昌公共" tvg-name="许昌公共" tvg-logo="https://www.xn--rgv465a.top/tvlogo/许昌公共.png" group-title="☘️河南频道",许昌公共
 #DISABLED-URL:http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226695/index.m3u8
+# APTV-DISABLED channel="诸暨新闻综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="诸暨新闻综合" tvg-name="诸暨新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/诸暨新闻综合.png" group-title="☘️浙江频道",诸暨新闻综合
+#DISABLED-URL:https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
+# APTV-DISABLED channel="象山新闻综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="象山新闻综合" tvg-name="象山新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/象山新闻综合.png" group-title="☘️浙江频道",象山新闻综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8
 # APTV-DISABLED channel="贝爷影厅" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="贝爷影厅" tvg-name="贝爷影厅" group-title="地方频道",贝爷影厅
 #DISABLED-URL:http://epg.112114.xyz/douyu/252802
@@ -2639,9 +2644,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="辽宁经济" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="辽宁经济" tvg-name="辽宁经济" tvg-logo="https://live.fanmingming.cn/tv/辽宁经济.png" group-title="☘️辽宁频道",辽宁经济
 #DISABLED-URL:http://120.76.248.139/live/bfgd/4200000480.m3u8
-# APTV-DISABLED channel="辽源新闻综合 [Geo-blocked]" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="辽源新闻综合 [Geo-blocked]" tvg-name="辽源新闻综合 [Geo-blocked]" group-title="地方频道",辽源新闻综合 [Geo-blocked]
-#DISABLED-URL:https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8
 # APTV-DISABLED channel="运城科技教育" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="运城科技教育" tvg-name="运城科技教育" tvg-logo="https://www.xn--rgv465a.top/tvlogo/运城科技教育.png" group-title="☘️山西频道",运城科技教育
 #DISABLED-URL:https://stream1.freetv.fun/yun-cheng-ke-ji-jiao-yu-2.m3u8
@@ -2657,15 +2659,12 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="迪庆藏语 (576p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="迪庆藏语 (576p)" tvg-name="迪庆藏语 (576p)" group-title="地方频道",迪庆藏语 (576p)
 #DISABLED-URL:http://stream01.dqtv123.com:1935/live/diqingzangyu.stream/playlist.m3u8
-# APTV-DISABLED channel="通化新闻 [Geo-blocked]" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="通化新闻 [Geo-blocked]" tvg-name="通化新闻 [Geo-blocked]" group-title="地方频道",通化新闻 [Geo-blocked]
-#DISABLED-URL:https://stream2.jlntv.cn/tonghua1/sd/live.m3u8
 # APTV-DISABLED channel="通州电视台 (720p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="TongzhouTV.cn" tvg-name="通州电视台 (720p)" tvg-logo="https://i.imgur.com/fXXongR.png" group-title="地方频道",通州电视台 (720p)
 #DISABLED-URL:http://pull.dayuntongzhou.com/live/tztv.m3u8
-# APTV-DISABLED channel="通海电视台" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="通海电视台" tvg-name="通海电视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/通海电视台.png" group-title="☘️云南频道",通海电视台
-#DISABLED-URL:https://zb-live.ynurl.com/tonghai/3bfe3a9e-48e6-4c1e-8770-1df66447cc6c.m3u8
+# APTV-DISABLED channel="遂昌综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="遂昌综合" tvg-name="遂昌综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/遂昌综合.png" group-title="☘️浙江频道",遂昌综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8?zzhed
 # APTV-DISABLED channel="邓州新闻" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="邓州新闻" tvg-name="邓州新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/邓州新闻.png" group-title="☘️河南频道",邓州新闻
 #DISABLED-URL:http://tvpull.dxhmt.cn:9081/tv/11381-1.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
@@ -2804,9 +2803,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="青海都市" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="青海都市" tvg-name="青海都市" tvg-logo="https://www.xn--rgv465a.top/tvlogo/青海都市.png" group-title="☘️青海频道",青海都市
 #DISABLED-URL:http://[2409:8087:1e01:20::3]/PLTV/11/224/3221225749/index.m3u8
-# APTV-DISABLED channel="靖江新闻綜合 (480p)" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="靖江新闻綜合 (480p)" tvg-name="靖江新闻綜合 (480p)" group-title="地方频道",靖江新闻綜合 (480p)
-#DISABLED-URL:http://visit.jjbctv.com:1935/live/xwzhmb/playlist.m3u8
+# APTV-DISABLED channel="青田电视台" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="青田电视台" tvg-name="青田电视台" tvg-logo="https://www.xn--rgv465a.top/tvlogo/青田电视台.png" group-title="☘️浙江频道",青田电视台
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
 # APTV-DISABLED channel="靖江新闻综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="靖江新闻综合" tvg-name="靖江新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖江新闻综合.png" group-title="☘️江苏频道",靖江新闻综合
 #DISABLED-URL:http://ls.qingting.fm/live/23797.m3u8
@@ -2840,6 +2839,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="鹿泉二套 (576p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="鹿泉二套 (576p)" tvg-name="鹿泉二套 (576p)" group-title="地方频道",鹿泉二套 (576p)
 #DISABLED-URL:http://hblq.chinashadt.com:2036/live/stream:luquan2.stream/playlist.m3u8
+# APTV-DISABLED channel="黄山新闻综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="黄山新闻综合" tvg-name="黄山新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黄山新闻综合.png" group-title="☘️安徽频道",黄山新闻综合
+#DISABLED-URL:http://hslive.hsnewsnet.com/lsdream/hve9Wjs/1000/live.m3u8
 # APTV-DISABLED channel="黎城综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="黎城综合" tvg-name="黎城综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黎城综合.png" group-title="☘️山西频道",黎城综合
 #DISABLED-URL:http://111.53.96.67:8081/live/1/index.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
@@ -2894,6 +2896,12 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="龙泉新闻综合" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="龙泉新闻综合" tvg-name="龙泉新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/龙泉新闻综合.png" group-title="☘️浙江频道",龙泉新闻综合
 #DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXlongquan1/720p.m3u8
+# APTV-DISABLED channel="龙游新闻综合" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="龙游新闻综合" tvg-name="龙游新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/龙游新闻综合.png" group-title="☘️浙江频道",龙游新闻综合
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8?zzhed
+# APTV-DISABLED channel="龙游生活娱乐" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="龙游生活娱乐" tvg-name="龙游生活娱乐" tvg-logo="https://www.xn--rgv465a.top/tvlogo/龙游生活娱乐.png" group-title="☘️浙江频道",龙游生活娱乐
+#DISABLED-URL:http://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8?zzhed
 # APTV-DISABLED channel="1111 CUSTOMERS" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="1111 CUSTOMERS" tvg-name="1111 CUSTOMERS" tvg-logo="https://epg.iill.top/logo/NSFW.png" group-title="欧美",1111 CUSTOMERS
 #DISABLED-URL:http://15110166167.com:80/241258546/v952z7581m/260599
@@ -3170,6 +3178,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="ARMOND RIZZO" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="ARMOND RIZZO" tvg-name="ARMOND RIZZO" tvg-logo="https://epg.iill.top/logo/NSFW.png" group-title="欧美",ARMOND RIZZO
 #DISABLED-URL:http://15110166167.com:80/241258546/v952z7581m/260643
+# APTV-DISABLED channel="Asian" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="Asian" tvg-name="Asian" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="成人频道",Asian
+#DISABLED-URL:http://188.113.190.15/318/tracks-v1a1/index.m3u8
 # APTV-DISABLED channel="Asianpie_" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="Asianpie_" tvg-name="Asianpie_" tvg-logo="https://img.strpst.com/thumbs/1724137788/136537288_webp" group-title="Stripchat",Asianpie_
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/136537288/master/136537288.m3u8
@@ -3236,6 +3247,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="B1ackberry_" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="B1ackberry_" tvg-name="B1ackberry_" tvg-logo="https://img.strpst.com/thumbs/1724137747/155050546_webp" group-title="Stripchat",B1ackberry_
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/155050546/master/155050546.m3u8
+# APTV-DISABLED channel="babykitty-" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="babykitty-" tvg-name="babykitty-" tvg-logo="https://img.strpst.com/thumbs/1724137685/125533131_webp" group-title="Stripchat",babykitty-
+#DISABLED-URL:https://edge-hls.doppiocdn.com/hls/125533131/master/125533131.m3u8
 # APTV-DISABLED channel="baby_shall" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="baby_shall" tvg-name="baby_shall" tvg-logo="https://img.strpst.com/thumbs/1724137857/152625190_webp" group-title="Stripchat",baby_shall
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/152625190/master/152625190.m3u8
@@ -3269,6 +3283,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="BbwSQUIRTERxx" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="BbwSQUIRTERxx" tvg-name="BbwSQUIRTERxx" tvg-logo="https://img.strpst.com/thumbs/1724137924/1210706_webp" group-title="Stripchat",BbwSQUIRTERxx
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/1210706/master/1210706.m3u8
+# APTV-DISABLED channel="BeataBabe" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="BeataBabe" tvg-name="BeataBabe" tvg-logo="https://img.strpst.com/thumbs/1724137737/70302604_webp" group-title="Stripchat",BeataBabe
+#DISABLED-URL:https://edge-hls.doppiocdn.com/hls/70302604/master/70302604.m3u8
 # APTV-DISABLED channel="Beijing Traffic Radio TV [Geo-blocked]" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="Beijing Traffic Radio TV [Geo-blocked]" tvg-name="Beijing Traffic Radio TV [Geo-blocked]" group-title="其他频道",Beijing Traffic Radio TV [Geo-blocked]
 #DISABLED-URL:http://123.56.24.28:1935/live/fm1039/96K/tzwj_video.m3u8
@@ -3284,9 +3301,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="big_beautiful_woman2" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="big_beautiful_woman2" tvg-name="big_beautiful_woman2" tvg-logo="https://img.strpst.com/thumbs/1724137825/48137711_webp" group-title="Stripchat",big_beautiful_woman2
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/48137711/master/48137711.m3u8
-# APTV-DISABLED channel="BigBoGcup" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="BigBoGcup" tvg-name="BigBoGcup" tvg-logo="https://img.strpst.com/thumbs/1724137878/56269980_webp" group-title="Stripchat",BigBoGcup
-#DISABLED-URL:https://edge-hls.doppiocdn.com/hls/56269980/master/56269980.m3u8
 # APTV-DISABLED channel="BIG COOK" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="BIG COOK" tvg-name="BIG COOK" tvg-logo="https://epg.iill.top/logo/NSFW.png" group-title="欧美",BIG COOK
 #DISABLED-URL:http://15110166167.com:80/241258546/v952z7581m/260629
@@ -3716,9 +3730,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="DEEPER" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="DEEPER" tvg-name="DEEPER" tvg-logo="https://epg.iill.top/logo/NSFW.png" group-title="欧美",DEEPER
 #DISABLED-URL:http://15110166167.com:80/241258546/v952z7581m/260502
-# APTV-DISABLED channel="Demongirl6666" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="Demongirl6666" tvg-name="Demongirl6666" tvg-logo="https://img.strpst.com/thumbs/1724137823/152531734_webp" group-title="Stripchat",Demongirl6666
-#DISABLED-URL:https://edge-hls.doppiocdn.com/hls/152531734/master/152531734.m3u8
 # APTV-DISABLED channel="DESIREjenny" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="DESIREjenny" tvg-name="DESIREjenny" tvg-logo="https://img.strpst.com/thumbs/1724137891/110380747_webp" group-title="Stripchat",DESIREjenny
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/110380747/master/110380747.m3u8
@@ -3848,9 +3859,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="-Erica" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="-Erica" tvg-name="-Erica" tvg-logo="https://img.strpst.com/thumbs/1724137689/157470469_webp" group-title="Stripchat",-Erica
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/157470469/master/157470469.m3u8
-# APTV-DISABLED channel="erlyn_misha" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="erlyn_misha" tvg-name="erlyn_misha" tvg-logo="https://img.strpst.com/thumbs/1724137869/146053225_webp" group-title="Stripchat",erlyn_misha
-#DISABLED-URL:https://edge-hls.doppiocdn.com/hls/146053225/master/146053225.m3u8
 # APTV-DISABLED channel="EROTIKVONBENAN" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="EROTIKVONBENAN" tvg-name="EROTIKVONBENAN" tvg-logo="https://epg.iill.top/logo/NSFW.png" group-title="欧美",EROTIKVONBENAN
 #DISABLED-URL:http://15110166167.com:80/241258546/v952z7581m/260447
@@ -4028,6 +4036,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="GIRLSAWAY" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="GIRLSAWAY" tvg-name="GIRLSAWAY" tvg-logo="https://epg.iill.top/logo/NSFW.png" group-title="欧美",GIRLSAWAY
 #DISABLED-URL:http://15110166167.com:80/241258546/v952z7581m/260481
+# APTV-DISABLED channel="GirlsTattooed" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="GirlsTattooed" tvg-name="GirlsTattooed" tvg-logo="https://img.strpst.com/thumbs/1724137788/114016172_webp" group-title="Stripchat",GirlsTattooed
+#DISABLED-URL:https://edge-hls.doppiocdn.com/hls/114016172/master/114016172.m3u8
 # APTV-DISABLED channel="Glenda_1" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="Glenda_1" tvg-name="Glenda_1" tvg-logo="https://img.strpst.com/thumbs/1724137683/74768272_webp" group-title="Stripchat",Glenda_1
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/74768272/master/74768272.m3u8
@@ -4406,14 +4417,14 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="Jiangxi City Channel" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="JiangxiCityChannel.cn@SD" tvg-name="Jiangxi City Channel" group-title="其他频道",Jiangxi City Channel
 #DISABLED-URL:https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv2.m3u8
-# APTV-DISABLED channel="Jiangxi Economy &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Life Channel" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="JiangxiEconomyLifeChannel.cn@SD" tvg-name="Jiangxi Economy &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Life Channel" group-title="其他频道",Jiangxi Economy &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Life Channel
+# APTV-DISABLED channel="Jiangxi Economy &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Life Channel" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="JiangxiEconomyLifeChannel.cn@SD" tvg-name="Jiangxi Economy &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Life Channel" group-title="其他频道",Jiangxi Economy &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Life Channel
 #DISABLED-URL:https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv3.m3u8
 # APTV-DISABLED channel="Jiangxi Movie Channel" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="JiangxiMovieChannel.cn@SD" tvg-name="Jiangxi Movie Channel" group-title="其他频道",Jiangxi Movie Channel
 #DISABLED-URL:https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv4.m3u8
-# APTV-DISABLED channel="Jiangxi Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Agriculture Channel" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="JiangxiPublicAgricultureChannel.cn@SD" tvg-name="Jiangxi Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Agriculture Channel" group-title="其他频道",Jiangxi Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Agriculture Channel
+# APTV-DISABLED channel="Jiangxi Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Agriculture Channel" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="JiangxiPublicAgricultureChannel.cn@SD" tvg-name="Jiangxi Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Agriculture Channel" group-title="其他频道",Jiangxi Public &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Agriculture Channel
 #DISABLED-URL:https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv5.m3u8
 # APTV-DISABLED channel="Jilin City Channel" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="JilinCityChannel.cn@SD" tvg-name="Jilin City Channel" group-title="其他频道",Jilin City Channel
@@ -4505,6 +4516,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="Katniss_K" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="Katniss_K" tvg-name="Katniss_K" tvg-logo="https://img.strpst.com/thumbs/1724137766/90162074_webp" group-title="Stripchat",Katniss_K
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/90162074/master/90162074.m3u8
+# APTV-DISABLED channel="kattyytaylor" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="kattyytaylor" tvg-name="kattyytaylor" tvg-logo="https://img.strpst.com/thumbs/1724137826/64200277_webp" group-title="Stripchat",kattyytaylor
+#DISABLED-URL:https://edge-hls.doppiocdn.com/hls/64200277/master/64200277.m3u8
 # APTV-DISABLED channel="KellyParrish" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="KellyParrish" tvg-name="KellyParrish" tvg-logo="https://img.strpst.com/thumbs/1724137706/151175114_webp" group-title="Stripchat",KellyParrish
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/151175114/master/151175114.m3u8
@@ -4604,8 +4618,8 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="Lanzhou Comprehensive News Channel" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="LanzhouComprehensiveNewsChannel.cn@SD" tvg-name="Lanzhou Comprehensive News Channel" group-title="其他频道",Lanzhou Comprehensive News Channel
 #DISABLED-URL:https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
-# APTV-DISABLED channel="Lanzhou Culture &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Tourism Channel" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="LanzhouCultureTourismChannel.cn@SD" tvg-name="Lanzhou Culture &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Tourism Channel" group-title="其他频道",Lanzhou Culture &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Tourism Channel
+# APTV-DISABLED channel="Lanzhou Culture &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Tourism Channel" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="LanzhouCultureTourismChannel.cn@SD" tvg-name="Lanzhou Culture &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Tourism Channel" group-title="其他频道",Lanzhou Culture &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Tourism Channel
 #DISABLED-URL:https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
 # APTV-DISABLED channel="LaraStone__" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="LaraStone__" tvg-name="LaraStone__" tvg-logo="https://img.strpst.com/thumbs/1724137888/103543873_webp" group-title="Stripchat",LaraStone__
@@ -4862,6 +4876,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="Melissa_Hensly" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="Melissa_Hensly" tvg-name="Melissa_Hensly" tvg-logo="https://img.strpst.com/thumbs/1724137745/151452398_webp" group-title="Stripchat",Melissa_Hensly
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/151452398/master/151452398.m3u8
+# APTV-DISABLED channel="MelissaMoore_" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="MelissaMoore_" tvg-name="MelissaMoore_" tvg-logo="https://img.strpst.com/thumbs/1724137916/55800293_webp" group-title="Stripchat",MelissaMoore_
+#DISABLED-URL:https://edge-hls.doppiocdn.com/hls/55800293/master/55800293.m3u8
 # APTV-DISABLED channel="Melissa_My" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="Melissa_My" tvg-name="Melissa_My" tvg-logo="https://img.strpst.com/thumbs/1724137711/117404642_webp" group-title="Stripchat",Melissa_My
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/117404642/master/117404642.m3u8
@@ -5048,8 +5065,8 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="nana741" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="nana741" tvg-name="nana741" tvg-logo="https://img.strpst.com/thumbs/1724137684/157558554_webp" group-title="Stripchat",nana741
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/157558554/master/157558554.m3u8
-# APTV-DISABLED channel="Nanchang News &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Generalist Channel" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="NanchangNewsGeneralistChannel.cn@SD" tvg-name="Nanchang News &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Generalist Channel" group-title="其他频道",Nanchang News &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Generalist Channel
+# APTV-DISABLED channel="Nanchang News &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Generalist Channel" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="NanchangNewsGeneralistChannel.cn@SD" tvg-name="Nanchang News &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Generalist Channel" group-title="其他频道",Nanchang News &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; Generalist Channel
 #DISABLED-URL:https://play-live-hls.jxtvcn.com.cn/live-city/tv_nanchang.m3u8
 # APTV-DISABLED channel="Natali7634" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="Natali7634" tvg-name="Natali7634" tvg-logo="https://img.strpst.com/thumbs/1724137786/118181024_webp" group-title="Stripchat",Natali7634
@@ -5075,9 +5092,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="Nei Monggol TV" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="NeiMonggolTV.cn@SD" tvg-name="Nei Monggol TV" group-title="其他频道",Nei Monggol TV
 #DISABLED-URL:http://1.24.190.98:10080/hls/39/index.m3u8
-# APTV-DISABLED channel="Nei Monggol TV 2 Mongolian Culture Channel (1080i) [Not 24/7]" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="NeiMonggolTV2MongolianCultureChannel.cn@SD" tvg-name="Nei Monggol TV 2 Mongolian Culture Channel (1080i) [Not 24/7]" group-title="其他频道",Nei Monggol TV 2 Mongolian Culture Channel (1080i) [Not 24/7]
-#DISABLED-URL:http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
 # APTV-DISABLED channel="NellyHolly" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="NellyHolly" tvg-name="NellyHolly" tvg-logo="https://img.strpst.com/thumbs/1724137753/154024615_webp" group-title="Stripchat",NellyHolly
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/154024615/master/154024615.m3u8
@@ -5270,6 +5284,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="PURPLE BITCH" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="PURPLE BITCH" tvg-name="PURPLE BITCH" tvg-logo="https://epg.iill.top/logo/NSFW.png" group-title="欧美",PURPLE BITCH
 #DISABLED-URL:http://15110166167.com:80/241258546/v952z7581m/260582
+# APTV-DISABLED channel="Qinghai TV" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="QinghaiTV.cn@SD" tvg-name="Qinghai TV" group-title="其他频道",Qinghai TV
+#DISABLED-URL:https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 # APTV-DISABLED channel="qsstess" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="qsstess" tvg-name="qsstess" tvg-logo="https://img.strpst.com/thumbs/1724137734/99098235_webp" group-title="Stripchat",qsstess
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/99098235/master/99098235.m3u8
@@ -5531,9 +5548,6 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="SHAIDEN ROUGE" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="SHAIDEN ROUGE" tvg-name="SHAIDEN ROUGE" tvg-logo="https://epg.iill.top/logo/NSFW.png" group-title="欧美",SHAIDEN ROUGE
 #DISABLED-URL:http://15110166167.com:80/241258546/v952z7581m/260585
-# APTV-DISABLED channel="shaira4u" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="shaira4u" tvg-name="shaira4u" tvg-logo="https://img.strpst.com/thumbs/1724137703/88339810_webp" group-title="Stripchat",shaira4u
-#DISABLED-URL:https://edge-hls.doppiocdn.com/hls/88339810/master/88339810.m3u8
 # APTV-DISABLED channel="ShanLovely" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="ShanLovely" tvg-name="ShanLovely" tvg-logo="https://img.strpst.com/thumbs/1724137862/87925915_webp" group-title="Stripchat",ShanLovely
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/87925915/master/87925915.m3u8
@@ -5564,6 +5578,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="SimplyDivine" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="SimplyDivine" tvg-name="SimplyDivine" tvg-logo="https://img.strpst.com/thumbs/1724137778/23974800_webp" group-title="Stripchat",SimplyDivine
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/23974800/master/23974800.m3u8
+# APTV-DISABLED channel="simyhvn" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="simyhvn" tvg-name="simyhvn" tvg-logo="https://img.strpst.com/thumbs/1724137916/56012723_webp" group-title="Stripchat",simyhvn
+#DISABLED-URL:https://edge-hls.doppiocdn.com/hls/56012723/master/56012723.m3u8
 # APTV-DISABLED channel="SiyanaGray" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="SiyanaGray" tvg-name="SiyanaGray" tvg-logo="https://img.strpst.com/thumbs/1724137787/109556196_webp" group-title="Stripchat",SiyanaGray
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/109556196/master/109556196.m3u8
@@ -5684,9 +5701,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="Swee_Alice" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="Swee_Alice" tvg-name="Swee_Alice" tvg-logo="https://img.strpst.com/thumbs/1724137791/76847285_webp" group-title="Stripchat",Swee_Alice
 #DISABLED-URL:https://edge-hls.doppiocdn.com/hls/76847285/master/76847285.m3u8
-# APTV-DISABLED channel="Sweetblackgal3" reason="no currently playable candidate"
-#DISABLED-EXTINF:-1 tvg-id="Sweetblackgal3" tvg-name="Sweetblackgal3" tvg-logo="https://img.strpst.com/thumbs/1724137895/119468377_webp" group-title="Stripchat",Sweetblackgal3
-#DISABLED-URL:https://edge-hls.doppiocdn.com/hls/119468377/master/119468377.m3u8
+# APTV-DISABLED channel="Sweet_Bear" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="Sweet_Bear" tvg-name="Sweet_Bear" tvg-logo="https://img.strpst.com/thumbs/1724137826/139050377_webp" group-title="Stripchat",Sweet_Bear
+#DISABLED-URL:https://edge-hls.doppiocdn.com/hls/139050377/master/139050377.m3u8
 # APTV-DISABLED channel="SWEET BUNNY" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="SWEET BUNNY" tvg-name="SWEET BUNNY" tvg-logo="https://epg.iill.top/logo/NSFW.png" group-title="欧美",SWEET BUNNY
 #DISABLED-URL:http://15110166167.com:80/241258546/v952z7581m/260587
@@ -6242,6 +6259,9 @@ http://serv00.bkpcp.top/litv3.php?id=4gtv-4gtv058
 # APTV-DISABLED channel="新疆卫视 (540p)" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="新疆卫视 (540p)" tvg-name="新疆卫视 (540p)" group-title="其他频道",新疆卫视 (540p)
 #DISABLED-URL:http://112.25.48.68/live/program/live/xjws/1300000/mnf.m3u8
+# APTV-DISABLED channel="无线星河" reason="no currently playable candidate"
+#DISABLED-EXTINF:-1 tvg-id="TVB星河" tvg-name="无线星河" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/TVB星河.png" group-title="🎬电影频道",无线星河
+#DISABLED-URL:http://r.jdshipin.com/sXuuD
 # APTV-DISABLED channel="欢乐剧场" reason="no currently playable candidate"
 #DISABLED-EXTINF:-1 tvg-id="欢乐剧场" tvg-name="欢乐剧场" tvg-logo="https://epg.iill.top/logo/NewTV欢乐剧场.png" group-title="NewTV",欢乐剧场
 #DISABLED-URL:http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
