@@ -27,5 +27,7 @@
   "华视": ["CTS", "CTS (HUA-CHI CTS) (1080p)"],
   "台视": ["TTV", "台视 (720p)"],
   "民视": ["FTV", "FTV (民視) (720p)"],
-  "TVBS新闻": ["TVBS News", "TVBS News (TVBS新聞台) [Geo-blocked]"]
+  "TVBS新闻": ["TVBS News", "TVBS News (TVBS新聞台) [Geo-blocked]"],
+  "casiojapan": ["casio_gs"],
+  "Dolna_Marinna": ["BlackDolna"]
 }
