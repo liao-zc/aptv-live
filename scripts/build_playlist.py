@@ -401,31 +401,44 @@ def attr(value: str) -> str:
     return value.replace("&", "&amp;").replace('"', "&quot;")
 
 
-def playlist_sort_key(item: Candidate):
-    """Stable order: CCTV, satellite, HK/Macao/Taiwan, local, other."""
+def canonical_group(item: Candidate) -> str:
+    """Map every channel into exactly one of the ten public categories."""
     name = item.name.strip()
-    group = item.group
-    upper = name.upper()
-    cctv = re.match(r"^CCTV[- ]?(\d{1,2})(\+)?(?:\b|$)", upper)
-    if cctv:
-        number = int(cctv.group(1))
-        plus_rank = 1 if cctv.group(2) else 0
-        suffix_rank = 0 if re.fullmatch(r"CCTV[- ]?\d{1,2}\+?", upper) else 1
-        return (0, number, plus_rank, suffix_rank, folded(name))
-    if "央视" in group or "央视频道" in group:
-        return (0, 100, 0, 0, folded(name))
+    group = item.group.strip()
+    text = (group + " " + name).upper()
+
+    if "成人" in group or "STRIPCHAT" in text:
+        return "成人频道"
 
     hk_tw_words = (
         "港·澳·台", "港澳台", "香港", "澳门", "澳門", "台湾", "台灣",
         "TVBS", "三立", "东森", "東森", "纬来", "緯來", "台视", "台視",
-        "华视", "華視", "民视", "民視", "公视", "公視", "凤凰", "鳳凰",
-        "翡翠", "明珠", "VIUTV", "TAIWANPLUS"
+        "华视", "華視", "民视", "民視", "公视", "公視", "中视", "中視",
+        "凤凰", "鳳凰", "翡翠", "明珠", "VIUTV", "TAIWANPLUS", "無線", "无线"
     )
-    if item.tvg_id.lower().endswith(".tw@sd") or any(word.upper() in (group + name).upper() for word in hk_tw_words):
-        return (2, 0, 0, 0, folded(name))
+    if item.tvg_id.lower().endswith(".tw@sd") or any(word.upper() in text for word in hk_tw_words):
+        return "港澳台频道"
+
+    if "国际" in group or "國際" in group or "欧美" in group or "歐美" in group:
+        return "国际频道"
+
+    animation_words = ("动画", "動畫", "动漫", "動漫", "卡通", "少儿", "少兒", "七龙珠", "猫和老鼠")
+    if "动画" in group or "動畫" in group or any(word in name for word in animation_words):
+        return "动画频道"
+
+    sports_words = ("体育", "體育", "足球", "篮球", "籃球", "台球", "高尔夫", "網球", "网球", "围棋", "圍棋", "赛事", "賽事")
+    if "体育" in group or "體育" in group or any(word in name for word in sports_words):
+        return "体育频道"
+
+    theater_words = ("电影", "電影", "影院", "剧场", "劇場", "戏剧", "戲劇", "电视剧", "電視劇", "经典", "經典")
+    if "电影" in group or "電影" in group or "剧场" in group or "劇場" in group or any(word in name for word in theater_words):
+        return "经典剧场"
+
+    if re.match(r"^(?:CCTV|CGTN|CETV)", name, re.I) or "央视" in group or "央视频道" in group:
+        return "央视频道"
 
     if "卫视频道" in group or "衛視頻道" in group or name.endswith(("卫视", "衛視")):
-        return (1, 0, 0, 0, folded(name))
+        return "卫视频道"
 
     local_markers = (
         "浙江", "江苏", "四川", "河北", "湖北", "福建", "广东", "黑龙江",
@@ -434,9 +447,35 @@ def playlist_sort_key(item: Candidate):
         "天津", "重庆", "陕西", "宁夏", "内蒙古", "西藏", "地方频道"
     )
     if group.startswith("☘") or any(word in group for word in local_markers):
-        return (3, 0, 0, 0, folded(name))
-    return (4, 0, 0, 0, folded(name))
+        return "地方频道"
+    return "其他频道"
 
+
+GROUP_ORDER = {
+    "央视频道": 0,
+    "卫视频道": 1,
+    "港澳台频道": 2,
+    "国际频道": 3,
+    "地方频道": 4,
+    "其他频道": 5,
+    "动画频道": 6,
+    "体育频道": 7,
+    "经典剧场": 8,
+    "成人频道": 9,
+}
+
+
+def playlist_sort_key(item: Candidate):
+    rank = GROUP_ORDER.get(item.group, GROUP_ORDER["其他频道"])
+    upper = item.name.strip().upper()
+    if item.group == "央视频道":
+        cctv = re.match(r"^CCTV[- ]?(\d{1,2})(\+)?(?:\b|$)", upper)
+        if cctv:
+            number = int(cctv.group(1))
+            plus_rank = 1 if cctv.group(2) else 0
+            suffix_rank = 0 if re.fullmatch(r"CCTV[- ]?\d{1,2}\+?", upper) else 1
+            return (rank, number, plus_rank, suffix_rank, folded(item.name))
+    return (rank, 100, 0, 0, folded(item.name))
 
 def write_playlist(items: list[Candidate], disabled: list[Candidate]) -> None:
     lines = ['#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml.gz,https://assets.livednow.com/epg.xml"']
@@ -517,7 +556,11 @@ def main() -> int:
     for item in candidates:
         if item.key and item.key not in selected_keys and item.key not in disabled_by_key:
             disabled_by_key[item.key] = item
-    disabled = sorted(disabled_by_key.values(), key=lambda x: (x.group, x.name))
+    disabled = list(disabled_by_key.values())
+    for item in selected + disabled:
+        item.group = canonical_group(item)
+    selected.sort(key=playlist_sort_key)
+    disabled.sort(key=playlist_sort_key)
     report = report_for(selected, len(candidates), args.node, disabled)
     if args.probe_only:
         atomic_json(ROOT / args.probe_only, report)
@@ -526,6 +569,10 @@ def main() -> int:
     selected = merge_fresh_probe_reports(selected)
     selected_keys = {x.key for x in selected}
     disabled = [x for x in disabled if x.key not in selected_keys]
+    for item in selected + disabled:
+        item.group = canonical_group(item)
+    selected.sort(key=playlist_sort_key)
+    disabled.sort(key=playlist_sort_key)
     minimum = int(config["minimum_output_channels"])
     if len(selected) < minimum:
         print(f"error: only {len(selected)} channels passed; minimum is {minimum}", file=sys.stderr)
