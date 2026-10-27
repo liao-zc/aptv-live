@@ -220,7 +220,7 @@ def collect_candidates(config: dict) -> list[Candidate]:
         for future in concurrent.futures.as_completed(futures):
             items.extend(future.result())
     local_sources = [(path, "own registry") for path in sorted((ROOT / "sources").glob("*.m3u"))]
-    local_sources.append((ROOT / "APTV_ALL.m3u", "previous output"))
+    local_sources.append((ROOT / "IPTV_ALL.m3u", "previous output"))
     for path, source in local_sources:
         if path.exists():
             items.extend(parse_m3u(path.read_text(encoding="utf-8-sig", errors="replace"), source))
@@ -501,7 +501,7 @@ def write_playlist(items: list[Candidate], disabled: list[Candidate]) -> None:
             info,
             f'#DISABLED-URL:{item.url}'
         ])
-    target = ROOT / "APTV_ALL.m3u"
+    target = ROOT / "IPTV_ALL.m3u"
     temp = target.with_suffix(".m3u.tmp")
     temp.write_text("\n".join(lines) + "\n", encoding="utf-8")
     temp.replace(target)
