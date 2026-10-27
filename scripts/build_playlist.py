@@ -22,6 +22,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from stream_checks import balanced_candidates, media_probe, decode_video, select_decoded
 
 ROOT = Path(__file__).resolve().parents[1]
 USER_AGENT = "Mozilla/5.0 APTV-Live-Aggregator/2.0"
@@ -219,7 +220,7 @@ def collect_candidates(config: dict) -> list[Candidate]:
         futures = [pool.submit(fetch_feed, feed, timeout) for feed in config["feeds"]]
         for future in concurrent.futures.as_completed(futures):
             items.extend(future.result())
-    local_sources = [(path, "own registry") for path in sorted((ROOT / "sources").glob("*.m3u"))]
+    local_sources = [(path, "Guovin/iptv-api" if path.name == "guovin-iptv-api.m3u" else "own registry") for path in sorted((ROOT / "sources").glob("*.m3u"))]
     local_sources.append((ROOT / "IPTV_ALL.m3u", "previous output"))
     for path, source in local_sources:
         if path.exists():
@@ -251,21 +252,7 @@ def collect_candidates(config: dict) -> list[Candidate]:
 
 
 def hls_media_probe(url: str, timeout: int, depth: int = 0):
-    data, final_url, latency, transfer = request_bytes(url, timeout)
-    text = data[:65536].decode("utf-8", errors="ignore")
-    speed = int((len(data) * 8 / 1000) / transfer)
-    if "#EXTM3U" not in text.upper():
-        return latency, speed, len(data) > 0
-    choices = [x.strip() for x in text.replace("\r", "").split("\n") if x.strip() and not x.startswith("#")]
-    if not choices:
-        return latency, speed, False
-    child = urllib.parse.urljoin(final_url, choices[0])
-    if depth < 1 and (".m3u8" in child.lower() or "#EXT-X-STREAM-INF" in text.upper()):
-        child_latency, child_speed, ok = hls_media_probe(child, timeout, depth + 1)
-        return latency + child_latency, max(speed, child_speed), ok
-    segment, _, segment_latency, segment_transfer = request_bytes(child, timeout)
-    segment_speed = int((len(segment) * 8 / 1000) / segment_transfer)
-    return latency + segment_latency, max(speed, segment_speed), len(segment) >= 188
+    return media_probe(request_bytes, url, timeout, depth)
 
 
 def basic_probe(item: Candidate, timeout: int) -> Candidate:
@@ -280,26 +267,7 @@ def basic_probe(item: Candidate, timeout: int) -> Candidate:
 
 
 def ffprobe(item: Candidate, timeout: int) -> Candidate:
-    executable = shutil.which("ffprobe")
-    if not executable:
-        item.video_ok = item.basic_ok
-        return item
-    command = [
-        executable, "-v", "error", "-rw_timeout", str(timeout * 1_000_000),
-        "-show_entries", "stream=codec_type,width,height", "-of", "json",
-        item.url.split("|", 1)[0]
-    ]
-    try:
-        result = subprocess.run(command, capture_output=True, text=True, timeout=timeout + 3, check=False)
-        streams = json.loads(result.stdout or "{}").get("streams", [])
-        videos = [x for x in streams if x.get("codec_type") == "video"]
-        if videos:
-            item.video_ok = True
-            item.width = max(int(x.get("width") or 0) for x in videos)
-            item.height = max(int(x.get("height") or 0) for x in videos)
-    except (OSError, subprocess.TimeoutExpired, json.JSONDecodeError):
-        item.video_ok = False
-    return item
+    return decode_video(item, timeout, USER_AGENT)
 
 
 def history_score(item: Candidate, history: dict) -> float:
@@ -342,7 +310,7 @@ def select_streams(items: list[Candidate], config: dict, history: dict) -> tuple
     limit = int(config["max_candidates_per_channel"])
     for values in groups.values():
         values.sort(key=lambda x: source_priority.get(x.source, 1), reverse=True)
-        capped.extend(values[:limit])
+        capped.extend(balanced_candidates(values, limit))
     timeout = int(config["request_timeout_seconds"])
     print(f"basic_probes={len(capped)} channels={len(groups)}")
     with concurrent.futures.ThreadPoolExecutor(max_workers=48) as pool:
@@ -353,17 +321,15 @@ def select_streams(items: list[Candidate], config: dict, history: dict) -> tuple
             item.score = history_score(item, history)
             passing.setdefault(item.key, []).append(item)
     for values in passing.values():
-        values.sort(key=lambda x: x.score, reverse=True)
+        values.sort(key=lambda x: (-x.speed_kbps, x.latency_ms, -x.score))
 
     def validate_group(values):
-        for candidate in values[:5]:
-            ffprobe(candidate, timeout)
-            # Re-read HLS and a media segment immediately before publishing.
-            basic_probe(candidate, timeout)
-            if quality_ok(candidate, config, history, require_video=True):
-                candidate.score = history_score(candidate, history)
-                return candidate
-        return None
+        return select_decoded(
+            values,
+            lambda candidate: (ffprobe(candidate, timeout), basic_probe(candidate, timeout)),
+            lambda candidate: quality_ok(candidate, config, history, require_video=True),
+            lambda candidate: history_score(candidate, history),
+        )
 
     selected = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:
