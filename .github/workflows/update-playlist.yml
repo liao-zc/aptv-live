@@ -1,4 +1,4 @@
-name: Update APTV playlist
+name: Update IPTV playlist
 
 on:
   push:
