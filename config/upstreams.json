@@ -1,6 +1,12 @@
 {
   "feeds": [
     {
+      "name": "Guovin/iptv-api",
+      "urls": [
+        "https://guovin.github.io/iptv-api/result.m3u"
+      ]
+    },
+    {
       "name": "Guovin/TV",
       "urls": [
         "https://raw.githubusercontent.com/Guovin/TV/gd/output/result.m3u",
