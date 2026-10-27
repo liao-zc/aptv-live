@@ -22,6 +22,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from channel_identity import unique_playback_urls
 from stream_checks import balanced_candidates, media_probe, decode_video, select_decoded
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -237,13 +238,13 @@ def collect_candidates(config: dict) -> list[Candidate]:
         pass
     if blocked_urls:
         print(f"regional_blocked_urls={len(blocked_urls)} expires_at={regional.get('expires_at')}")
-    unique: dict[str, Candidate] = {}
+    unique: dict[tuple[str, str], Candidate] = {}
     priority = {"own registry": 100, "GitHub Issue": 95, "previous output": 90, "Guovin/TV": 80}
     for item in items:
         if not item.key or not re.match(r"^https?://", item.url, re.I):
             continue
-        marker = item.url.split("|", 1)[0]
-        if marker in blocked_urls:
+        marker = (item.key, item.url.split("|", 1)[0])
+        if marker[1] in blocked_urls:
             continue
         if marker not in unique or priority.get(item.source, 50) > priority.get(unique[marker].source, 50):
             unique[marker] = item
@@ -517,6 +518,7 @@ def main() -> int:
     history_doc = load_json(ROOT / "data" / "history.json", {"version": 1, "streams": {}})
     candidates = collect_candidates(config)
     selected, probed = select_streams(candidates, config, history_doc.get("streams", {}))
+    selected = unique_playback_urls(selected)
     selected_keys = {x.key for x in selected}
     disabled_by_key: dict[str, Candidate] = {}
     for item in candidates:
@@ -532,9 +534,9 @@ def main() -> int:
         atomic_json(ROOT / args.probe_only, report)
         print(f"probe-only channels={len(selected)}")
         return 0
-    selected = merge_fresh_probe_reports(selected)
+    selected = unique_playback_urls(merge_fresh_probe_reports(selected))
     selected_keys = {x.key for x in selected}
-    disabled = [x for x in disabled if x.key not in selected_keys]
+    disabled = list({item.key: item for item in candidates if item.key not in selected_keys}.values())
     for item in selected + disabled:
         item.group = canonical_group(item)
     selected.sort(key=playlist_sort_key)

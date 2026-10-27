@@ -25,9 +25,9 @@ def main():
     lines = ["#EXTM3U"]
     seen = set()
     for item in candidates:
-        if item.url in seen:
+        if (item.key, item.url) in seen:
             continue
-        seen.add(item.url)
+        seen.add((item.key, item.url))
         group = canonical_group(item)
         lines.extend([
             f'#EXTINF:-1 tvg-id="{attr(item.tvg_id or item.name)}" tvg-name="{attr(item.name)}" '
