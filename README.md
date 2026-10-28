@@ -31,7 +31,7 @@ https://testingcf.jsdelivr.net/gh/liao-zc/iptv-live@main/IPTV_ALL.m3u
 https://example.com/live/index.m3u8
 ```
 
-分类请使用：央视频道、卫视频道、港澳台频道、国际频道、地方频道、其他频道、动画频道、体育频道、经典剧场、成人频道。成人频道放在最后。
+分类请使用：央视频道、卫视频道、港澳台频道、国际频道、地方频道、其他频道、动画频道、体育频道、经典剧场、成人频道。
 
 ### 报告问题
 
@@ -55,6 +55,6 @@ python3 scripts/build_playlist.py
 
 ```bash
 git add .
-git commit -m "更新直播源"
+git commit -m "更新说明"
 git push
 ```
