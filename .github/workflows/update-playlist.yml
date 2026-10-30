@@ -41,7 +41,7 @@ jobs:
 
       - name: Validate aggregator source
         run: |
-          python3 -m py_compile scripts/build_playlist.py scripts/stream_checks.py scripts/sync_guovin.py
+          python3 -m py_compile scripts/build_playlist.py scripts/stream_checks.py scripts/sync_guovin.py scripts/playlist_output.py
           python3 -m unittest discover -s scripts -p 'test_*.py'
 
       - name: Sync and compare Guovin candidates
@@ -70,7 +70,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- IPTV_ALL.m3u data/history.json reports/latest.json sources/ reports/
+          git add -- IPTV_ALL.m3u IPTV_ADULT.m3u data/history.json reports/latest.json sources/ reports/
           if git diff --cached --quiet; then
             echo "No result changes."
           else

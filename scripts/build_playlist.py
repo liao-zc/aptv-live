@@ -23,6 +23,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 from channel_identity import unique_playback_urls
+from playlist_output import write_playlists
 from stream_checks import balanced_candidates, media_probe, decode_video, select_decoded
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -364,9 +365,6 @@ def update_history(history_doc: dict, probed: list[Candidate], retention_days: i
             del streams[key]
 
 
-def attr(value: str) -> str:
-    return value.replace("&", "&amp;").replace('"', "&quot;")
-
 
 def canonical_group(item: Candidate) -> str:
     """Map every channel into exactly one of the ten public categories."""
@@ -444,36 +442,6 @@ def playlist_sort_key(item: Candidate):
             return (rank, number, plus_rank, suffix_rank, folded(item.name))
     return (rank, 100, 0, 0, folded(item.name))
 
-def write_playlist(items: list[Candidate], disabled: list[Candidate]) -> None:
-    lines = ['#EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml.gz,https://assets.livednow.com/epg.xml"']
-    used_urls = set()
-    for item in sorted(items, key=playlist_sort_key):
-        if item.url in used_urls:
-            continue
-        used_urls.add(item.url)
-        info = f'#EXTINF:-1 tvg-id="{attr(item.tvg_id or item.name)}" tvg-name="{attr(item.name)}"'
-        if item.logo:
-            info += f' tvg-logo="{attr(item.logo)}"'
-        info += f' group-title="{attr(item.group)}",{item.name}'
-        lines.extend([info, item.url])
-    if disabled:
-        lines.extend(["", "# Disabled channels are retried automatically every run."])
-    for item in sorted(disabled, key=playlist_sort_key):
-        info = f'#DISABLED-EXTINF:-1 tvg-id="{attr(item.tvg_id or item.name)}" tvg-name="{attr(item.name)}"'
-        if item.logo:
-            info += f' tvg-logo="{attr(item.logo)}"'
-        info += f' group-title="{attr(item.group)}",{item.name}'
-        lines.extend([
-            f'# APTV-DISABLED channel="{attr(item.name)}" reason="no currently playable candidate"',
-            info,
-            f'#DISABLED-URL:{item.url}'
-        ])
-    target = ROOT / "IPTV_ALL.m3u"
-    temp = target.with_suffix(".m3u.tmp")
-    temp.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    temp.replace(target)
-
-
 def report_for(items: list[Candidate], candidates: int, node: str, disabled: list[Candidate] | None = None) -> dict:
     return {
         "version": 1,
@@ -548,7 +516,7 @@ def main() -> int:
     update_history(history_doc, probed, int(config["history_retention_days"]))
     atomic_json(ROOT / "data" / "history.json", history_doc)
     atomic_json(ROOT / "reports" / "latest.json", report_for(selected, len(candidates), args.node, disabled))
-    write_playlist(selected, disabled)
+    write_playlists(ROOT, selected, disabled, playlist_sort_key)
     print(f"published_channels={len(selected)} disabled_channels={len(disabled)}")
     return 0
 
