@@ -78,3 +78,14 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
+      - name: Purge jsDelivr playlist caches
+        if: success()
+        continue-on-error: true
+        run: |
+          curl --fail --silent --show-error --max-time 30 \
+            https://purge.jsdelivr.net/gh/liao-zc/iptv-live@main/IPTV_ALL.m3u \
+            || echo "jsDelivr main-playlist purge failed; CDN may retain a cached copy."
+          curl --fail --silent --show-error --max-time 30 \
+            https://purge.jsdelivr.net/gh/liao-zc/iptv-live@main/IPTV_ADULT.m3u \
+            || echo "jsDelivr adult-playlist purge failed; CDN may retain a cached copy."
