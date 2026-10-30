@@ -2,7 +2,8 @@
 
 import json
 import sys
-from build_playlist import ROOT, assign_keys, canonical_group, download_text, parse_m3u`nfrom playlist_output import attr
+from build_playlist import ROOT, assign_keys, canonical_group, download_text, parse_m3u
+from playlist_output import attr
 
 
 def main():
