@@ -40,7 +40,7 @@ def write_playlists(root, selected, disabled, sort_key):
     adult_selected = [item for item in selected if item.group == adult_group]
     adult_disabled = [item for item in disabled if item.group == adult_group]
     public_selected = [item for item in selected if item.group != adult_group]
-    # Keep eligible adult channels in the main file as comments by default.
-    public_disabled = list(disabled) + adult_selected
+    # Adult channel records belong only in the dedicated adult playlist.
+    public_disabled = [item for item in disabled if item.group != adult_group]
     write_one(root / "IPTV_ALL.m3u", public_selected, public_disabled, sort_key)
     write_one(root / "IPTV_ADULT.m3u", adult_selected, adult_disabled, sort_key)
